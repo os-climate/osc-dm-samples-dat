@@ -1,0 +1,6 @@
+query:
+    uuid:
+    name: Sample query
+    description: Sample query
+    tags: ["utilities", "emissions"]
+    statement : SELECT * from Account

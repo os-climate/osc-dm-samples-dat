@@ -1,0 +1,14 @@
+artifact:
+    productuuid:
+    uuid:
+    name: Data Dictionary
+    description: List of all the data files available with definitions, units, sources and methodology for each data field.
+    tags: ["utilities", "emissions"]
+    license: CDLA 2.0, Permissive, Version 2.0
+    securitypolicy: public
+    schema:
+        type:
+        url:
+    data:
+        type: text/pdf
+        url: https://utilitytransitionhub.rmi.org/static/data_download/data_dictionary.pdf

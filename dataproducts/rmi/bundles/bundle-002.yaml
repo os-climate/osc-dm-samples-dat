@@ -1,0 +1,11 @@
+bundle:
+    name: Sample bundle 002
+    description: Sample bundle 002
+    tags: ["utilities", "emissions"]
+    artifacts: [
+        artifact-010.yaml,
+        artifact-011.yaml,
+        artifact-012.yaml,
+        artifact-013.yaml,
+        artifact-014.yaml,
+    ]

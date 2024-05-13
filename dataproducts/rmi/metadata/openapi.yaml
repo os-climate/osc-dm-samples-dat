@@ -1,0 +1,179 @@
+openapi: 3.0.1
+
+servers:
+  - url: http://brodagroupsoftware/v1
+
+info:
+  title: "Public Discoverable Endpoints"
+  description: "Public discoverable endpoints for this data product"
+  contact:
+    name: "eric.broda"
+    email: contact@brodagroupsoftware.com
+  version: v0.0.1
+
+paths:
+
+  /discover:
+    get:
+      summary: Returns data product's public OpenAPI spec showing all endpoints available for consumption
+      operationId: discoverGET
+      tags:
+        - discover
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: string
+
+  /summary:
+    get:
+      summary: Returns a summary of information about this data product
+      operationId: summaryGET
+      tags:
+        - summary
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: string
+
+  /artifacts:
+    get:
+      summary: Returns a list of all artifacts
+      operationId: artifactsGET
+      tags:
+        - summary
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: string
+
+  '/artifacts/{ArtifactId}':
+    get:
+      summary: Returns information about a specific artifact identfied by the ArtifactId
+      operationId: artifactsIdGET
+      tags:
+        - artifacts
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: string
+    post:
+      summary: Returns data based upon execution request data
+      operationId: artifactsIdPOST
+      tags:
+        - agent
+        - dataproduct
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - command
+              properties:
+                command:
+                  type: string
+
+  /bundles:
+    get:
+      summary: Returns a list of all bundles
+      operationId: bundlesGET
+      tags:
+        - bundles
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: string
+
+  '/bundles/{BundleId}':
+    get:
+      summary: Returns information about a specific bundle identfied by the BundleId
+      operationId: cartsIdGET
+      tags:
+        - bundles
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: string
+
+  /queries:
+    get:
+      summary: Returns a list of all queries
+      operationId: queriesGET
+      tags:
+        - queries
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: string
+
+  '/queries/{QueryId}':
+    get:
+      summary: Returns information about a specific query identfied by the QueryId
+      operationId: queriesIdGET
+      tags:
+        - queries
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: string
+
+  /state:
+    get:
+      summary: State endpoint (active|inactive)
+      operationId: stateGET
+      tags:
+        - state
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: string
+    post:
+      summary: State endpoint (active|inactive)
+      operationId: statePOST
+      tags:
+        - state
+      parameters:
+        type: object
+        required:
+          - state
+        properties:
+          state:
+            description: >-
+              Indicates if the data product is active (True) or
+              inactive (False)
+            type: boolean
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: string

@@ -1,0 +1,17 @@
+product:
+    namespace: brodagroupsoftware.com
+    name: pudl.dataproduct
+    description: |
+      PUDL is a data processing pipeline created by Catalyst Cooperative
+      that cleans, integrates, and standardizes some of the most widely
+      used public energy datasets in the US. The data serve researchers,
+      activists, journalists, and policy makers that might not have the
+      technical expertise to access it in its raw form, the time to
+      clean and prepare the data for bulk analysis, or the means to
+      purchase it from existing commercial providers.
+    tags: ["utilities", "emissions"]
+    publisher: publisher.user@brodagroupsoftware.com
+    endpoints:
+        discovery: http://localhost:9999/discovery
+        observability: http://localhost:9999/observability
+        administration: http://localhost:9999/administration
