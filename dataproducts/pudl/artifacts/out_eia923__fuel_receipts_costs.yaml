@@ -1,0 +1,37 @@
+artifact:
+  description: 'The dataset "Fuel Receipts and Costs" from the EIA-923 Schedule 2,
+    Part A, provides detailed information about fuel deliveries to power plants. Each
+    record in the dataset documents an individual fuel delivery, which means multiple
+    entries can pertain to the same type of fuel from the same supplier to the same
+    plant within a single month. The data includes various attributes such as the
+    amount of fuel received, the type of fuel, the supplier, the delivery date, and
+    the costs associated with the delivery.
+
+
+    This dataset is crucial for analyzing fuel costs as it offers the most detailed
+    and granular data available on fuel deliveries and their associated costs. However,
+    it is important to note that there can be a delay between the receipt of fuel
+    and its actual consumption, which may affect monthly attributes related to power
+    generation. Despite this limitation, the dataset is used to calculate the marginal
+    cost of electricity for individual generation units.
+
+
+    In some cases, utilities treat the price of fuel as proprietary business information,
+    resulting in redacted costs in the publicly available spreadsheets. The data,
+    however, is still reported to the EIA and contributes to aggregated statistics
+    at the state, regional, and national levels.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_eia923__fuel_receipts_costs.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_eia923__fuel_receipts_costs
+  securitypolicy: public
+  tags:
+  - ''

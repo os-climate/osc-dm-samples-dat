@@ -1,0 +1,31 @@
+artifact:
+  description: 'The dataset contains comprehensive information on various types of
+    power plants reported in FERC Form 1, including steam, small generators, hydro,
+    and pumped storage plants. Each entry includes the year in which the data was
+    reported, the utility ID assigned by FERC and PUDL, and the name of the utility
+    reporting the data. Additionally, the dataset provides unique plant IDs assigned
+    by PUDL and FERC, although these IDs may not be consistent over time or across
+    different database instances.
+
+
+    The name of each plant is recorded as reported to FERC, which is a freeform string
+    and may not be uniformly consistent. This dataset allows users to analyze and
+    compare power generation data across different plants and utilities over time,
+    offering insights into utility operations, plant performance, and trends in the
+    energy sector. The data is licensed under a CC-BY-4.0 license, making it accessible
+    for various types of analysis and reporting with appropriate attribution.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_all_plants.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_all_plants
+  securitypolicy: public
+  tags:
+  - ''

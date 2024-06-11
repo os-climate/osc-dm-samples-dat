@@ -1,0 +1,34 @@
+artifact:
+  description: 'The provided dataset is the Comparative Balance Sheet (Assets and
+    Other Debits), Schedule 110, from the FERC Form 1 database. This dataset includes
+    information on the yearly financial balance sheets of various utilities, detailing
+    their assets and other debits. Each record contains multiple fields including
+    a PUDL-assigned utility ID, which uniquely identifies each utility in the dataset;
+    the report year, indicating the year in which the data was recorded; and the utility
+    type, specifying whether the utility deals with electric, gas, or other types
+    of utility services.
+
+
+    Additionally, the dataset features a record ID, a unique identifier for each original
+    FERC Form 1 source record. The asset type field describes the type of asset reported,
+    such as cash, accounts receivable, or property. The ending balance and starting
+    balance fields provide the account balances at the end and beginning of the reporting
+    year, respectively, allowing for analysis of financial changes over the period.
+    This comprehensive dataset allows for detailed financial analysis and comparison
+    of utilities over time, making it valuable for studies on financial health and
+    performance in the utility sector.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__yearly_balance_sheet_assets_sched110.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__yearly_balance_sheet_assets_sched110
+  securitypolicy: public
+  tags:
+  - ''

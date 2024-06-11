@@ -1,0 +1,30 @@
+artifact:
+  description: The EIA-923 Monthly Generation and Fuel Consumption Time Series dataset
+    provides detailed information on monthly electricity generation and fuel consumption
+    for nuclear generation units. Each record in this dataset includes a unique plant
+    identification number, the report date, the nuclear unit ID, and the energy source
+    code. This dataset is extracted from Schedule 3 of the EIA-923 form and specifically
+    pertains to nuclear power plants. The unique plant identification number, also
+    known as ORISPL, is a six-digit code assigned by the Energy Information Administration
+    (EIA). The nuclear unit ID is a one-digit numeric value that identifies each nuclear
+    generation unit within a plant. The energy source code is a brief alphanumeric
+    code indicating the type of energy source used. This comprehensive dataset provides
+    essential insights into the performance and fuel consumption patterns of nuclear
+    power plants across different time periods, facilitating in-depth analysis and
+    decision-making for energy management and policy development.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia923__monthly_generation_fuel_nuclear.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia923__monthly_generation_fuel_nuclear
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

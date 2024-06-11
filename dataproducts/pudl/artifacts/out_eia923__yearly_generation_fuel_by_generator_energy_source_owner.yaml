@@ -1,0 +1,31 @@
+artifact:
+  description: The Yearly Generation Fuel by Generator Energy Source Owner dataset
+    offers comprehensive data on the estimated net electricity generation and fuel
+    consumption for individual generators. This data is categorized by unique combinations
+    of generator, energy source, prime mover, and owner. Specifically, the dataset
+    includes information on the net electricity generation and fuel consumption as
+    reported in the EIA-923 generation fuel, which is subsequently allocated to individual
+    generators. These allocations are then aggregated based on unique generator, prime
+    mover, and energy source codes. It is important to note that the utility_id_eia
+    refers to the owner of the generator and not the operator. The dataset does not
+    differentiate between primary and secondary energy sources and allocates net generation
+    equally between energy source codes when multiple generators with the same prime
+    mover but different energy sources exist. This detailed granularity aids in understanding
+    the generation and fuel consumption patterns across different energy sources and
+    ownership, providing valuable insights for energy analysts, policymakers, and
+    industry stakeholders.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_eia923__yearly_generation_fuel_by_generator_energy_source_owner.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_eia923__yearly_generation_fuel_by_generator_energy_source_owner
+  securitypolicy: public
+  tags:
+  - ''

@@ -1,0 +1,27 @@
+artifact:
+  description: The core_nrelatb__yearly_technology_status data set is an annual table
+    that features detailed information about various electricity generation technologies
+    and their status within Annual Technology Baseline (ATB) scenarios. For each reporting
+    year, the data set includes descriptions of the technologies used by generators
+    to produce electricity. It provides high-level and detailed descriptions, offering
+    insights into specific resource levels and technology subcategories. Additionally,
+    the data indicates whether a particular technology is considered mature or if
+    it is classified as the default technology within the ATB scenarios. This data
+    set consists of 515 rows, capturing a broad and detailed overview of technology
+    statuses across various years. The table helps stakeholders understand the development,
+    maturity, and default status of energy generation technologies over time.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_nrelatb__yearly_technology_status.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_nrelatb__yearly_technology_status
+  securitypolicy: public
+  tags:
+  - ''

@@ -1,0 +1,37 @@
+artifact:
+  description: "The dataset \"core_nrelatb__yearly_projected_financial_cases\" provides\
+    \ financial data and assumptions for various electricity generation technologies,\
+    \ as projected by the National Renewable Energy Laboratory (NREL). The dataset\
+    \ includes information from 2,852 records, covering several years. Each record\
+    \ contains data for a specific year, categorized under \"report_year\" and \"\
+    projection_year,\" detailing the timeline of the reported and projected financial\
+    \ values.\n\nThe dataset incorporates two distinct financial assumption cases\u2014\
+    R&D Only Case and Market + Policies Case. The R&D Only Case considers only projected\
+    \ research and development improvements, while the Market + Policies Case includes\
+    \ policy and tax incentives. These cases significantly influence the financial\
+    \ projections and are vital for analyzing future financial scenarios for electricity\
+    \ generation technologies.\n\nAdditionally, the dataset provides a \"technology_description\"\
+    \ for each data point, offering a high-level explanation of the technology used\
+    \ by the generator to produce electricity. \n\nThe \"inflation_rate\" column indicates\
+    \ the rate of inflation, ensuring that all dollar values are presented in consistent\
+    \ 2021 USD terms. This adjustment uses the Consumer Price Index for All Urban\
+    \ Consumers to maintain accuracy across different years' financial projections.\n\
+    \nOverall, this dataset is important for stakeholders in the energy sector, financial\
+    \ analysts, and policymakers to understand and analyze the financial viability\
+    \ and future projections of various electricity generation technologies under\
+    \ different scenarios."
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_nrelatb__yearly_projected_financial_cases.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_nrelatb__yearly_projected_financial_cases
+  securitypolicy: public
+  tags:
+  - ''

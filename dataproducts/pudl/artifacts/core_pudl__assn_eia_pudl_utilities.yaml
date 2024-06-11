@@ -1,0 +1,35 @@
+artifact:
+  description: 'The dataset "core_pudl__assn_eia_pudl_utilities" provides detailed
+    associations between the Utility IDs from the U.S. Energy Information Administration
+    (EIA) and manually assigned PUDL Utility IDs. This dataset consists of 15,678
+    rows and includes three primary fields:
+
+
+    1. **utility_id_eia**: The unique identification number assigned by the EIA to
+    each utility.
+
+    2. **utility_name_eia**: The name of the utility as recorded by the EIA.
+
+    3. **utility_id_pudl**: A manually assigned unique identification number by the
+    Public Utility Data Liberation (PUDL) project, which may not be stable over time.
+
+
+    This dataset is useful for understanding the relationship and mapping between
+    the EIA''s utility identifiers and the PUDL''s manually assigned identifiers.
+    It contains valuable information for researchers, analysts, and policymakers looking
+    to cross-reference utility data between these two identification systems.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_pudl__assn_eia_pudl_utilities.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_pudl__assn_eia_pudl_utilities
+  securitypolicy: public
+  tags:
+  - ''

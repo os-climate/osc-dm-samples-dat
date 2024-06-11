@@ -1,0 +1,34 @@
+artifact:
+  description: 'The dataset provides a comprehensive collection of information on
+    purchased power and exchange transactions reported by utilities through the FERC
+    Form 1. It includes data spanning multiple years, offering a historical perspective
+    on electricity procurement and exchanges at the utility level. Key pieces of information
+    in the dataset include the report year, which indicates the year the data was
+    collected and reported, and both a PUDL-assigned and a FERC1-assigned utility
+    ID to uniquely identify each utility in the dataset. The utility name provides
+    a human-readable identifier for the utility reporting the data.
+
+
+    Additionally, the dataset details the seller name, or the counterpart in the transaction,
+    offering insights into the trading partners and market relationships within the
+    industry. Each transaction record is uniquely identified by a record ID, which
+    ensures precise referencing and traceability back to the original FERC Form 1
+    source document. The billing demand in megawatts (MW) is also noted, reflecting
+    the monthly average billing demand associated with each transaction. This dataset
+    is useful for analyzing trends in power purchases and exchanges, understanding
+    utilities'' market activities, and investigating billing demand metrics over time.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_purchased_power_and_exchanges_sched326.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_purchased_power_and_exchanges_sched326
+  securitypolicy: public
+  tags:
+  - ''

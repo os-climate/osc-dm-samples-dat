@@ -1,0 +1,37 @@
+artifact:
+  description: 'The data set contains static boiler attributes compiled from the EIA-860
+    and EIA-923 data, providing essential information pertinent to energy generation
+    facilities. Each entry includes a unique six-digit facility identification number
+    known as the plant ID assigned by the Energy Information Administration (EIA),
+    which ensures the precise identification of the location. Additionally, each boiler
+    is identified by an alphanumeric boiler ID, which helps in distinguishing between
+    multiple boilers within the same facility.
+
+
+    The data offers details about the boiler manufacturer, providing the full name
+    of the company that produced the boiler. This is complemented by an EIA short
+    code for the manufacturer, which serves as a quick reference or abbreviation for
+    the manufacturer''s full name. The data set includes 6,886 rows, indicating the
+    extensive range of boiler-related data available.
+
+
+    This comprehensive collection of boiler attributes is useful for various stakeholders,
+    including energy analysts, utility companies, and regulators, providing them with
+    detailed information necessary for performance assessment, regulatory compliance,
+    and operational planning. Access to manufacturer details also facilitates maintenance
+    planning, procurement decisions, and reliability assessments.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__entity_boilers.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__entity_boilers
+  securitypolicy: public
+  tags:
+  - ''

@@ -1,0 +1,26 @@
+artifact:
+  description: The database for the high-level business product includes an "alembic_version"
+    table. This table contains a single version_num column which holds version numbers
+    of the database schema. The version_num column is the primary key, ensuring that
+    each version is uniquely identifiable. For instance, the record in the table shows
+    a version number "6dcb5e3e07dd." This data helps in tracking and managing different
+    schema versions of the database, crucial for maintaining consistency, implementing
+    updates, and reversing changes if necessary. This setup is essential for businesses
+    that need reliable version control and database management to ensure seamless
+    operations and data integrity.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/alembic_version.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: alembic_version
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

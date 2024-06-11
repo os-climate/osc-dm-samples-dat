@@ -1,0 +1,28 @@
+artifact:
+  description: The dataset provides detailed records of monthly net electricity generation
+    from individual reporting generators. It contains granular information on the
+    amount of electricity generated on a monthly basis, which is the most detailed
+    level of generation data available. However, it is important to note that this
+    table only includes about half of the total generation reported, as different
+    types and sizes of generators have varying reporting requirements. The information
+    from this dataset is crucial for estimating heat rates and the marginal cost of
+    electricity on a per-generator basis, although these calculations depend on plant-level
+    fuel costs and sometimes incomplete boiler-generator associations. Additionally,
+    a small number of respondents report their net generation annually, with data
+    consolidated in December. This dataset provides valuable insights for energy analysis,
+    operational planning, and cost estimation in the electricity generation industry.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_eia923__generation.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_eia923__generation
+  securitypolicy: public
+  tags:
+  - ''

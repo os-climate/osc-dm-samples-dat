@@ -1,0 +1,29 @@
+artifact:
+  description: "The dataset \"core_ferc1__yearly_purchased_power_and_exchanges_sched326\"\
+    \ provides detailed information on Purchased Power (Account 555), including power\
+    \ exchanges and settlements for imbalanced exchanges. This data is reported on\
+    \ pages 326-327 of FERC Form 1 and is extracted from the f1_purchased_pwr table\
+    \ in FERC's Visual FoxPro database. It comprises 204,720 records and includes\
+    \ the following key attributes: \n- record_id, which is a unique identifier indicating\
+    \ the original FERC Form 1 source record.\n- utility_id_ferc1, a PUDL-assigned\
+    \ ID identifying a FERC1 utility.\n- report_year, specifying the year in which\
+    \ the data was reported.\n- seller_name, denoting the name of the seller or the\
+    \ other party in an exchange transaction. \n\nOverall, the dataset offers comprehensive\
+    \ insights into the financial and transactional details of purchased power and\
+    \ exchanges involving utilities, facilitating analysis and research in energy\
+    \ economics, utility operations, and regulatory compliance."
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__yearly_purchased_power_and_exchanges_sched326.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__yearly_purchased_power_and_exchanges_sched326
+  securitypolicy: public
+  tags:
+  - ''

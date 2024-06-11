@@ -1,0 +1,28 @@
+artifact:
+  description: The dataset provides detailed information about flue gas desulfurization
+    (FGD) equipment at generation facilities, derived from the EIA-860 Schedule 6E.
+    This includes a unique six-digit facility identification number known as ORISPL,
+    assigned by the Energy Information Administration (EIA). Each sulfur dioxide control
+    equipment is associated with a specific identification number, though this ID
+    is not unique across the dataset. Information is also provided about each utility,
+    including their EIA Utility Identification number and name. The dataset specifies
+    the location of each facility, including the state (with both two-letter abbreviations
+    and two-digit FIPS codes), county (with corresponding county FIPS codes), along
+    with the date the data was reported. This data can be used for a comprehensive
+    understanding of sulfur dioxide control implementations across various utilities
+    and locations.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/_core_eia860__fgd_equipment.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: _core_eia860__fgd_equipment
+  securitypolicy: public
+  tags:
+  - ''

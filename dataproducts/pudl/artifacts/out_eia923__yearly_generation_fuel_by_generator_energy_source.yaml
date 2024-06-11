@@ -1,0 +1,27 @@
+artifact:
+  description: The dataset "out_eia923__yearly_generation_fuel_by_generator_energy_source"
+    provides detailed information on yearly estimated net electricity generation and
+    fuel consumption for individual generators. This dataset includes combinations
+    of generator types, energy sources, and prime movers. It allows users to analyze
+    how net electricity generation and fuel usage are distributed across different
+    generator, prime mover, and energy source combinations. The net generation data
+    is allocated proportionally among generators and energy sources, ensuring a comprehensive
+    view of the energy dynamics within a plant. This dataset is crucial for understanding
+    the performance and fuel consumption patterns of different energy sources and
+    generator types over multiple years, aiding in energy management, policy making,
+    and operational efficiency analysis.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_eia923__yearly_generation_fuel_by_generator_energy_source.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_eia923__yearly_generation_fuel_by_generator_energy_source
+  securitypolicy: public
+  tags:
+  - ''

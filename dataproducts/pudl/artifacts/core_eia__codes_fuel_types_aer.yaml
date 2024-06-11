@@ -1,0 +1,26 @@
+artifact:
+  description: "This product provides a comprehensive listing of fuel types used in\
+    \ energy reporting, specifically as defined by the Energy Information Administration\u2019\
+    s Annual Energy Review. The data encompasses 18 distinct fuel type codes along\
+    \ with their respective descriptions. Included are various categories such as\
+    \ traditional fossil fuels like coal and natural gas, renewable sources like geothermal,\
+    \ hydroelectric, and other renewables, as well as other categories like nuclear\
+    \ and various forms of petroleum. Each entry in the dataset includes a short code\
+    \ and a long human-readable description of the fuel type it represents. This detailed\
+    \ categorization allows for nuanced analysis across a broad spectrum of energy\
+    \ production and consumption metrics."
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_fuel_types_aer.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_fuel_types_aer
+  securitypolicy: public
+  tags:
+  - ''

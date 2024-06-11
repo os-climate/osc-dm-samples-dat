@@ -1,0 +1,26 @@
+artifact:
+  description: The core_epa__assn_eia_epacamd data product integrates information
+    from the EPA and EIA to assist in mapping EPA units to EIA plants, boilers, and
+    generators. It is based on data from 2018 and currently contains 12,832 rows.
+    This crosswalk table, sourced from the EPA's camd-eia-crosswalk repository, is
+    crucial for connecting and comparing emissions data and generation data between
+    the two agencies. The table has been cleaned up by adapting some column names
+    and removing unmatched rows to enhance usability. Future developments aim to provide
+    a temporal version for more accurate tracking of plant changes over time. This
+    data product helps in understanding the complex relationships and differences
+    in granularity between EPA's and EIA's units.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_epa__assn_eia_epacamd.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_epa__assn_eia_epacamd
+  securitypolicy: public
+  tags:
+  - ''

@@ -1,0 +1,38 @@
+artifact:
+  description: 'The dataset, based on information from the Energy Information Administration
+    (EIA), encompasses monthly data on various attributes of electricity generators.
+    It contains over 5 million rows of data, providing detailed insights into generator
+    operations on a monthly basis. Key elements within the dataset include the unique
+    plant identification number (plant_id_eia) and generator identification number
+    (generator_id). Each record is tagged with a report date, signifying the month
+    and year of the data.
+
+
+    The dataset also includes dynamically assigned PUDL unit and plant IDs, which
+    are useful for internal tracking but are subject to change over time. Each plant''s
+    name is recorded, along with utility identification numbers and names, offering
+    clarity on the operational and ownership spectrum of the facilities.
+
+
+    Additional valuable information found in the dataset comprises technology descriptions,
+    calculated capacity factors (indicating the performance and efficiency of generators),
+    heat rates (a measure of efficiency related to energy consumption), and fuel costs
+    both in total and per MMBTU (Million British Thermal Units). This level of detail
+    presents a comprehensive view of energy production, generator efficiency, and
+    cost metrics, making it useful for analysis by energy professionals, economists,
+    and policy makers.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_eia__monthly_generators.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_eia__monthly_generators
+  securitypolicy: public
+  tags:
+  - ''

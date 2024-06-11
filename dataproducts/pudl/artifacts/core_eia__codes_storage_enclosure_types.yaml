@@ -1,0 +1,29 @@
+artifact:
+  description: 'The core_eia__codes_storage_enclosure_types dataset is a coding table
+    specifically designed for categorizing types of energy storage enclosures. It
+    contains information for four different codes, each representing a distinct type
+    of enclosure used in energy storage systems. The dataset includes three main columns:
+    ''code'', ''label'', and ''description''. The ''code'' column contains originally
+    reported short codes, which are concise identifiers for each enclosure type. The
+    ''label'' column provides longer, human-readable codes in snake_case format that
+    are more descriptive. The ''description'' column offers a detailed, human-readable
+    explanation of what each code and label represent. The four types of enclosures
+    coded in the dataset include buildings (BL), containerized stationary enclosures
+    (CS), containerized transportable enclosures (CT), and other miscellaneous types
+    (OT). This dataset is useful for understanding and standardizing the various types
+    of storage enclosures used across energy storage systems.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_storage_enclosure_types.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_storage_enclosure_types
+  securitypolicy: public
+  tags:
+  - ''

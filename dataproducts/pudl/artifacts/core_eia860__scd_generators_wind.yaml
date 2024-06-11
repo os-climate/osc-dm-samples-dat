@@ -1,0 +1,27 @@
+artifact:
+  description: The dataset contains annually reported information specific to wind
+    generators from the EIA-860 Schedule 3.2. It includes a total of 13,580 rows of
+    data, capturing various attributes unique to wind power facilities. Key data points
+    include the plant ID, which is a unique six-digit identifier for each facility,
+    and the generator ID, which may contain both numbers and letters. The report also
+    includes the date of the report, the average annual wind speed that the turbines
+    at each site are designed to handle (measured in miles per hour), and the Federal
+    Aviation Administration (FAA) obstacle ID assigned to each generator. This dataset
+    provides valuable details necessary for analyzing the characteristics and capabilities
+    of wind power generators in the United States.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia860__scd_generators_wind.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia860__scd_generators_wind
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

@@ -1,0 +1,31 @@
+artifact:
+  description: The core_ferc1__yearly_utility_plant_summary_sched200 dataset provides
+    a detailed summary of utility plant assets and accumulated provisions for depreciation,
+    amortization, and depletion as reported annually at the end of each report year.
+    The key data points in this dataset include the PUDL-assigned utility ID which
+    uniquely identifies each utility within the dataset, the report year (which is
+    a four-digit year indicating when the data was reported), and the utility type
+    which categorizes the utility plant types such as Electric Utility, Gas Utility,
+    and Other Utility. Additionally, there is a freeform field for a utility type
+    description provided in DBF reporting years (1994-2020), called utility_type_other.
+    Furthermore, the dataset provides information on the type of utility plant asset,
+    capturing essential details on the nature and categorization of the assets managed
+    by various utilities over time. The dataset spans a significant number of entries,
+    offering a comprehensive overview useful for analyzing trends, comparing utility
+    performance, and understanding infrastructure investments and depreciation practices
+    in the utility sector.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__yearly_utility_plant_summary_sched200.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__yearly_utility_plant_summary_sched200
+  securitypolicy: public
+  tags:
+  - ''

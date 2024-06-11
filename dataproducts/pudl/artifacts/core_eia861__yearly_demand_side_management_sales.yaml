@@ -1,0 +1,31 @@
+artifact:
+  description: The core_eia861__yearly_demand_side_management_sales dataset provides
+    a comprehensive overview of electricity sales in the United States, with records
+    spanning from before 2012. The dataset captures various aspects of electricity
+    distribution, specifically focusing on demand-side management. Key data points
+    include the amount of electricity sold for resale purposes, covering transactions
+    to power marketers, full and partial requirements customers, as well as firm and
+    nonfirm customers. Each record is associated with a date of reporting and indicates
+    the NERC region where the plant is located. It is important to note that after
+    2012, data collection practices changed, splitting the information into separate
+    tables for energy efficiency and demand response, making the pre- and post-2012
+    data noncomparable. The information is vital for understanding trends in electricity
+    sales and distribution across different regions and can aid in market analysis
+    and strategic planning for the electricity supply industry. The dataset is licensed
+    under CC-BY-4.0, allowing for wide usage and sharing.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_demand_side_management_sales.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_demand_side_management_sales
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

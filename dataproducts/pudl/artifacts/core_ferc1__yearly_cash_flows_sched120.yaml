@@ -1,0 +1,28 @@
+artifact:
+  description: The core FERC1 yearly cash flows schedule 120 dataset provides detailed
+    information on cash flow data reported by utilities in their FERC Form 1 filings.
+    It contains 294,297 rows of structured financial data, with each record uniquely
+    identified by a specific format that includes the table name, report year, report
+    period, respondent ID, supplement number, and row number. The dataset includes
+    the report year, a PUDL-assigned utility ID for identifying FERC1 utilities, and
+    labels describing the type of amount being reported, which could be either a balance
+    or a change in value. Additionally, the dataset includes the monetary amount reported,
+    indicating whether it is a credit or debit, as well as data classifications such
+    as whether the reported value is a balance or change in value, based on the XBRL
+    taxonomy. This dataset is licensed under CC-BY-4.0, meaning it is available for
+    use with appropriate attribution.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__yearly_cash_flows_sched120.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__yearly_cash_flows_sched120
+  securitypolicy: public
+  tags:
+  - ''

@@ -1,0 +1,30 @@
+artifact:
+  description: The "EIA Yearly Plant Parts" dataset is a comprehensive aggregation
+    of data from the U.S. Energy Information Administration (EIA) regarding power
+    plants, sourced from EIA 923 and EIA 860 reports. It includes records related
+    to generators and plants, focusing on various attributes that characterize these
+    generators. Key data points in this dataset include the specific prime movers
+    used, primary fuel sources, and technology types. By grouping generators with
+    identical attributes and utility owners, the dataset creates larger aggregate
+    records known as "plant parts." These plant parts provide insights into collections
+    of generators, such as all generators within a particular unit, or those using
+    a specific fuel type like coal. The dataset encompasses a wide range of records
+    (4,738,788 rows), making it a valuable resource for detailed analyses and cross-referencing
+    with other datasets like FERC 1. The information serves multiple purposes, including
+    operational analysis, regulatory compliance, and strategic planning for power
+    generation and utility management.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_eia__yearly_plant_parts.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_eia__yearly_plant_parts
+  securitypolicy: public
+  tags:
+  - ''

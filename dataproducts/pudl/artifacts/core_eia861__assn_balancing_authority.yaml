@@ -1,0 +1,29 @@
+artifact:
+  description: The dataset, core_eia861__assn_balancing_authority, provides an association
+    table that shows the observed relationships between state, balancing authority,
+    and utilities for each year, as captured in the data. The core elements of the
+    dataset include the report date, which indicates when the data was reported, the
+    EIA balancing authority ID, identifying the balancing authority which may sometimes
+    match the utility ID of the same legal entity, the utility ID which is the EIA's
+    unique identification number for utilities, and the state, represented by a two-letter
+    US state abbreviation. In total, the dataset encompasses 75,882 rows, offering
+    detailed historical data on the intersection of these entities over time. This
+    data is crucial for understanding the structure and evolution of utility management
+    within different states and balancing authorities, aiding businesses in decision-making,
+    policy analysis, and strategic planning.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__assn_balancing_authority.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__assn_balancing_authority
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

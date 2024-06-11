@@ -1,0 +1,25 @@
+artifact:
+  description: The dataset provides a coding table describing the operational status
+    of nitrogen oxide (NOx) control units associated with boilers, as reported in
+    the EIA-860 data. It includes specific codes, human-readable labels, and detailed
+    descriptions explaining the meaning of each code. The information encompasses
+    various statuses such as operating (in commercial service or out of service for
+    less than 365 days), under construction, cancelled (previously planned but now
+    cancelled), no plans to control, and out of service. This data is crucial for
+    understanding the operational readiness and planning stages of NOx control units
+    in the energy sector.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_nox_control_status.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_nox_control_status
+  securitypolicy: public
+  tags:
+  - ''

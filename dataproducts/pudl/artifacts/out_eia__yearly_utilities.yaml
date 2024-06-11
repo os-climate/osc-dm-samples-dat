@@ -1,0 +1,41 @@
+artifact:
+  description: 'The dataset from the EIA (Energy Information Administration) consists
+    of a comprehensive denormalized table containing a wide array of utility attributes.
+    It includes 146,776 rows of data, focusing on various aspects of U.S. utility
+    companies as reported yearly. Key data points featured in this table are:
+
+
+    - Utility Identification Numbers: Both EIA and PUDL IDs, which uniquely identify
+    each utility company. The EIA Utility Identification number is directly from EIA,
+    while the PUDL ID is manually assigned and may change over time.
+
+    - Utility Name: The official name of the utility as reported.
+
+    - Reporting Date: The specific date or year the information was reported.
+
+    - Contact Information: This includes street address, city, state (in two-letter
+    abbreviation), and five-digit ZIP code of the utility''s physical location.
+
+    - Plant Ownership and Operational Roles: Attributes which indicate whether the
+    reporting entity is an owner, operator, asset manager, or has any other relationship
+    with the power plants reported on Schedule 2 of the form.
+
+
+    Overall, this dataset provides a vast amount of detailed, yearly information about
+    the operational and ownership statuses of U.S. utility companies, along with their
+    basic identification and contact details.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_eia__yearly_utilities.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_eia__yearly_utilities
+  securitypolicy: public
+  tags:
+  - ''

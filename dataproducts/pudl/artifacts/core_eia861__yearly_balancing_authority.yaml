@@ -1,0 +1,29 @@
+artifact:
+  description: The dataset "core_eia861__yearly_balancing_authority" offers an annual
+    overview of information pertaining to balancing authorities. Each entry includes
+    a report date indicating when the data was recorded, and a balancing authority
+    ID assigned by the EIA, which may or may not match the utility ID associated with
+    the same entity. Additionally, the dataset provides a unique short code for each
+    balancing authority, which can include entities from Canada and Mexico alongside
+    those from the United States. The balancing authority name is also included, enabling
+    clear identification of each balancing authority. Overall, the dataset contains
+    2,360 rows, capturing the annual data across multiple years for various balancing
+    authorities, thereby providing a historical perspective of their operational details.
+    This can assist in analyses related to energy distribution, regulatory compliance,
+    and market operations.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_balancing_authority.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_balancing_authority
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

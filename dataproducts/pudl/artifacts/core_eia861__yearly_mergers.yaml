@@ -1,0 +1,30 @@
+artifact:
+  description: "This product contains essential data on utility mergers and acquisitions,\
+    \ offering detailed historical insights into the changing landscape of utility\
+    \ ownership. The dataset includes information such as the name of the company\
+    \ that was merged with or acquired, the new parent company's name post-merger,\
+    \ and the principal owner\u2019s entity type. Users can also find the specific\
+    \ address, city, state, and zip code of the new parent company. Key dates, such\
+    \ as the date of the merger or acquisition and the report date, are provided to\
+    \ track when these changes occurred. Additionally, the dataset includes the EIA\
+    \ Utility Identification number and the corresponding utility name for cross-referencing\
+    \ purposes. The maturity level of each data record is indicated to inform users\
+    \ about the reliability of the information. This comprehensive dataset serves\
+    \ as a valuable resource for analyzing market consolidation trends, understanding\
+    \ competitive dynamics, and conducting regulatory reviews within the utility sector."
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_mergers.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_mergers
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

@@ -1,0 +1,28 @@
+artifact:
+  description: 'The dataset contains information related to utility or customer-owned
+    distributed generation (DG) as reported in the EIA861 Non-Net Metering table.
+    This data includes several key metrics: the total nameplate capacity of generators
+    used solely for emergency backup service (backup capacity), the short code identifying
+    a balancing authority which may include Canadian and Mexican authorities, the
+    total number of generators, the current flow type for photovoltaics (either AC
+    or DC), and the date of the report. The dataset captures detailed capacity information
+    split by sector, including fuel cell data and adjustments of reported capacities
+    from DC to AC units. The data available spans from the year 2016 onwards, providing
+    insights into non-net metered distributed generation activity, which has been
+    isolated to prevent double counting within the dataset.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_non_net_metering_misc.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_non_net_metering_misc
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

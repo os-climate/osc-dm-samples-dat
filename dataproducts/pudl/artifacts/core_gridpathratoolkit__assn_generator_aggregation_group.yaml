@@ -1,0 +1,28 @@
+artifact:
+  description: The dataset contains information on the aggregation of generation profiles
+    for electricity generators. It details which individual generator profiles are
+    combined to create aggregated capacity factors and generation profiles. Each entry
+    includes the unique six-digit facility identification number (plant_id_eia), the
+    generator's ID (often numeric but can include letters), and a label for the aggregation
+    group. The table also provides the total installed capacity in megawatts (capacity_mw)
+    for each generator. This data allows users to understand how various generators'
+    capacities contribute to aggregated profiles, which are crucial for analyzing
+    and forecasting electricity generation patterns. The resulting aggregated profiles
+    are stored in a separate dataset, ensuring comprehensive coverage for capacity
+    planning and grid management applications. The data is licensed under CC-BY-4.0,
+    which promotes data sharing and collaboration.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_gridpathratoolkit__assn_generator_aggregation_group.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_gridpathratoolkit__assn_generator_aggregation_group
+  securitypolicy: public
+  tags:
+  - ''

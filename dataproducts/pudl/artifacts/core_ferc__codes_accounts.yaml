@@ -1,0 +1,26 @@
+artifact:
+  description: Our product includes comprehensive data derived from the Federal Energy
+    Regulatory Commission (FERC) Uniform System of Accounts for Electric Plant, as
+    defined in Title 18, Chapter I, Subchapter C, Part 101 of the Code of Federal
+    Regulations (CFR). The dataset encompasses 97 distinct account descriptions, each
+    identified by a specific account number. These accounts cover various categories
+    within electric plant operations, including both high-level and detailed descriptions.
+    Users can expect to find information on electric plant assets, encompassing everything
+    from general accounts such as "Electric plant in service (Major only)" to more
+    specific categories. This data is pivotal for stakeholders in the energy sector,
+    enabling detailed financial and operational analysis.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc__codes_accounts.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc__codes_accounts
+  securitypolicy: public
+  tags:
+  - ''

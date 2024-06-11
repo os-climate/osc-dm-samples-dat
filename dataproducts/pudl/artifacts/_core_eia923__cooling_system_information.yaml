@@ -1,0 +1,31 @@
+artifact:
+  description: "The EIA-923 Cooling System Information dataset encompasses detailed\
+    \ monthly data on cooling systems at generation facilities, emphasizing water\
+    \ volumes and temperatures. This dataset covers the years 2008 to present. In\
+    \ 2008 and 2009, it provides annual averages, while from 2010 onwards, it details\
+    \ monthly figures. \n\nEach record within the dataset includes the report date,\
+    \ unique six-digit facility identification number (ORISPL), and an EIA identification\
+    \ code for cooling systems. This data helps in understanding the cooling operations\
+    \ of power plants, tracking the environmental impacts of cooling water usage,\
+    \ and assessing compliance with regulations that govern thermal discharges. \n\
+    \nThe dataset's inclusion of granular, time-specific information makes it suited\
+    \ for analysis concerning the water use efficiency and environmental impacts of\
+    \ power plant cooling processes across years and months. This information can\
+    \ be instrumental for regulatory bodies, environmental researchers, utility companies,\
+    \ and policymakers aiming to optimize cooling system operations, minimize ecological\
+    \ footprints, and better manage water resources around power generation facilities."
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/_core_eia923__cooling_system_information.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: _core_eia923__cooling_system_information
+  securitypolicy: public
+  tags:
+  - ''

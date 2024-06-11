@@ -1,0 +1,28 @@
+artifact:
+  description: The dataset contains hydroelectric generating plant statistics for
+    large plants with an installed nameplate capacity exceeding 10 MW. The data is
+    reported annually through FERC Form 1, specifically on Schedule 406 (pages 406-407),
+    and has been extracted from FERC's FoxPro database. It comprises 6,979 rows, each
+    represented by a unique record identifier indicating the original FERC Form 1
+    source record. The dataset includes the utility ID assigned by PUDL, which identifies
+    each FERC1 utility. It also features the four-digit report year in which the data
+    was collected, and the name of the plant as reported to FERC. The plant names
+    are freeform strings and may not consistently reference the same plant across
+    different entries. This dataset can be instrumental for analyzing the operational
+    statistics and capacities of large hydroelectric plants as reported to the Federal
+    Energy Regulatory Commission.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__yearly_hydroelectric_plants_sched406.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__yearly_hydroelectric_plants_sched406
+  securitypolicy: public
+  tags:
+  - ''

@@ -1,0 +1,30 @@
+artifact:
+  description: 'The data set "core_eia__codes_averaging_periods" provides a comprehensive
+    overview of various averaging periods specified by emissions statutes and regulations
+    as reported in the EIA-860. It includes 17 rows, each representing a unique code
+    used to denote different timeframes for averaging emissions data. The dataset
+    features three main columns: "code," "label," and "description." The "code" column
+    contains the originally reported short codes for averaging periods. The "label"
+    provides longer, human-readable versions of these codes in snake_case format.
+    The "description" column offers detailed explanations of what each code represents.
+    For example, the code "DA" corresponds to a 24-hour period, while "EH" denotes
+    an eight-hour duration. Other timeframes covered range from five minutes to ninety
+    days, with some entries indicating periods defined by testing or cases where the
+    averaging period is not specified. This dataset serves as a valuable resource
+    for understanding the timeframes used in emissions reporting and regulation compliance.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_averaging_periods.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_averaging_periods
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

@@ -1,0 +1,28 @@
+artifact:
+  description: 'The dataset is a coding table that describes different compliance
+    strategies used to control nitrogen oxide as reported in the EIA-860. It contains
+    three main columns: code, label, and description. The "code" column includes originally
+    reported short codes representing different compliance strategies. The "label"
+    column provides longer, human-readable versions of these codes in snake_case format.
+    The "description" column gives detailed explanations of what each code and label
+    represents. For instance, the dataset includes codes such as "AA" for advanced_overfire_air,
+    "BF" for biased_firing, and "BO" for burner out of service, among others. Each
+    row in the dataset corresponds to a specific strategy for nitrogen oxide control,
+    providing both a concise identifier and a more descriptive explanation of the
+    strategy. This dataset can be instrumental for understanding and analyzing various
+    nitrogen oxide compliance methods employed in energy generation and reporting.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_nox_compliance_strategies.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_nox_compliance_strategies
+  securitypolicy: public
+  tags:
+  - ''

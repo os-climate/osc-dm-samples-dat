@@ -1,0 +1,35 @@
+artifact:
+  description: 'This dataset contains information on different types of coal mines
+    reported as fuel sources in the EIA-923 form, maintained by the US Energy Information
+    Administration (EIA). The dataset includes several columns with key information:
+
+
+    - "code": A short code originally reported to denote the type of coal mine.
+
+    - "label": A longer, human-readable code using snake_case format that describes
+    the type of coal mine.
+
+    - "description": A detailed, human-readable explanation of what each code and
+    label signifies.
+
+
+    The dataset includes various types of coal mines such as preparation plants, surface
+    mines, underground mines, and mines that combine surface and underground methods,
+    both with a primary extraction method specified. This data is crucial for understanding
+    how different coal mines contribute to the overall fuel supply reported in the
+    EIA-923.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_coalmine_types.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_coalmine_types
+  securitypolicy: public
+  tags:
+  - ''

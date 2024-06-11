@@ -1,0 +1,39 @@
+artifact:
+  description: 'The core_eia__codes_cooling_system_types table is a comprehensive
+    dataset that provides detailed information about various cooling system types
+    used in energy production as reported by the U.S. Energy Information Administration
+    (EIA). This dataset includes 18 entries where each entry contains three main fields:
+    code, label, and description.
+
+
+    - The "code" field contains the originally reported short codes for different
+    cooling system types.
+
+    - The "label" field provides a longer, human-readable version of these codes using
+    snake_case formatting.
+
+    - The "description" field gives a thorough explanation of what each code and label
+    represent in terms of the cooling system''s characteristics and functionality.
+
+
+    This dataset allows users to understand and identify the specific type of cooling
+    systems that are employed in power generation facilities, such as dry cooling,
+    hybrid cooling, and various hybrid configurations involving both wet and dry cooling
+    systems. Such information can be pivotal for energy analysts, environmental researchers,
+    regulatory bodies, and businesses involved in energy management and infrastructure
+    planning.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_cooling_system_types.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_cooling_system_types
+  securitypolicy: public
+  tags:
+  - ''

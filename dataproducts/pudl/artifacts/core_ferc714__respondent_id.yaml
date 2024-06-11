@@ -1,0 +1,26 @@
+artifact:
+  description: The dataset core_ferc714__respondent_id contains identification information
+    for respondents to FERC Form 714, Part I, Schedule 1. Each record in this dataset
+    includes a unique FERC Form 714 respondent ID, the name of the utility, balancing
+    area authority, or planning authority that is responding, and an associated EIA
+    utility or balancing area authority ID. While many utilities also serve as balancing
+    authorities and may use the same EIA ID in both capacities, there is no requirement
+    for these IDs to be the same and in some cases they are different. The dataset
+    consists of 213 rows, each providing these identification details, which can be
+    used to cross-reference and identify entities involved in energy regulation and
+    reporting.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc714__respondent_id.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc714__respondent_id
+  securitypolicy: public
+  tags:
+  - ''

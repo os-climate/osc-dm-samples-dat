@@ -1,0 +1,26 @@
+artifact:
+  description: The dataset contains information on utility attributes compiled from
+    EIA data, capturing annually varying details related to utility identification
+    and operational data. Key fields include the EIA Utility Identification number,
+    the reporting date, and the utility's physical street address, city, state, and
+    zip code. It also outlines whether the utility is an owner, operator, asset manager,
+    or holds any other relationship to power plants reported on Schedule 2 of the
+    EIA form. The dataset includes the type of entity for the principal owner and
+    a mail attention name if available. This comprehensive dataset can be used to
+    track and analyze the roles and locations of utility entities over time.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia860__scd_utilities.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia860__scd_utilities
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

@@ -1,0 +1,54 @@
+artifact:
+  description: 'This dataset contains information related to green pricing programs
+    for electricity in the United States, as reported in the EIA-861 survey. It includes
+    data on revenue, sales, and customer counts associated with green pricing programs,
+    which are initiatives that allow customers to pay a premium to support the generation
+    of renewable energy. The dataset captures details by utility, customer class (including
+    residential, commercial, industrial, and others), state, and year.
+
+
+    Key variables include:
+
+    - customer_class: Categorizes the type of customers (e.g., residential, commercial,
+    industrial).
+
+    - customers: Number of customers participating in green pricing programs.
+
+    - green_pricing_revenue: Revenue generated from the premium rates associated with
+    green pricing programs.
+
+    - rec_revenue: Revenue collected from the sale of Renewable Energy Certificates
+    (RECs).
+
+    - rec_sales_mwh: Volume of sales of RECs in megawatt-hours.
+
+    - report_date: Date on which the data was reported.
+
+    - sales_mwh: Quantity of electricity sold through green pricing programs, measured
+    in megawatt-hours.
+
+    - state: Two-letter abbreviation of the US state where the utility operates.
+
+    - utility_id_eia: Identification number assigned to the utility by the EIA.
+
+    - utility_name_eia: Name of the utility.
+
+
+    This dataset provides valuable insights into the performance and adoption of green
+    pricing programs across different regions and customer bases.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_green_pricing.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_green_pricing
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

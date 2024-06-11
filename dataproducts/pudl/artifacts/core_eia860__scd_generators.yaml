@@ -1,0 +1,43 @@
+artifact:
+  description: 'This dataset, compiled from the EIA-860 and EIA-923 data, contains
+    annually varying attributes for generators in the U.S. energy sector. The dataset
+    includes 591,509 records and covers several key attributes for each generator.
+
+
+    The unique Plant ID (plant_id_eia) is a six-digit identifier assigned by the Energy
+    Information Administration (EIA) to each facility. The Generator ID (generator_id)
+    is a string that can include both numbers and letters. Each record also includes
+    the EIA Utility Identification number (utility_id_eia).
+
+
+    The dataset specifies the date information was reported (report_date) and details
+    the operational status of each generator, both in code form (operational_status_code)
+    and descriptive form (operational_status), indicating whether the generator is
+    operational, planned, or retired, among other statuses. The ownership structure
+    of each generator is identified by the ownership_code.
+
+
+    For capacity, the dataset includes the total installed (nameplate) capacity in
+    megawatts (capacity_mw), the net summer capacity (summer_capacity_mw), and indicates
+    whether the summer capacity value was an estimate (summer_capacity_estimate).
+
+
+    This rich dataset is essential for analyzing the operational dynamics, capacity,
+    and ownership of power generators across the United States, enabling stakeholders
+    to make informed decisions in energy production, distribution, and policy-making.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia860__scd_generators.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia860__scd_generators
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

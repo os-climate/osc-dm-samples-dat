@@ -1,0 +1,32 @@
+artifact:
+  description: The dataset "core_eia861__yearly_distribution_systems" provides detailed
+    information on the number of distribution circuits and circuits with voltage optimization
+    across various states in the United States. Key data fields include the total
+    number of distribution circuits and the number of these circuits that employ voltage/VAR
+    optimization (VVO). The dataset also includes metadata such as the report date,
+    indicating when the information was reported, and a flag indicating whether the
+    data comes from the shorter version of the EIA 861 form, designed to reduce the
+    reporting burden on smaller utilities. Additionally, the dataset specifies the
+    state using standard two-letter abbreviations and includes the EIA Utility Identification
+    number and the name of the utility, providing a clear linkage to the reporting
+    entity. Lastly, an indicator of data maturity specifies the reliability and completeness
+    of the data record, signaling whether some data entries might be less-than-final.
+    This dataset is valuable for analyzing the adoption of voltage optimization technologies
+    in utility distribution systems, comparing infrastructure across states, and understanding
+    utility-level details of distribution networks.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_distribution_systems.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_distribution_systems
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

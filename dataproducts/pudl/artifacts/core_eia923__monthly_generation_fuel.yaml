@@ -1,0 +1,28 @@
+artifact:
+  description: The EIA-923 Monthly Generation and Fuel Consumption data set provides
+    detailed insights into monthly electricity generation and fuel consumption across
+    various plants. It includes data for each combination of fuel and prime mover
+    within the plant. Although this information doesn't link directly to individual
+    boilers, generators, or generation units, it offers a comprehensive view of fuel
+    consumption and electricity generation for the entire generation fleet. The data
+    set helps in calculating capacity factors, heat rates, and the marginal cost of
+    electricity by using the primary fuels and prime movers reported for each generator
+    along with their capacities. It distinguishes between all fuel consumed and fuel
+    consumed specifically for electricity generation, thus facilitating a nuanced
+    understanding of fuel usage patterns and efficiency in electricity production.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia923__monthly_generation_fuel.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia923__monthly_generation_fuel
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

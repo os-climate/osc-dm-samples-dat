@@ -1,0 +1,30 @@
+artifact:
+  description: The EIA-923 Monthly Boiler Fuel Consumption and Emissions data provides
+    valuable insights into the quantity and type of fuel consumed by individual boilers
+    on a monthly basis. This includes detailed information on the sulfur and ash content
+    of the fuels used, as well as the heat content per unit of fuel. Fuel quantities
+    are reported in standard units such as tons, barrels, or thousand cubic feet (Mcf).
+    These measurements allow for the calculation of the thermal efficiency, or heat
+    rate, of various generation units. While this dataset offers extensive coverage
+    of the entire fleet of generators, it does not directly link fuel consumption
+    to specific generators. Consequently, calculating heat rates can be complex due
+    to incomplete and intricate associations between individual boilers and generators.
+    Additionally, some respondents report their fuel consumption data on an annual
+    basis, which is then aggregated into this dataset. Overall, this data is essential
+    for analyzing boiler performance and emissions, providing a comprehensive view
+    of fuel usage across different types of boilers.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_eia923__monthly_boiler_fuel.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_eia923__monthly_boiler_fuel
+  securitypolicy: public
+  tags:
+  - ''

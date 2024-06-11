@@ -1,0 +1,26 @@
+artifact:
+  description: This dataset provides a comprehensive overview of the various compliance
+    strategies used to control particulate matter, as reported in the EIA-860. The
+    table includes a short code for each strategy, a longer, human-readable version
+    of this code formatted in snake_case, and a detailed description explaining the
+    strategy. The dataset features nine distinct compliance strategies, including
+    "Burner out of service," "Flue gas recirculation," "Low excess air," "Low NOx
+    burner," and "Boiler currently meeting standard," among others. This information
+    is crucial for understanding the different methods employed by facilities to adhere
+    to particulate matter regulations and can be used for analysis, reporting, and
+    regulatory compliance tracking.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_particulate_compliance_strategies.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_particulate_compliance_strategies
+  securitypolicy: public
+  tags:
+  - ''

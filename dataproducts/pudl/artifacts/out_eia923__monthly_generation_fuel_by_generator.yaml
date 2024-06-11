@@ -1,0 +1,55 @@
+artifact:
+  description: 'The dataset contains detailed information pertaining to monthly estimated
+    net generation and fuel consumption by individual generators based on the EIA-923
+    generation and generation_fuel tables. Users can find the following data fields
+    in the dataset:
+
+
+    Date reported, which indicates the specific month and year of the data.
+
+
+    Plant ID, a unique six-digit facility identification number assigned by the Energy
+    Information Administration (EIA).
+
+
+    PUDL plant ID, a manually assigned identifier by PUDL, which may not be consistent
+    over time.
+
+
+    Plant name, the name of the power plant.
+
+
+    Utility ID, the EIA-assigned Utility Identification number.
+
+
+    PUDL utility ID, manually assigned by PUDL, which may also vary over time.
+
+
+    Utility name, the name of the electricity utility company.
+
+
+    Generator ID, an identifier for the generator that can include numeric or alphanumeric
+    characters.
+
+
+    Unit ID, a dynamically assigned PUDL identifier for the unit.
+
+
+    This information allows users to track and analyze electricity generation and
+    fuel consumption patterns at a granular level, potentially aiding in regulatory
+    compliance, operational optimization, and strategic planning.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_eia923__monthly_generation_fuel_by_generator.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_eia923__monthly_generation_fuel_by_generator
+  securitypolicy: public
+  tags:
+  - ''

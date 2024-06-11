@@ -1,0 +1,29 @@
+artifact:
+  description: 'This product offers a comprehensive dataset that maps utility IDs
+    assigned by the Federal Energy Regulatory Commission (FERC) to their respective
+    identifiers in the FERC database files (DBF). The dataset includes 411 rows, each
+    representing a unique utility. Two primary columns are present: the "utility_id_ferc1,"
+    an auto-incremented and non-stable ID assigned by the Public Utility Data Liberation
+    (PUDL) project to identify FERC utilities, and the "utility_id_ferc1_dbf," a stable
+    respondent ID assigned by FERC that identifies the reporting entity across multiple
+    years. The mapping provided by this dataset allows for the cross-referencing of
+    utility data between PUDL and FERC sources, aiding in data consistency and historical
+    comparison between reported entities. The data is available under the CC-BY-4.0
+    license, ensuring broad usability and adaptability. This product is essential
+    for analysts and researchers who require detailed and accurate identification
+    of utilities for regulatory, compliance, or study purposes.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_pudl__assn_ferc1_dbf_pudl_utilities.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_pudl__assn_ferc1_dbf_pudl_utilities
+  securitypolicy: public
+  tags:
+  - ''

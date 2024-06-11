@@ -1,0 +1,27 @@
+artifact:
+  description: This dataset contains information on different compliance strategies
+    used to control mercury emissions as reported in the EIA-860 forms. It includes
+    25 rows of data, each detailing a specific code, a human-readable label, and a
+    description of the compliance strategy. For example, some of the compliance strategies
+    listed are "activated_carbon_injection" (ACI), which refers to an activated carbon
+    injection system used to control mercury emissions, and "baghouse" (BH), which
+    is a fabric filter system. The dataset further distinguishes specific types of
+    baghouse systems, such as "baghouse_pulse" and "baghouse_reverse_air." Each entry
+    provides a concise code, an easily readable label, and a detailed explanation
+    of what that code or label represents, offering a comprehensive overview of the
+    various mercury compliance methods utilized in energy production facilities.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_mercury_compliance_strategies.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_mercury_compliance_strategies
+  securitypolicy: public
+  tags:
+  - ''

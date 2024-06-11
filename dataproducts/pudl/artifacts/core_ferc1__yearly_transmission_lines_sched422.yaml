@@ -1,0 +1,28 @@
+artifact:
+  description: The dataset "core_ferc1__yearly_transmission_lines_sched422" provides
+    a detailed record of transmission line statistics as reported in Schedule 422
+    of the Federal Energy Regulatory Commission (FERC) Form 1. This data includes
+    information on various aspects of transmission lines such as their starting and
+    ending points, the operating voltage in kilo-volts for three-phase 60 cycle alternate
+    current lines, and associated costs. The records are identified using a unique
+    identifier which is formatted based on the table name, report year, report period,
+    respondent ID, supplemental number, and row number. Each utility is also assigned
+    a unique ID by PUDL, which may change year to year. The dataset spans across multiple
+    years with each record corresponding to a specific reporting year. This comprehensive
+    collection aids in analyzing the infrastructure, financials, and operational specifics
+    of U.S. transmission lines as reported to FERC.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__yearly_transmission_lines_sched422.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__yearly_transmission_lines_sched422
+  securitypolicy: public
+  tags:
+  - ''

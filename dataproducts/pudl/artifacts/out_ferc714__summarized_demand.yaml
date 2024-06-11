@@ -1,0 +1,28 @@
+artifact:
+  description: The dataset "out_ferc714__summarized_demand" compiles annual electricity
+    demand data reported in FERC Form 714. It includes 3,195 rows of summarized data,
+    categorizing various respondents. Key fields in the dataset include the report
+    date, FERC Form 714 respondent ID, and EIA utility or balancing area authority
+    ID. It also provides annual electricity demand measured in megawatt-hours (MWh)
+    and details associated demographic and geographic data such as population, county
+    area in square kilometers, and population density per square kilometer. The dataset
+    also includes derived metrics like per-capita annual electricity demand and annual
+    electricity demand per square kilometer of service territory. This comprehensive
+    dataset offers a valuable resource for analyzing electricity demand patterns and
+    trends across different service territories, population densities, and geographic
+    regions.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc714__summarized_demand.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc714__summarized_demand
+  securitypolicy: public
+  tags:
+  - ''

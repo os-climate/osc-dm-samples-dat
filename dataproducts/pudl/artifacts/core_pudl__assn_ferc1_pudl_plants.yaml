@@ -1,0 +1,25 @@
+artifact:
+  description: In this dataset, you will find information linking FERC1 plants to
+    their associated manually assigned PUDL Plant IDs. The key data points include
+    the PUDL-assigned utility ID, which identifies a FERC1 utility and is auto-incremented,
+    meaning it may not remain consistent year to year. Additionally, the FERC1 plant
+    name is provided as reported to FERC, which is a freeform text field and therefore
+    not guaranteed to be consistently referenced across records. Lastly, each entry
+    includes a manually assigned PUDL plant ID, which also may not remain constant
+    over time. This dataset contains 7,698 entries, each comprising these three critical
+    pieces of information.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_pudl__assn_ferc1_pudl_plants.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_pudl__assn_ferc1_pudl_plants
+  securitypolicy: public
+  tags:
+  - ''

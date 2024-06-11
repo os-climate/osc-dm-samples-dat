@@ -1,0 +1,30 @@
+artifact:
+  description: The dataset from EIA-923 FGD Operation & Maintenance provides detailed
+    annual information about flue gas desulfurization (FGD) systems at generation
+    facilities. Specifically, it includes operational expenses related to FGD systems,
+    which are primarily used to control sulfur dioxide emissions. The dataset covers
+    report dates and includes plant identification numbers, known as ORISPL, which
+    are unique six-digit codes assigned by the Energy Information Administration (EIA).
+    Additionally, the dataset features sulfur dioxide control identification numbers,
+    although these IDs are not unique identifiers on their own. From 2008 to 2011,
+    the dataset also reported various operational characteristics of FGD systems,
+    which are now included in the 923 Air Emissions Control Info. The data is carefully
+    cleaned but has not yet been integrated with other EIA 923 or 860 datasets within
+    the PUDL database. Once fully integrated and harvested, the dataset will be removed
+    from the PUDL database. This data is crucial for understanding the operational
+    costs and efficiency of emissions control systems at generation facilities.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/_core_eia923__fgd_operation_maintenance.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: _core_eia923__fgd_operation_maintenance
+  securitypolicy: public
+  tags:
+  - ''

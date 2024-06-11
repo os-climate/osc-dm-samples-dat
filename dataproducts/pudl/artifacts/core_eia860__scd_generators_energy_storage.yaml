@@ -1,0 +1,34 @@
+artifact:
+  description: 'The EIA-860 Annual Report on energy storage provides a comprehensive
+    dataset capturing various attributes of energy storage facilities in the United
+    States. Key data points include the unique six-digit facility identification number
+    (plant_id_eia) assigned by the Energy Information Administration, as well as a
+    generator ID (generator_id) which can be alphanumeric. Each entry also includes
+    the report date, providing a time reference for the dataset.
+
+
+    The dataset includes critical technical specifications for energy storage units
+    such as the maximum charge rate in megawatts (max_charge_rate_mw) and the maximum
+    discharge rate in megawatts (max_discharge_rate_mw), which indicate the efficiency
+    and capacity of the storage systems. Additionally, the storage enclosure code
+    (storage_enclosure_code) identifies the type of enclosure housing the storage
+    system, and the storage technology code (storage_technology_code) specifies the
+    electro-chemical storage technology used. This dataset is essential for understanding
+    the deployment, capacity, and operational characteristics of energy storage systems
+    across the United States.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia860__scd_generators_energy_storage.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia860__scd_generators_energy_storage
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

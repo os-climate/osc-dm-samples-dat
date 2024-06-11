@@ -1,0 +1,27 @@
+artifact:
+  description: 'Our product offers a comprehensive dataset focused on energy storage
+    technology types. The dataset includes a coding table that helps users understand
+    various energy storage technologies through three key columns: the code, label,
+    and description. Each entry is assigned a short code for efficient reference,
+    a longer human-readable label formatted in snake_case for clarity, and a detailed
+    description that explains the technology in depth. The dataset encompasses various
+    storage technologies, including Electro-chemical Capacitors (ECC), Flow Batteries
+    (FLB), Lithium-ion Batteries (LIB), Metal Air Batteries (MAB), Sodium Based Batteries
+    (NAB), Nickel Based Batteries (NIB), Lead Acid Batteries (PBB), and other unspecified
+    technologies (OTH). This data is designed to support businesses, researchers,
+    and policymakers in understanding and analyzing different energy storage solutions.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_storage_technology_types.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_storage_technology_types
+  securitypolicy: public
+  tags:
+  - ''

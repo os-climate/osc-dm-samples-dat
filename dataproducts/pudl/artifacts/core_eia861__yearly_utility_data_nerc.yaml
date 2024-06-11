@@ -1,0 +1,33 @@
+artifact:
+  description: "The dataset \"core_eia861__yearly_utility_data_nerc\" contains information\
+    \ about the operations of utilities within various NERC (North American Electric\
+    \ Reliability Corporation) regions. The dataset is comprised of 35,843 rows and\
+    \ includes the following data fields: \n\n- `nerc_region`: The specific NERC region\
+    \ where the plant is located.\n- `nerc_regions_of_operation`: All the NERC regional\
+    \ entities where the utility conducts operations.\n- `report_date`: The date when\
+    \ the data was reported.\n- `state`: The two-letter abbreviation for the US state\
+    \ where the utility operates.\n- `utility_id_eia`: The unique identification number\
+    \ assigned to each utility by the Energy Information Administration (EIA).\n-\
+    \ `data_maturity`: Indicates the maturity level of the data record, reflecting\
+    \ whether it is final or subject to changes. \n\nThis data can be used to analyze\
+    \ the geographical and regional operations of electricity utilities, understand\
+    \ the distribution of utilities across different NERC regions, and assess the\
+    \ temporal aspects of utility reporting and data maturity. The dataset can support\
+    \ various analytical tasks, such as regional energy reliability assessments, utility\
+    \ performance tracking, and compliance monitoring within the NERC framework."
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_utility_data_nerc.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_utility_data_nerc
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

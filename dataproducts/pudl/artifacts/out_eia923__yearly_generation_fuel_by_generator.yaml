@@ -1,0 +1,27 @@
+artifact:
+  description: The dataset contains yearly estimated net generation and fuel consumption
+    data by individual generators from the EIA-923 reports. It includes detailed information
+    such as the report date, unique plant identification numbers assigned both by
+    the Energy Information Administration (EIA) and a manually assigned PUDL ID, as
+    well as the plant name. Each record also contains the utility identification numbers
+    from both the EIA and PUDL, along with the corresponding utility names. Additionally,
+    the dataset provides generator IDs, which may consist of numeric or alphanumeric
+    characters, and unit IDs assigned by PUDL. This comprehensive dataset allows for
+    an in-depth analysis of electricity generation and fuel use at the generator level,
+    providing valuable insights into the performance and operations of individual
+    power plants and utilities across different reporting years.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_eia923__yearly_generation_fuel_by_generator.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_eia923__yearly_generation_fuel_by_generator
+  securitypolicy: public
+  tags:
+  - ''

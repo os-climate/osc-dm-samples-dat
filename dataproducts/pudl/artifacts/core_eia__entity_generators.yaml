@@ -1,0 +1,30 @@
+artifact:
+  description: The dataset "core_eia__entity_generators" comprises static generator
+    attributes drawn from the EIA-860 and EIA-923 data, encapsulating 38,717 rows.
+    It provides detailed information about various generators across facilities, identified
+    uniquely by a six-digit plant identifier (plant_id_eia) and a generator-specific
+    identifier (generator_id). Key data fields include the operational attributes
+    of these generators, such as the presence of duct burners (duct_burners) for supplementary
+    firing, the date when the generator commenced commercial operations (generator_operating_date),
+    and its role in a combined heat and power system, specifying either a topping
+    cycle or a bottoming cycle (topping_bottoming_code). Additionally, the dataset
+    indicates whether each generator is integrated into a solid fuel gasification
+    system (solid_fuel_gasification) or employs pulverized coal technology (pulverized_coal_tech).
+    This information captures both the technological specifics and operational history
+    of electricity generation units, facilitating comprehensive analysis and strategic
+    planning for stakeholders in the energy sector.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__entity_generators.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__entity_generators
+  securitypolicy: public
+  tags:
+  - ''

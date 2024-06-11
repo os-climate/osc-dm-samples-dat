@@ -1,0 +1,35 @@
+artifact:
+  description: 'The dataset includes a comprehensive collection of information about
+    energy generators from the Energy Information Administration (EIA). Each generator
+    in the dataset is uniquely identified by a six-digit plant ID, which is also referred
+    to as an ORISPL. The dataset provides detailed records on each generator''s attributes,
+    including its generator ID, report date, plant name, utility name, and descriptions
+    of the generator technology used.
+
+
+    Additionally, it contains dynamically assigned PUDL unit and plant IDs, though
+    these may change over time as updates to the data and algorithms occur. The dataset
+    also includes manually assigned utility IDs and names, which are not necessarily
+    stable over time.
+
+
+    In essence, this dataset is useful for understanding the inventory and characteristics
+    of energy generators, tracking changes and developments over the years, and identifying
+    the various utilities and plants operating within the energy sector. The data
+    provides insights into the scope and technological makeup of energy generation,
+    facilitating analysis and reporting for various stakeholders in the energy industry.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_eia__yearly_generators_by_ownership.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_eia__yearly_generators_by_ownership
+  securitypolicy: public
+  tags:
+  - ''

@@ -1,0 +1,29 @@
+artifact:
+  description: This data product provides comprehensive information on emissions control
+    equipment reported to the Energy Information Administration (EIA). It includes
+    detailed data on the cost, type, operating status, retirement date, and install
+    year of emissions control equipment used in power plants. The data covers control
+    equipment for pollutants such as sulfur dioxide (SO2), particulate matter, mercury,
+    nitrogen oxides (NOX), and acid gases like hydrogen chloride (HCl). Each record
+    contains specific identifiers and metadata, including the four-digit year of reporting,
+    the unique six-digit plant identification number (ORISPL), and a manually assigned
+    PUDL plant ID, which may vary over time. Additionally, the data set includes the
+    plant name, utility ID, utility name, and other relevant identifiers. This product
+    delivers a consolidated source of emissions control equipment data, facilitating
+    analysis and understanding of pollution control measures across various power
+    plants.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_eia860__yearly_emissions_control_equipment.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_eia860__yearly_emissions_control_equipment
+  securitypolicy: public
+  tags:
+  - ''

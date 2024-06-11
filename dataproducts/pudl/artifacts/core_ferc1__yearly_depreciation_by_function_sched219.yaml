@@ -1,0 +1,48 @@
+artifact:
+  description: 'This dataset contains information on the accumulated provision for
+    depreciation of electric utility plants as reported in FERC Account 108. The data
+    is organized by Schedule 219 Section B, which outlines the functional plant classifications.
+    Included in the dataset are entries detailing the yearly depreciation data for
+    various utilities, which cover multiple depreciation types such as cost of removal,
+    depreciation expenses, salvage, and cost of retired plant. Each entry includes
+    several key data points:
+
+
+    - utility_id_ferc1: A unique, PUDL-assigned identifier for each utility reporting
+    to FERC, which may change from year to year.
+
+    - report_year: The specific year for which the data was reported, represented
+    as a four-digit number.
+
+    - depreciation_type: The specific type of depreciation provision being documented,
+    which could include costs associated with removal, depreciation expenses, salvage,
+    and other related categories.
+
+    - plant_function: The functional role of the plant, which can include categories
+    like steam production, nuclear production, distribution, transmission, among others.
+
+    - plant_status: The financial status of the utility plant, with categories such
+    as in service, future, leased, and total.
+
+    - utility_type: A classification of the utility plant types, including Electric
+    Utility, Gas Utility, and potentially other types.
+
+
+    Overall, this dataset provides a detailed view of how electric utility plants
+    depreciate over time, broken down by various factors related to their function
+    and status, which can aid in financial and operational planning for utility companies.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__yearly_depreciation_by_function_sched219.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__yearly_depreciation_by_function_sched219
+  securitypolicy: public
+  tags:
+  - ''

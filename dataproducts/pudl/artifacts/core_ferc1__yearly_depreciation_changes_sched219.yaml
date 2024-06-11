@@ -1,0 +1,29 @@
+artifact:
+  description: The dataset contains detailed information about the accumulated provision
+    for depreciation of electric utility plants, specifically captured under Account
+    108. It includes balances and changes documented over the year in Schedule 219
+    Section A. The data encompasses various attributes such as PUDL-assigned utility
+    IDs, reporting years, types of depreciation provisions (like cost of removal,
+    depreciation expenses, salvage, and cost of retired plant), financial status of
+    the utility plant (e.g., in service, future, leased, total), and types of utility
+    plants (such as Electric Utility, Gas Utility, and Other Utility). The dataset
+    also records the dollar values associated with each reported income, expense,
+    asset, or liability, along with unique record identifiers for entries from the
+    original FERC Form. This information can be essential for analysts and stakeholders
+    looking to understand and track the financial depreciation and related changes
+    in utility assets over time.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__yearly_depreciation_changes_sched219.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__yearly_depreciation_changes_sched219
+  securitypolicy: public
+  tags:
+  - ''

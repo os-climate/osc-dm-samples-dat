@@ -1,0 +1,24 @@
+artifact:
+  description: The dataset provides coding information related to the reporting frequencies
+    of data from plants in the EIA-923. It includes a short code, a longer human-readable
+    label in snake_case, and a detailed description of what each code signifies. Specifically,
+    the dataset contains codes that describe whether the data is reported annually
+    (A), and explains that for annual reports, any monthly data is estimated based
+    on the respondent's annual totals and similar plant characteristics. This coding
+    system helps categorize and understand the frequency and method through which
+    data is reported by the respondents in the energy sector.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_reporting_frequencies.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_reporting_frequencies
+  securitypolicy: public
+  tags:
+  - ''

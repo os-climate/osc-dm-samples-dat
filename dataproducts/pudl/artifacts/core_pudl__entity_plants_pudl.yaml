@@ -1,0 +1,33 @@
+artifact:
+  description: "This dataset, from the core_pudl__entity_plants_pudl table, contains\
+    \ details about power plants as catalogued by the Public Utility Data Liberation\
+    \ (PUDL) project. Each plant is assigned a unique PUDL plant ID, which is manually\
+    \ generated each year as new data from the Federal Energy Regulatory Commission\
+    \ (FERC) and the U.S. Energy Information Administration (EIA) are integrated.\
+    \ The table includes 18,697 rows, with each row representing a distinct power\
+    \ plant identified in at least one of these major data sources. \n\nThe columns\
+    \ in this table are:\n1. plant_id_pudl: A unique identifier assigned to each plant\
+    \ by PUDL. Note that this ID may not be consistent over time, as it can be updated\
+    \ with new data integration cycles.\n2. plant_name_pudl: A readable plant name\
+    \ chosen arbitrarily from the multiple names that might be reported during the\
+    \ plant matching process.\n\nThis data is particularly useful for tracking and\
+    \ analyzing power plants across different datasets and regulatory reports over\
+    \ time. It facilitates efficient data integration and querying for researchers,\
+    \ policymakers, and industry analysts interested in the energy sector. The dataset\
+    \ is released under a CC-BY-4.0 license, endorsing open access and reuse with\
+    \ appropriate credit."
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_pudl__entity_plants_pudl.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_pudl__entity_plants_pudl
+  securitypolicy: public
+  tags:
+  - ''

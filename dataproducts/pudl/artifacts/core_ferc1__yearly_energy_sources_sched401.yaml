@@ -1,0 +1,27 @@
+artifact:
+  description: 'The dataset "core_ferc1__yearly_energy_sources_sched401" provides
+    detailed information on the sources of electricity obtained by utilities, as reported
+    annually in FERC Form 1. It includes the type and amount of energy sourced, categorized
+    into three primary groups: generation, power exchanges, and transmission. Each
+    record in the dataset contains data for a specific utility identified by a PUDL-assigned
+    utility ID, a four-digit reporting year, and the type of energy source. Additionally,
+    the dataset indicates whether the values are unique or calculated entries. The
+    amount of electricity obtained is measured in megawatt-hours (MWh). An identifier
+    for the original FERC Form 1 source record is also provided. This dataset essentially
+    captures the various ways utilities acquire electrical energy over the years,
+    facilitating analysis of trends and patterns in energy sourcing.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__yearly_energy_sources_sched401.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__yearly_energy_sources_sched401
+  securitypolicy: public
+  tags:
+  - ''

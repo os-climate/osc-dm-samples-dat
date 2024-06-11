@@ -1,0 +1,31 @@
+artifact:
+  description: The "core_eia860__assn_yearly_boiler_emissions_control_equipment" table
+    provides detailed information about the emissions control equipment linked to
+    boilers in various power plants. This table includes data on the unique identification
+    numbers of both boilers and emissions control devices, focusing on pollutants
+    such as NOx (nitrogen oxides), SO2 (sulfur dioxide), mercury, and particulates.
+    The data includes the report date to specify when the data was recorded and utilizes
+    unique plant identification numbers assigned by the Energy Information Administration
+    (EIA). Additionally, the table contains an alphanumeric boiler ID for each boiler
+    and specifies the type of emissions control device and its corresponding ID used
+    for emissions data collection. The data also covers the level of maturity, indicating
+    the completeness and finalization status of the data records. This table is critical
+    for entities monitoring emissions and compliance with environmental regulations,
+    as it allows the tracking and analysis of emissions control measures at a granular
+    level.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia860__assn_yearly_boiler_emissions_control_equipment.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia860__assn_yearly_boiler_emissions_control_equipment
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

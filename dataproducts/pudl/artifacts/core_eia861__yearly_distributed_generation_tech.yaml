@@ -1,0 +1,30 @@
+artifact:
+  description: The core_eia861__yearly_distributed_generation_tech dataset provides
+    detailed information on the technology used for utility or customer-owned distributed
+    generation. It includes data on the total installed nameplate capacity in megawatts
+    of these distributed generation systems. Each entry specifies whether the technology
+    data reported is estimated or actual, giving users insight into the reliability
+    of the data. The dataset covers diverse types of distributed generation technologies,
+    such as backup, combined heat and power (cogeneration), combustion turbines, fuel
+    cells, and hydro technologies, among others. Additionally, it records the report
+    dates and the two-letter US state abbreviations where the data was collected,
+    allowing for temporal and geographical analysis. This dataset is useful for understanding
+    the landscape and evolution of distributed generation technologies across different
+    states and over time, aiding businesses and policymakers in making informed energy-related
+    decisions.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_distributed_generation_tech.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_distributed_generation_tech
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

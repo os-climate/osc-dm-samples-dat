@@ -1,0 +1,28 @@
+artifact:
+  description: The dataset contains detailed monthly estimates of net electricity
+    generation and fuel consumption for each combination of generator, energy source,
+    and prime mover. It specifically breaks down the net electricity generation and
+    fuel consumption as reported in the EIA-923 forms, allocating them to individual
+    generators and then aggregating these allocations to unique combinations of generator,
+    prime mover, and energy source codes. The process does not differentiate between
+    primary and secondary energy sources for generators and assumes equal allocation
+    of net generation between energy source codes in the case of multiple generators
+    with the same prime mover but different energy sources. This dataset offers comprehensive
+    insights into the specific contributions of different generators, energy sources,
+    and prime movers to the overall energy production and fuel usage at a granular,
+    monthly level.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_eia923__monthly_generation_fuel_by_generator_energy_source.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_eia923__monthly_generation_fuel_by_generator_energy_source
+  securitypolicy: public
+  tags:
+  - ''

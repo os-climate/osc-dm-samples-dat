@@ -1,0 +1,27 @@
+artifact:
+  description: The FERC Form 1 Steam Plant Data encompasses detailed information on
+    steam plants reported by utilities each year. It includes data points such as
+    the year in which the data was reported, utility identifiers both from FERC and
+    a PUDL-assigned ID, and the name of the responding utility. It also provides identifiers
+    and names for the plants, including manually assigned PUDL plant IDs and algorithmically
+    assigned FERC Plant IDs. The plant names are as reported to FERC and are freeform
+    strings. Additionally, the table contains data on asset retirement costs among
+    other specifics related to steam plant operations. This dataset allows for comprehensive
+    analysis and comparison of steam plant operations across different utilities and
+    years, providing valuable insights into trends, plant performances, and utility
+    management practices.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_steam_plants_sched402.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_steam_plants_sched402
+  securitypolicy: public
+  tags:
+  - ''

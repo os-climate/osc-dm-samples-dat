@@ -1,0 +1,26 @@
+artifact:
+  description: 'The dataset contains detailed information about fuel transportation
+    modes as reported in the EIA-860 and EIA-923 forms. Specifically, it includes
+    short codes, longer human-readable labels in snake_case, and detailed descriptions
+    explaining each transportation mode. Examples of transportation modes include
+    shipments of coal moved via Great Lakes coal loading docks (code: GL, label: great_lakes),
+    instances where fuel is produced on-site, eliminating the need for shipment (code:
+    OP, label: onsite_production), and shipments of fuel moved through pipelines (code:
+    PL, label: pipeline). This dataset is useful for understanding the various methods
+    by which fuel is transported to consumers or produced on-site. It is licensed
+    under CC-BY-4.0.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_fuel_transportation_modes.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_fuel_transportation_modes
+  securitypolicy: public
+  tags:
+  - ''

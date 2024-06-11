@@ -1,0 +1,43 @@
+artifact:
+  description: 'The dataset contains detailed statistics for hydroelectric pumped
+    storage plants with an installed nameplate capacity of 10 megawatts or more, as
+    reported in Schedule 408 of the FERC Form 1. The data, extracted from the Visual
+    FoxPro database maintained by FERC, is license under CC-BY-4.0.
+
+
+    Key data points include:
+
+    - Record Identifier: A unique identifier for each record, formatted with details
+    about the original FERC Form 1 source record.
+
+    - Utility ID: A PUDL-assigned identifier for the utility reporting the data, which
+    is auto-incremented and not stable across years.
+
+    - Report Year: The four-digit year when the data was reported.
+
+    - Plant Name: The name of the pumped storage plant as reported to FERC, which
+    is a freeform string and may vary in format for the same plant across different
+    records.
+
+    - Installed Nameplate Capacity: Specifies the maximum output of the plant, which
+    helps identify plants with a capacity of 10 MW or higher.
+
+
+    This dataset is valuable for stakeholders interested in the performance and specifications
+    of large-scale hydroelectric pumped storage plants in the US, including researchers,
+    policy analysts, and industry professionals.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__yearly_pumped_storage_plants_sched408.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__yearly_pumped_storage_plants_sched408
+  securitypolicy: public
+  tags:
+  - ''

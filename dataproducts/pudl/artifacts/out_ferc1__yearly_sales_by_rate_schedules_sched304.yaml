@@ -1,0 +1,49 @@
+artifact:
+  description: 'The "FERC Electricity Sales by Rate Schedule" dataset provides detailed
+    information regarding yearly electricity sales by rate schedules as reported in
+    the FERC Form 1. This comprehensive dataset includes 291,979 rows of denormalized
+    data and covers several critical attributes. You will find the following key data
+    points:
+
+
+    1. utility_id_ferc1: This is a PUDL-assigned utility ID that identifies a specific
+    FERC1 utility. It''s an auto-incremented ID and may not remain stable over different
+    years.
+
+    2. utility_id_pudl: A manually assigned PUDL utility ID which similarly may not
+    remain stable over time.
+
+    3. utility_name_ferc1: The name of the utility as reported in the FERC Form 1,
+    provided for human readability.
+
+    4. report_year: The four-digit year in which the data was reported.
+
+    5. rate_schedule_type: This denotes the categorization of the rate schedule type
+    under which the sales data is organized.
+
+    6. billing_status: Indicates whether the amount is billed, unbilled, or both.
+    Billed amounts relate to actual energy exchanges, whereas unbilled amounts pertain
+    to other revenue sources such as contracts for standby services or renting space
+    for cell antennas on transmission infrastructure.
+
+
+    This dataset serves as a valuable resource for the analysis of electricity sales
+    trends, utility performance over time, and the assessment of various rate schedules.
+    It is crucial for stakeholders such as utility companies, regulatory bodies, and
+    researchers aiming to understand the nuances of energy sales and revenue within
+    the utility sector.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_sales_by_rate_schedules_sched304.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_sales_by_rate_schedules_sched304
+  securitypolicy: public
+  tags:
+  - ''

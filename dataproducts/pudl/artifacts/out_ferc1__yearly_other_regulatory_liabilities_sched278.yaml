@@ -1,0 +1,49 @@
+artifact:
+  description: 'The dataset "out_ferc1__yearly_other_regulatory_liabilities_sched278"
+    contains denormalized information on other regulatory liabilities reported by
+    utilities in FERC Form 1. It includes 49,192 rows of data, with each row providing
+    detailed information on a specific utility''s regulatory liabilities for a particular
+    year. Key fields in the dataset are:
+
+
+    1. utility_id_ferc1: A PUDL-assigned auto-incremented ID for identifying FERC1
+    utilities, which may vary annually.
+
+    2. utility_id_pudl: A manually assigned PUDL ID that may not remain stable over
+    time.
+
+    3. utility_name_ferc1: The name of the utility as reported in FERC Form 1 for
+    human readability.
+
+    4. report_year: The year the data was reported, in a four-digit format.
+
+    5. description: A human-readable description explaining the meaning of a code
+    or label associated with the liabilities.
+
+    6. ending_balance: The account balance at the end of the reported year.
+
+    7. starting_balance: The account balance at the beginning of the reported year.
+
+    8. increase_in_other_regulatory_liabilities: The increase in other regulatory
+    liabilities during the reporting period.
+
+    9. account_detail: Additional descriptions or details about the account.
+
+
+    This dataset provides essential financial information on regulatory liabilities,
+    enabling analysis of changes and trends over time for multiple utilities.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_other_regulatory_liabilities_sched278.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_other_regulatory_liabilities_sched278
+  securitypolicy: public
+  tags:
+  - ''

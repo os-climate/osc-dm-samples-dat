@@ -1,0 +1,26 @@
+artifact:
+  description: The dataset provides detailed information on the yearly balance sheet
+    liabilities for utilities as reported in the Federal Energy Regulatory Commission
+    (FERC) Form 1. It contains 219,964 rows of data covering multiple years. Each
+    record includes a unique identifier indicating its original FERC Form 1 source,
+    the reporting year, and the utility's corresponding IDs assigned by both FERC
+    and PUDL. It also includes the name of the utility as reported in FERC Form 1
+    for human readability. For each utility, the dataset captures the account balance
+    at the beginning and end of the year, along with the type of liability being reported.
+    This information allows for the analysis of financial changes in liabilities over
+    time for various utilities.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_balance_sheet_liabilities_sched110.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_balance_sheet_liabilities_sched110
+  securitypolicy: public
+  tags:
+  - ''

@@ -1,0 +1,34 @@
+artifact:
+  description: "The dataset contains detailed yearly financial projections from NREL\u2019\
+    s Annual Technology Baseline (ATB), focusing on various energy technologies. The\
+    \ records provide data that vary by scenario and cost recovery period. Key information\
+    \ includes the report year, NREL\u2019s model cases (which are categorized into\
+    \ two primary financial scenarios: R&D Only Case and Market + Policies Case),\
+    \ and the projection year. Additionally, the dataset includes descriptions of\
+    \ different technologies and the scenario contexts (referred to as scenario_atb).\
+    \ The cost recovery period years column may contain null values, indicating that\
+    \ the records are applicable irrespective of the specific recovery period. Detailed\
+    \ parameters such as relevant financial assumptions and expected developments\
+    \ based on R&D improvements and market policies across different years are covered.\
+    \ This data is particularly useful for stakeholders looking to understand the\
+    \ financial landscape of various energy technologies over time. \n\nThe dataset\
+    \ is licensed under CC-BY-4.0, ensuring that it can be utilized and shared broadly.\
+    \ The absence of certain values in the cost recovery period years field implies\
+    \ flexibility where those records can be applicable across any given period. This\
+    \ makes the dataset a valuable resource for analyzing long-term financial projections\
+    \ and decision-making in energy investments."
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_nrelatb__yearly_projected_financial_cases_by_scenario.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_nrelatb__yearly_projected_financial_cases_by_scenario
+  securitypolicy: public
+  tags:
+  - ''

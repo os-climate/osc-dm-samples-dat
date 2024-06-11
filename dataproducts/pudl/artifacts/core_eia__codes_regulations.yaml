@@ -1,0 +1,25 @@
+artifact:
+  description: 'The core_eia__codes_regulations dataset provides an overview of the
+    various statutory and regulatory levels that boilers operate under as reported
+    in the EIA-860. It contains three key fields for each entry: a short code, a longer
+    human-readable code in snake_case, and a detailed description of what each code
+    signifies. Specifically, the dataset details whether the most stringent applicable
+    pollutant control standards for a boiler are governed by federal or local statutes
+    and regulations. This information is crucial for entities needing to understand
+    the regulatory environment for boiler operations, ensuring compliance with the
+    most stringent pollution control standards applicable.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_regulations.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_regulations
+  securitypolicy: public
+  tags:
+  - ''

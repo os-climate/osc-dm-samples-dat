@@ -1,0 +1,44 @@
+artifact:
+  description: 'The "core_eia861__yearly_net_metering_misc" dataset offers comprehensive
+    information related to net metered capacity for photovoltaics (PV). The key data
+    points include:
+
+
+    1. **Balancing Authority Code (EIA)**: This field contains the EIA short code
+    that identifies different balancing authorities, which may also include entities
+    in Canada and Mexico.
+
+    2. **PV Current Flow Type**: Information on whether the PV current flow is alternating
+    current (AC) or direct current (DC).
+
+    3. **Report Date**: The specific date on which the data was reported.
+
+    4. **State**: Two-letter abbreviations representing US states.
+
+    5. **EIA Utility Identification Number**: Unique identification number assigned
+    by the EIA to each utility.
+
+    6. **Data Maturity**: Indicates the level of data maturity, which informs users
+    about the finality and reliability of the data. Some records might be less-than-final
+    and should be used cautiously.
+
+
+    The dataset contains a substantial volume of rows, amounting to a total of 14,942,
+    each representing a unique record of net metering data related to PVs. This data
+    is licensed under CC-BY-4.0, allowing for use and distribution with proper attribution.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_net_metering_misc.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_net_metering_misc
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

@@ -1,0 +1,32 @@
+artifact:
+  description: The Core EIA861 Yearly Demand Side Management dataset contains data
+    about the impact of energy efficiency and load management programs on electricity
+    consumption and demand. It includes information on total energy sold (measured
+    in megawatt-hours, or MWh) and peak demand (measured in megawatts, or MW) categorized
+    by customer class. The dataset captures both incremental effects, which are attributed
+    to new programs and participants within a year, and total annual effects, accounting
+    for all programs and participants in a given year. Additionally, the dataset provides
+    potential effects, which represent anticipated peak reductions due to load management
+    programs. It also details the cost of demand-side management (DSM) programs and
+    the number of customers enrolled in price-responsive and time-responsive programs.
+    Notably, the dataset contains information up to 2012 from the raw EIA861 demand-side
+    management table, which was later separated into energy efficiency and demand
+    response tables due to changes in the reporting format post-2012. Therefore, data
+    collected before and after 2012 are not directly comparable and are stored in
+    separate tables.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_demand_side_management_ee_dr.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_demand_side_management_ee_dr
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

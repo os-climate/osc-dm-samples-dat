@@ -1,0 +1,35 @@
+artifact:
+  description: The dataset, core EIA860 SCD Emissions Control Equipment, provides
+    comprehensive information on the emissions control equipment used by facilities
+    in the energy sector, as reported to the Energy Information Administration (EIA).
+    The data includes the cost, type, operating status, retirement date, and installation
+    year of such equipment. For each entry, it also includes a report year indicating
+    the annual reporting period of the data. Each facility is uniquely identified
+    by a six-digit facility identification number (plant_id_eia). For emissions control
+    units within the same plant and report year, the dataset assigns a unique piece
+    of equipment a PUDL-generated ID (emission_control_id_pudl), although this ID
+    is not intended for tracking equipment over time or across different plants. The
+    data maturity field indicates the level of completeness and reliability of each
+    data record, with some data being preliminary and requiring cautious interpretation.
+    Additionally, the dataset contains short codes specifying the types of emission
+    control equipment, covering controls for pollutants such as sulfur dioxide (SO2),
+    particulate matter, mercury, nitrogen oxides (NOX), and acid gases like hydrochloric
+    acid (HCl). This dataset can be instrumental for entities in the energy industry
+    interested in analyzing trends, compliance, and the effectiveness of emission
+    control measures.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia860__scd_emissions_control_equipment.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia860__scd_emissions_control_equipment
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

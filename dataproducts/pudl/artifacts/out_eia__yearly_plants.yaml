@@ -1,0 +1,27 @@
+artifact:
+  description: This dataset provides detailed information about yearly plant attributes
+    reported to the Energy Information Administration (EIA). It includes a unique
+    six-digit facility identification number, plant names, and their locations, including
+    city, county, state, street address, and zip code, along with geographical coordinates
+    in terms of latitude and longitude. The data set specifies timezone information
+    for each plant. It also contains compliance-related data such as the presence
+    of ash impoundments, whether these impoundments are lined, and the status of these
+    impoundments as of the report date. Each entry is tagged with a report date indicating
+    the time of data collection. Overall, this dataset serves as a comprehensive source
+    of various plant characteristics and locational attributes necessary for energy
+    infrastructure analysis and regulatory compliance tracking.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_eia__yearly_plants.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_eia__yearly_plants
+  securitypolicy: public
+  tags:
+  - ''

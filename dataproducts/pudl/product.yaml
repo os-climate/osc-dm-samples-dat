@@ -1,17 +1,43 @@
 product:
-    namespace: brodagroupsoftware.com
-    name: pudl.dataproduct
-    description: |
-      PUDL is a data processing pipeline created by Catalyst Cooperative
-      that cleans, integrates, and standardizes some of the most widely
-      used public energy datasets in the US. The data serve researchers,
-      activists, journalists, and policy makers that might not have the
-      technical expertise to access it in its raw form, the time to
-      clean and prepare the data for bulk analysis, or the means to
-      purchase it from existing commercial providers.
-    tags: ["utilities", "emissions"]
-    publisher: publisher.user@brodagroupsoftware.com
-    endpoints:
-        discovery: http://localhost:9999/discovery
-        observability: http://localhost:9999/observability
-        administration: http://localhost:9999/administration
+  description: 'The Public Utility Data Liberation (PUDL) project offers a comprehensive
+    and cleaned database of widely used public energy datasets in the United States.
+    This data processing pipeline is designed to serve researchers, activists, journalists,
+    and policymakers who may lack the technical expertise, time, or resources to access
+    and clean the raw data themselves. The available datasets include:
+
+
+    - EIA Form 860: Annual Electric Generator Report (2001-2022), which provides information
+    on the status, capacity, and fuel type of electric generators.
+
+    - EIA Form 860M: Monthly Update to the Annual Electric Generator Report.
+
+    - EIA Form 861: Annual Electric Power Industry Report (2001-2022), covering data
+    on electricity sales, revenue, and customer counts among others.
+
+    - EIA Form 923: Power Plant Operations Report (2001-2024), detailing fuel consumption,
+    power generation, and other operational statistics of power plants.
+
+    - FERC Form 1: Annual Report of Major Electric Utilities (1994-2022), containing
+    financial and operational information about major electric utilities.
+
+    - FERC Form 2: Annual Report of Major Natural Gas Companies (1996-2022), which
+    provides financial and operational details for major natural gas companies.
+
+    - FERC Form 6: Annual Report of Oil Pipeline Companies (2000-2021), covering financials
+    and technical details of oil pipeline operators.
+
+    - FERC Form 60: Annual Report of centralized service companies.
+
+
+    This integrated data set is invaluable for comprehensive analysis and tailored
+    insights in the energy sector.'
+  endpoints:
+    administration: http://localhost:9999/administration
+    discovery: http://localhost:9999/discovery
+    observability: http://localhost:9999/observability
+  name: pudl.dataproduct
+  namespace: pudl
+  publisher: publisher.user@brodagroupsoftware.com
+  tags:
+  - utilities
+  - emissions

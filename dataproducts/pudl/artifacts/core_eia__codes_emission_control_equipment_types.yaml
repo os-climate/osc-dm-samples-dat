@@ -1,0 +1,27 @@
+artifact:
+  description: The dataset provides a detailed inventory of emissions control equipment
+    types installed on boilers. It includes a code for each type of equipment which
+    is a short, originally reported identifier. Additionally, there is a more descriptive
+    label in snake_case for easier reading, and a full description explaining what
+    each code and label means. The data covers 24 different emissions control equipment
+    types, each identified by specific codes such as ACI for activated carbon injection
+    systems, BP for baghouse (fabric filter), pulse, and similar codes for other types
+    of control equipment like baghouse reverse air and baghouse shake deflate. This
+    dataset is essential for understanding the various methods employed for controlling
+    emissions in boilers, and it provides clear, structured descriptions to facilitate
+    analysis and reporting.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_emission_control_equipment_types.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_emission_control_equipment_types
+  securitypolicy: public
+  tags:
+  - ''

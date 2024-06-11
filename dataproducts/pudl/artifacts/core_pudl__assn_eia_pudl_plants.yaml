@@ -1,0 +1,37 @@
+artifact:
+  description: 'The dataset titled "Association between EIA Plant IDs and manually
+    assigned PUDL Plant IDs" consists of 16,857 rows that map the unique six-digit
+    facility identification numbers (also known as ORISPL) assigned by the Energy
+    Information Administration (EIA) to their corresponding PUDL Plant IDs. Each entry
+    includes:
+
+
+    1. **plant_id_eia**: The unique six-digit facility identification number assigned
+    by the EIA.
+
+    2. **plant_name_eia**: The name of the plant as provided by the EIA.
+
+    3. **plant_id_pudl**: A manually assigned PUDL plant ID, which may not be constant
+    over time.
+
+
+    This data is valuable for organizations and analysts looking to cross-reference
+    between EIA-assigned IDs and PUDL-assigned IDs, enabling more seamless integration
+    of energy facility data from different sources. This dataset facilitates the accurate
+    and consistent identification of energy plants across various datasets and time
+    periods.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_pudl__assn_eia_pudl_plants.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_pudl__assn_eia_pudl_plants
+  securitypolicy: public
+  tags:
+  - ''

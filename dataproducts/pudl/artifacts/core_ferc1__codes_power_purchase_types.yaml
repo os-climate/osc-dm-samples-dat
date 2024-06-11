@@ -1,0 +1,24 @@
+artifact:
+  description: This data set is a coding table that defines different types of electricity
+    power purchases. It includes a detailed breakdown of various categories with specific
+    codes, human-readable labels, and descriptions explaining the meaning of each
+    code and label. Users can expect to find information on out-of-period adjustments,
+    electricity exchanges, and other transaction types related to electricity power
+    purchases. Each entry offers insight into the specific nature of the purchase
+    or adjustment, ensuring clarity and ease of categorization for accounting and
+    reporting purposes.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__codes_power_purchase_types.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__codes_power_purchase_types
+  securitypolicy: public
+  tags:
+  - ''

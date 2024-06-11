@@ -1,0 +1,50 @@
+artifact:
+  description: 'This dataset provides comprehensive details about energy sources reported
+    to the U.S. Energy Information Administration (EIA). It includes 42 rows of data,
+    each representing different energy sources with the following key attributes:
+
+
+    1. Code: A short code originally reported to EIA, representing each energy source.
+
+    2. Label: A longer, human-readable code using a standardized snake_case format
+    for clarity.
+
+    3. Fuel Units: The reported unit of measure for each type of fuel.
+
+    4. Minimum and Maximum Fuel Content: Both the minimum and maximum heat content
+    per physical unit of the fuel, measured in MMBtu (million British thermal units).
+
+    5. Fuel Group: High-level fuel grouping as defined in the EIA Form 860 instructions,
+    helping to categorize the types of energy resources.
+
+    6. Fuel Derived From: Information indicating the original fuel from which the
+    given refined fuel was derived.
+
+    7. Fuel Phase: The physical phase of matter (solid, liquid, or gas) of the fuel.
+
+    8. Fuel Type Code: A simplified fuel type code used within the PUDL system for
+    easier analysis and categorization.
+
+    9. Description: A long, human-readable explanation providing more detail about
+    what each code or label represents.
+
+
+    This dataset aims to offer essential metadata about energy sources to support
+    reporting, analysis, and decision-making processes in the energy sector. It facilitates
+    understanding of different fuel types, their properties, and relationships, thereby
+    enhancing data-driven insights and strategic planning.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_energy_sources.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_energy_sources
+  securitypolicy: public
+  tags:
+  - ''

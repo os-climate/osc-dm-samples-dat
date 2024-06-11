@@ -1,0 +1,28 @@
+artifact:
+  description: The FERC Form 1 Yearly Cash Flows dataset contains detailed financial
+    data reported by utilities to the Federal Energy Regulatory Commission (FERC).
+    The dataset captures a variety of cash flow-related information, including changes
+    in balances and specific monetary amounts, as reported on an annual basis. Each
+    record in the dataset is uniquely identified and includes key attributes such
+    as the report year, a PUDL-assigned utility ID for uniquely identifying each utility,
+    and the original utility name as reported to FERC. The dataset is intended to
+    provide insights into the cash flow activities of utilities, covering data points
+    like operational cash inflows and outflows, financing activities, and investment
+    expenditures. This information can be instrumental for financial analysts, policy
+    makers, and other stakeholders who seek to understand the financial health and
+    operational efficiency of utility companies.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_cash_flows_sched120.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_cash_flows_sched120
+  securitypolicy: public
+  tags:
+  - ''

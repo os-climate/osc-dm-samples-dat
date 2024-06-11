@@ -1,0 +1,26 @@
+artifact:
+  description: The dataset contains detailed information regarding the number of meters
+    from automated meter readings (AMR) and advanced metering infrastructure (AMI)
+    across various states, sectors, and balancing authorities. It includes the count
+    of AMR and AMI meters as well as non-AMR/AMI standard meters. Additionally, the
+    energy served by AMI systems, measured in megawatthours, is provided. This data,
+    collected from Form EIA-861 respondents, is used for billing and monitoring purposes.
+    Historical changes in the dataset include the commencement of standard meter data
+    collection in 2013, with monthly survey data available from January 2011 to January
+    2017.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_advanced_metering_infrastructure.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_advanced_metering_infrastructure
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

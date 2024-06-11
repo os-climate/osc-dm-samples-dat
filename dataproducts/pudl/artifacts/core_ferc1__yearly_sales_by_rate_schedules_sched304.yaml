@@ -1,0 +1,34 @@
+artifact:
+  description: "The core FERC Form 1 Annual Sales by Rate Schedules (sched304) data\
+    \ table provides detailed insights into electricity sales segmented by different\
+    \ rate schedules. This data spans from years prior to 2021 through to the present,\
+    \ capturing a wide range of information relevant to the energy industry. Post-2020\
+    \ data, extracted via XBRL, is structured and categorized into specific rate schedule\
+    \ types such as residential, industrial, commercial, public lighting, public authorities,\
+    \ railroads, interdepartmental, provision for rate refund, commercial and industrial,\
+    \ and totals. Additionally, it includes billing status categorized as billed,\
+    \ unbilled, and total. \n\nPrior to 2021, data extracted from FoxProDB is less\
+    \ structured and more challenging to parse. Information related to rate schedules\
+    \ in this older data is often embedded within the rate_schedule_description column,\
+    \ which can include varied and sometimes ambiguous details such as numbers and\
+    \ acronyms. This column often does not provide a clear context, making early data\
+    \ less straightforward to analyze in bulk.\n\nIn summary, this dataset offers\
+    \ comprehensive historical and current details on electricity sales by different\
+    \ rate schedules, with a shift towards more structured and categorized information\
+    \ in recent years. This data is crucial for understanding market trends, analyzing\
+    \ consumer segments, and making informed decisions in the energy sector."
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__yearly_sales_by_rate_schedules_sched304.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__yearly_sales_by_rate_schedules_sched304
+  securitypolicy: public
+  tags:
+  - ''

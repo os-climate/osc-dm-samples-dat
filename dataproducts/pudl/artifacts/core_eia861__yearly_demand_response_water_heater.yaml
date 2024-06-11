@@ -1,0 +1,46 @@
+artifact:
+  description: 'The dataset "core_eia861_yearly_demand_response_water_heater" contains
+    information on the number of grid-connected water heaters enrolled in demand response
+    programs across various utilities and states in the United States. It includes
+    4,153 rows of data with the following columns:
+
+
+    1. **balancing_authority_code_eia**: This is the EIA short code that identifies
+    the balancing authority, which may also include Canadian and Mexican Balancing
+    Authorities.
+
+    2. **report_date**: The date the information was reported.
+
+    3. **state**: The two-letter abbreviation of the US state where the utility is
+    located.
+
+    4. **utility_id_eia**: The unique identification number assigned to each utility
+    by the Energy Information Administration (EIA).
+
+    5. **water_heater**: The number of grid-enabled water heaters added to the demand
+    response program by the respondent utility for that year.
+
+    6. **data_maturity**: The level of maturity of the data record, indicating if
+    the data is final or preliminary.
+
+
+    This dataset is useful for analyzing the adoption and geographic distribution
+    of demand response programs specifically tailored to water heaters. It can help
+    in identifying trends, the effectiveness of these programs, and the involvement
+    of different utilities and states in such initiatives.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_demand_response_water_heater.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_demand_response_water_heater
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

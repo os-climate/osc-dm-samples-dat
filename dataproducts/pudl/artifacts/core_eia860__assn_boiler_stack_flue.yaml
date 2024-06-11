@@ -1,0 +1,29 @@
+artifact:
+  description: The table "core_eia860__assn_boiler_stack_flue" provides detailed information
+    about the linkage between boilers and the corresponding stacks or flues in various
+    facilities, as reported to the Energy Information Administration (EIA). For each
+    record, the table includes a report date, a unique six-digit plant identification
+    number (plant_id_eia), and an alphanumeric boiler identifier (boiler_id). It also
+    provides information on the stack or flue where emissions are released, identified
+    by either a stack_id_eia or flue_id_eia, or the combined stack_flue_id_eia value
+    from 2013 onward. This dataset contains 41,673 rows of such linkages, offering
+    a comprehensive view of the connections between boiler units and their emission
+    points across different facilities. This information is crucial for understanding
+    emission management, regulatory compliance, and the environmental impact of energy
+    production operations.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia860__assn_boiler_stack_flue.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia860__assn_boiler_stack_flue
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

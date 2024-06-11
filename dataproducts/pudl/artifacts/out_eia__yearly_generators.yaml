@@ -1,0 +1,28 @@
+artifact:
+  description: The dataset "out_eia__yearly_generators" provides comprehensive information
+    about generator attributes on an annual basis. It includes details such as the
+    unique identification numbers for facilities (plant_id_eia) and generators (generator_id),
+    the date of report submission (report_date), and the dynamically assigned PUDL
+    unit ID (unit_id_pudl). Furthermore, it includes manually assigned PUDL plant
+    and utility IDs (plant_id_pudl and utility_id_pudl), which may vary over time.
+    The dataset also captures the plant name (plant_name_eia), the utility identification
+    number assigned by the EIA (utility_id_eia), and the name of the utility (utility_name_eia).
+    Additionally, it provides descriptions related to the technology used (technology_description).
+    This dataset is crucial for analyzing various attributes of power generators,
+    including their capacity, efficiency, and fuel costs, and can be used for in-depth
+    analysis and decision-making in the energy sector.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_eia__yearly_generators.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_eia__yearly_generators
+  securitypolicy: public
+  tags:
+  - ''

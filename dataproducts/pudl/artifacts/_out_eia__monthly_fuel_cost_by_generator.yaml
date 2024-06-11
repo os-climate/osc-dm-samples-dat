@@ -1,0 +1,32 @@
+artifact:
+  description: 'This dataset provides monthly estimates of fuel costs for individual
+    electricity generators, indexed by date and facility identification number (plant_id_eia).
+    The estimates cover both the cost per MMBTU (Million British Thermal Units) and
+    per MWh (Megawatt-hour) of generated electricity. These cost calculations are
+    derived from plant-level data on fuel prices and consumption, as well as the net
+    generation data from each generator, where available.
+
+
+    The dataset is built through complex intermediary calculations that require the
+    unit ID to be filled in, resulting in lower coverage. Fuel costs are aggregated
+    into broad fuel categories rather than detailed energy source codes. Users should
+    note that the data includes some unfiltered and potentially unreasonable values
+    that would require additional filtering for practical use. This dataset is valuable
+    for analyzing cost trends, fuel consumption efficiency, and operational costs
+    of power generation facilities, but requires careful handling to ensure data accuracy
+    and validity.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/_out_eia__monthly_fuel_cost_by_generator.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: _out_eia__monthly_fuel_cost_by_generator
+  securitypolicy: public
+  tags:
+  - ''

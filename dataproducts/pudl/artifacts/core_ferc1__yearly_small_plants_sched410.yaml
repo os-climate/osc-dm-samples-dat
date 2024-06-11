@@ -1,0 +1,29 @@
+artifact:
+  description: The core_ferc1__yearly_small_plants_sched410 data table provides detailed
+    generating plant statistics for power plants with smaller installed nameplate
+    capacities, specifically focusing on internal combustion plants, gas turbine plants,
+    conventional hydro plants, and pumped storage plants with less than 10 MW, as
+    well as steam plants with less than 25 MW. This dataset is compiled from FERC
+    Form 1 Schedule 410 (pages 410-411) and includes data extracted from both the
+    FERC Visual FoxPro and XBRL formats. The raw data is somewhat unstructured, similar
+    to a digitized PDF, and consists of various types of rows, including headers,
+    notes, and totals, which provide additional contextual information. However, this
+    unstructured format necessitates transformations to separate and properly analyze
+    the values data. This dataset is essential for analyzing the performance and characteristics
+    of smaller power plants, offering insights into their operational statistics and
+    contributions to the overall energy grid.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__yearly_small_plants_sched410.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__yearly_small_plants_sched410
+  securitypolicy: public
+  tags:
+  - ''

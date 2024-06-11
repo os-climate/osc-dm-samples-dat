@@ -1,0 +1,26 @@
+artifact:
+  description: The dataset contains detailed information from the FERC Form 1 income
+    statements, specifically focusing on yearly financial data for various utilities.
+    It includes unique identifiers for each record and utility, ensuring traceability
+    and consistent referencing. Utilities are categorized by specific types such as
+    Electric Utility, Gas Utility, and Other Utility. The dataset is comprehensive,
+    providing both manually and automatically assigned utility IDs, with each utility
+    distinctly named as per their FERC Form 1 responses. Financial data is provided
+    by the reporting year, making it possible to track the financial performance of
+    utilities over time. This dataset is ideal for analyzing financial trends, utility
+    performance, and sector-specific financial health across different types of utilities.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_income_statements_sched114.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_income_statements_sched114
+  securitypolicy: public
+  tags:
+  - ''

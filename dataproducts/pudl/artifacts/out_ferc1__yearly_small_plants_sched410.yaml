@@ -1,0 +1,26 @@
+artifact:
+  description: The "Yearly Small Plants Schedule" table from FERC Form 1 provides
+    detailed information on small plants reported by various utilities. It includes
+    data for the four-digit year in which the report was made, and each entry is associated
+    with unique IDs assigned to both the utility and the plant. This table captures
+    the name of the utility, the plant name as reported to FERC, and an identifier
+    for the original FERC Form 1 source record. The utility ID and plant ID are manually
+    assigned within the PUDL system and help in identifying and tracking the utility
+    and plant across reports. The dataset is particularly useful for understanding
+    the small plants maintained by utilities and offers insights into plant-level
+    details as reported annually to FERC.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_small_plants_sched410.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_small_plants_sched410
+  securitypolicy: public
+  tags:
+  - ''

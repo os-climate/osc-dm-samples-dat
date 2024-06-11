@@ -1,0 +1,31 @@
+artifact:
+  description: "The dataset \"out_ferc1__yearly_energy_sources_sched401\" contains\
+    \ detailed information on energy sources reported by various utilities in their\
+    \ FERC Form 1 filings. It includes records from multiple years with a total of\
+    \ 36,564 rows. Each record provides several key pieces of information: \n\n- PUDL-assigned\
+    \ utility ID (`utility_id_ferc1`), which may change annually.\n- Manually assigned,\
+    \ more stable utility ID (`utility_id_pudl`).\n- The name of the utility, as reported\
+    \ in the form (`utility_name_ferc1`).\n- The year in which the data was reported\
+    \ (`report_year`), represented in a four-digit format.\n- The type of energy source,\
+    \ categorized into generation, power exchanges, and transmission (`energy_source_type`).\n\
+    - A field indicating whether the row's value was calculated or uniquely reported\
+    \ within the form (`row_type_xbrl`).\n- The amount of energy in megawatt-hours\
+    \ (`energy_mwh`), indicating either sources or uses of energy.\n\nThis data is\
+    \ essential for analyzing the energy production, exchange, and transmission patterns\
+    \ of different utilities over various years, providing a comprehensive view of\
+    \ the energy landscape as reported to FERC."
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_energy_sources_sched401.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_energy_sources_sched401
+  securitypolicy: public
+  tags:
+  - ''

@@ -1,0 +1,27 @@
+artifact:
+  description: 'The dataset contains information about different types of boiler regulatory
+    codes used in the EIA-860 forms. It includes a coding table with three main fields:
+    code, label, and description. The "code" field contains originally reported short
+    codes, such as ''D'', ''Da'', and ''Db''. The "label" field provides longer, human-readable
+    labels in snake_case format. Finally, the "description" field offers a detailed
+    explanation of the meaning of each code or label. For instance, the code ''D''
+    corresponds to boilers subject to the Standards of Performance for fossil-fuel
+    fired steam boilers constructed after August 17, 1971, while ''Da'' pertains to
+    those constructed after September 18, 1978, and ''Db'' to those after a yet unspecified
+    date in 1984. This data is useful for understanding regulatory classifications
+    and performance standards for fossil-fuel fired steam boilers.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_boiler_types.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_boiler_types
+  securitypolicy: public
+  tags:
+  - ''

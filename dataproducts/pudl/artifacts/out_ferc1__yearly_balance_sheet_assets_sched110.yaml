@@ -1,0 +1,33 @@
+artifact:
+  description: 'The dataset "out_ferc1__yearly_balance_sheet_assets_sched110" provides
+    comprehensive information about the balance sheet assets of various utilities
+    as reported in the FERC Form 1. It includes the year in which the data was reported,
+    identified by a four-digit format. Each utility is uniquely identified through
+    both a PUDL-assigned utility ID, which is auto-incremented and may change over
+    time, and a manually assigned PUDL utility ID, which is intended for stable identification.
+    The responding utility''s name is captured as reported in FERC Form 1 for human
+    readability.
+
+
+    Additionally, there is a unique record identifier that indicates the origin of
+    each FERC Form 1 source record, formatted to include relevant details such as
+    table name, report year, reporting period, respondent ID, supplemental number,
+    and row number. This ensures each record is distinct within the non-row-mapped
+    tables of the FERC Form 1 database. The type of asset being reported in the dataset
+    is specified for better understanding and classification. The balance information
+    indicates the financial value or worth of these assets as reported.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_balance_sheet_assets_sched110.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_balance_sheet_assets_sched110
+  securitypolicy: public
+  tags:
+  - ''

@@ -1,0 +1,30 @@
+artifact:
+  description: The PUDL core database integrates a variety of datasets that are essential
+    for energy industry analysis and environmental research. The data sources encompassed
+    within PUDL include detailed information from several critical categories, such
+    as utility operations, plant characteristics, fuel purchases, emissions, and grid
+    connectivity. Each datasource is identified by a unique code and includes corresponding
+    data partitions, which are typically delineated by year or other relevant temporal
+    markers. Users can find comprehensive datasets such as the EIA-860, which provides
+    annual data on electric power plants, their capacities, and generator-specific
+    details. Additionally, the database includes digital object identifiers (DOIs)
+    for referencing specific versions of datasets archived on Zenodo, ensuring proper
+    citation and version tracking. Finally, each entry notes the specific version
+    of the PUDL software used to compile the data, ensuring transparency and reproducibility
+    of the datasets provided. This structure allows analysts to easily locate, reference,
+    and utilize accurate and up-to-date information pertinent to the energy sector.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_pudl__codes_datasources.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_pudl__codes_datasources
+  securitypolicy: public
+  tags:
+  - ''

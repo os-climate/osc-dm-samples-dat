@@ -1,0 +1,27 @@
+artifact:
+  description: 'The dataset contains coding information related to different boiler
+    firing types as reported in the EIA-860. It consists of three main attributes:
+    a short code (representing the originally reported short code), a label (providing
+    a longer, human-readable code in snake_case), and a description (offering a detailed
+    explanation of what the code and label signify). The dataset includes various
+    types of boiler designs such as cell burner (CB), cyclone firing (CY), duct burner
+    (DB), fluidized bed firing (FB), and stoker (SS). It also includes a category
+    labeled "other" (OT) for boiler types that do not fit into the predefined categories
+    and require specification on Schedule 7. This dataset is essential for understanding
+    the specific configurations and technologies employed in different boiler systems
+    as reported by facilities.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_firing_types.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_firing_types
+  securitypolicy: public
+  tags:
+  - ''

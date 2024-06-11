@@ -1,0 +1,27 @@
+artifact:
+  description: 'The dataset titled ''core_eia__codes_wet_dry_bottom'' provides a coding
+    table that describes whether a boiler has a wet or dry bottom, which is reported
+    in the EIA-860 database. It comprises two rows of data with three main attributes:
+    code, label, and description. The ''code'' attribute includes short codes (''D''
+    for dry bottom and ''W'' for wet bottom), which serve as abbreviations. The ''label''
+    attribute gives a more human-readable name using snake_case (''dry_bottom'' and
+    ''wet_bottom''). The ''description'' attribute provides detailed explanations
+    of what the codes mean, such as whether the boiler has no slag tanks at the furnace
+    throat area (dry bottom) or contains slag tanks to manage molten ash (wet bottom).
+    This dataset is essential for understanding specific characteristics of boilers
+    as reported in energy information databases.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_wet_dry_bottom.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_wet_dry_bottom
+  securitypolicy: public
+  tags:
+  - ''

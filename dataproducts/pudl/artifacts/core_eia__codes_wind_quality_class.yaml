@@ -1,0 +1,28 @@
+artifact:
+  description: 'The dataset "core_eia__codes_wind_quality_class" provides a comprehensive
+    classification of wind quality for use in various applications, particularly in
+    the energy sector. Each entry in the dataset represents a specific wind quality
+    class, characterized by a unique short code and a more descriptive human-readable
+    label. The dataset details several key attributes that define the wind quality
+    class: the average wind speed measured in meters per second, the extreme 50-year
+    wind gusts in meters per hour, and the turbulence intensity at the wind site,
+    divided into upper and lower bounds. These attributes allow for a detailed understanding
+    of the environmental conditions at a given location, which is critical for the
+    planning, deployment, and management of wind energy projects. The data is licensed
+    under CC-BY-4.0, ensuring it is accessible for use and distribution under the
+    specified terms.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_wind_quality_class.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_wind_quality_class
+  securitypolicy: public
+  tags:
+  - ''

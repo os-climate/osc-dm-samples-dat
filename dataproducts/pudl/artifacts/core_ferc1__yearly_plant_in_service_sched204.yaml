@@ -1,0 +1,29 @@
+artifact:
+  description: The core_ferc1__yearly_plant_in_service_sched204 dataset contains detailed
+    information about balances and changes to FERC Electric Plant in Service accounts,
+    as reported by utilities on FERC Form 1, Schedule 204. Originating from the f1_plant_in_srvce
+    table in FERC's FoxPro database, this dataset includes data on various electric
+    plant accounts as defined in the FERC Uniform System of Accounts (part of the
+    Code of Federal Regulations, Title 18, Chapter I, Subchapter C, Part 101). Each
+    year, FERC respondents report the starting and ending balances for each account,
+    capturing organization-wide data that is not broken down on a per-plant basis.
+    The end-of-year balance for each account is expected to equal the beginning-of-year
+    balance plus the sum of additions, retirements, adjustments, and transfers within
+    the account. The dataset, containing 335,756 rows, is assigned a PUDL-assigned
+    utility ID to identify each FERC utility. The data is made available under a CC-BY-4.0
+    license.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__yearly_plant_in_service_sched204.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__yearly_plant_in_service_sched204
+  securitypolicy: public
+  tags:
+  - ''

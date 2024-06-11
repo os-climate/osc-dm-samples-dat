@@ -1,0 +1,48 @@
+artifact:
+  description: 'The dataset, named out_ferc1__yearly_utility_plant_summary_sched200,
+    is a denormalized table that contains detailed information regarding utility plant
+    summaries as reported annually in FERC Form 1. It includes 191,991 rows of data
+    and is licensed under CC-BY-4.0. This dataset features several key attributes
+    such as:
+
+
+    1. utility_id_ferc1: A unique, auto-incremented identifier assigned by PUDL to
+    each utility in the dataset. Note that this ID may vary year to year and should
+    not be considered stable.
+
+    2. utility_id_pudl: A manually assigned identifier by PUDL, designed to be consistent
+    and stable over time for each utility.
+
+    3. utility_name_ferc1: The name of the utility as it is reported in FERC Form
+    1, primarily for human readability.
+
+    4. report_year: The year in which the data was reported, represented as a four-digit
+    number.
+
+    5. utility_type: A classification of the utility plant types included in the summary,
+    such as Electric Utility, Gas Utility, and Other Utility.
+
+    6. utility_type_other: A freeform description provided when the utility does not
+    fall under the predefined categories of Electric, Gas, or Other Utility. This
+    field is populated only in the specific reporting years it was recorded in the
+    DBF format.
+
+
+    The dataset enables analysis and comparison of utility plants over time, fostering
+    a deeper understanding of trends and patterns within different utility types and
+    aiding stakeholders in making data-informed decisions.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_utility_plant_summary_sched200.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_utility_plant_summary_sched200
+  securitypolicy: public
+  tags:
+  - ''

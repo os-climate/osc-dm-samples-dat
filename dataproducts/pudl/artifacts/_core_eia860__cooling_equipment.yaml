@@ -1,0 +1,28 @@
+artifact:
+  description: This dataset contains detailed information about cooling equipment
+    used at generation facilities, as reported in the EIA-860 Schedule 6D. It includes
+    26,089 rows of data, providing insights into the cooling systems utilized across
+    various power plants. Key pieces of information include the unique six-digit facility
+    identification number (plant_id_eia) assigned by the Energy Information Administration
+    (EIA), plant names (plant_name_eia), and EIA Identification codes for cooling
+    systems (cooling_id_eia). The dataset also features utility identifiers (utility_id_eia),
+    utility names (utility_name_eia), and county names where these facilities are
+    located. While the data has been cleaned, it has not been harvested with other
+    EIA 923 or 860 data, meaning similar variables may be present in other related
+    tables. This dataset is licensed under CC-BY-4.0, allowing for broad use with
+    proper attribution.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/_core_eia860__cooling_equipment.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: _core_eia860__cooling_equipment
+  securitypolicy: public
+  tags:
+  - ''

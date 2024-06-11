@@ -1,0 +1,28 @@
+artifact:
+  description: The dataset, core_eia860__scd_boilers, contains detailed annual information
+    about boilers from various facilities, as reported to the Energy Information Administration
+    (EIA). Each record in the dataset represents a unique boiler identified by a plant
+    ID and boiler ID. Key attributes include the date the boiler was reported, the
+    date it began or is planned to begin commercial operation, and its operational
+    status. The dataset also captures the scheduled or effected retirement date of
+    each boiler and its type as per U.S. EPA regulations under 40 CFR. Additional
+    information on the types of firing used by the boiler is included, with fields
+    indicating up to three different firing type identifiers. This dataset is ideal
+    for analyzing trends in boiler operations, retirements, and regulatory compliance
+    across the United States.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia860__scd_boilers.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia860__scd_boilers
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

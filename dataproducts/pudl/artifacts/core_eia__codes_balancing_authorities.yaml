@@ -1,0 +1,32 @@
+artifact:
+  description: "The product includes a coding table which provides comprehensive information\
+    \ about balancing authorities as recorded in EIA-860, EIA-923, and EIA-930 datasets.\
+    \ The data in this table includes originally reported short codes and their longer\
+    \ human-readable versions in snake_case format. Each entry is accompanied by a\
+    \ detailed description explaining the meaning of the code and label.\n\nAdditionally,\
+    \ the table contains the EIA balancing authority region code and its corresponding\
+    \ human-readable name. There is information about the timezone used by each reporting\
+    \ entity, which can be useful for localizing UTC times. The product also details\
+    \ the retirement date for any balancing authority that has ceased independent\
+    \ operation.\n\nThis coding table also specifies whether the balancing authority\
+    \ is generation-only. This is particularly pertinent for authorities that do not\
+    \ serve retail customers and therefore only report net generation and interchange\
+    \ data, without any demand data. \n\nAltogether, this product provides a structured\
+    \ and detailed overview of various balancing authorities, their operational specifics,\
+    \ and relevant metadata, aiding in the clarity and understanding of EIA reports."
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_balancing_authorities.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_balancing_authorities
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

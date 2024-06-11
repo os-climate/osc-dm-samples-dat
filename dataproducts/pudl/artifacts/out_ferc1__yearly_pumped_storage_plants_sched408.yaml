@@ -1,0 +1,32 @@
+artifact:
+  description: 'The data product is a dataset derived from the Federal Energy Regulatory
+    Commission (FERC) Form 1, containing detailed information about pumped storage
+    plants. This dataset includes 562 rows of data reporting on various characteristics
+    and financials of these facilities. Users can find information for each year as
+    indicated by the four-digit "report_year" field. Utilities are identified by both
+    a FERC-specific ID and a manually assigned PUDL (Public Utility Data Liberation)
+    ID, ensuring unique identification within the dataset. Each utility''s name is
+    also provided for human readability.
+
+
+    Each pumped storage plant is identified by its reported name, which may not be
+    consistently formatted across different records for the same plant. Additionally,
+    a unique "record_id" helps trace each entry back to its original source in the
+    FERC Form 1, ensuring data integrity and traceability. Overall, the dataset serves
+    as a comprehensive source for analyzing the operational and financial aspects
+    of pumped storage facilities as reported by utilities to the FERC.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_pumped_storage_plants_sched408.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_pumped_storage_plants_sched408
+  securitypolicy: public
+  tags:
+  - ''

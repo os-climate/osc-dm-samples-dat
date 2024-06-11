@@ -1,0 +1,58 @@
+artifact:
+  description: 'The dataset "out_eia__yearly_boilers" is part of the Public Utility
+    Data Liberation (PUDL) project and contains detailed information about boilers
+    in power plants as reported to the U.S. Energy Information Administration (EIA).
+    The table includes 86,675 rows and various attributes related to each boiler.
+    Key data points include:
+
+
+    1. **report_date**: The date when the data was reported.
+
+    2. **plant_id_eia**: A unique six-digit identification number assigned to each
+    facility by the EIA.
+
+    3. **plant_id_pudl**: A unique identifier assigned by the PUDL system, which may
+    change over time.
+
+    4. **plant_name_eia**: The name of the plant.
+
+    5. **utility_id_eia**: The EIA''s utility identification number.
+
+    6. **utility_id_pudl**: A unique utility identifier assigned by PUDL, which may
+    also change over time.
+
+    7. **utility_name_eia**: The name of the utility operating the plant.
+
+    8. **boiler_id**: A unique alphanumeric identifier for each boiler.
+
+    9. **air_flow_100pct_load_cubic_feet_per_minute**: The total air flow, including
+    excess air, measured at 100 percent load under standard temperature and pressure
+    conditions.
+
+    10. **boiler_fuel_code_1**: The code representing the primary type of fuel used
+    by the boiler.
+
+    11. **boiler_fuel_code_2**: The code representing the secondary type of fuel used
+    by the boiler.
+
+
+    This dataset is licensed under CC-BY-4.0 and provides comprehensive information
+    that can be used for analyzing the operational characteristics, fuel usage, and
+    air flow metrics of boilers across various power plants. It is useful for researchers,
+    analysts, and policymakers involved in energy production, environmental assessment,
+    and utility management.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_eia__yearly_boilers.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_eia__yearly_boilers
+  securitypolicy: public
+  tags:
+  - ''

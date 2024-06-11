@@ -1,0 +1,27 @@
+artifact:
+  description: The database contains a table describing various compliance strategies
+    used to control sulfur dioxide (SO2) emissions in power plants, as reported in
+    the EIA-860 data. The table consists of 22 rows and includes columns for a short
+    code, a longer human-readable code, and a detailed description of each compliance
+    strategy. The short codes are abbreviations such as BO, CF, and CU, which stand
+    for "Burner out of service," "Fluidized bed combustor," and "Control unit under
+    Phase I extension plan," respectively. Each entry includes a label in snake_case
+    format and a comprehensive description explaining the meaning of the code. The
+    data helps users understand the specific SO2 compliance methods being employed
+    at different facilities, which can be instrumental for regulatory compliance monitoring,
+    environmental impact assessments, and strategic planning in environmental management.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_so2_compliance_strategies.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_so2_compliance_strategies
+  securitypolicy: public
+  tags:
+  - ''

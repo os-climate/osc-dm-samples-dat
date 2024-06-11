@@ -1,0 +1,28 @@
+artifact:
+  description: This dataset contains comprehensive statistics on various categories
+    of power plants in the United States, including steam plants with a capacity of
+    25 MW or more, internal combustion and gas-turbine plants with a capacity of 10
+    MW or more, and all nuclear plants. The data is reported in Schedule 402 of FERC
+    Form 1, which has been extracted from the f1_gnrt_plant table in FERC's Visual
+    FoxPro Database. Each record includes an identifier indicating the original source
+    of the FERC Form 1 record, along with a PUDL-assigned utility ID to identify the
+    FERC1 utility. The dataset captures the four-digit year of the report and features
+    the plant name as reported to FERC. This dataset, consisting of 31,879 rows, provides
+    critical insights into the operational aspects, capacity, and performance metrics
+    of large-scale power generation facilities. The data is licensed under CC-BY-4.0,
+    allowing for broad usage with appropriate attribution.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__yearly_steam_plants_sched402.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__yearly_steam_plants_sched402
+  securitypolicy: public
+  tags:
+  - ''

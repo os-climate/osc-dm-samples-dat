@@ -1,0 +1,27 @@
+artifact:
+  description: The dataset provides information regarding the operational status codes
+    as reported to the Energy Information Administration (EIA). It includes a collection
+    of 18 rows, each detailing various codes, their corresponding labels, and long
+    descriptions explaining each code's meaning. The "code" column consists of short
+    originally reported codes, while the "label" column offers longer, human-readable
+    versions of these codes in a snake_case format. The "description" column provides
+    comprehensive explanations of what each code or label signifies. Additionally,
+    there is an "operational_status" column that describes the operational status
+    of assets, particularly generators, based on their listing in relevant EIA forms,
+    such as EIA-860. This dataset is useful for understanding and interpreting the
+    operational status of energy assets as per official EIA records.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_operational_status.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_operational_status
+  securitypolicy: public
+  tags:
+  - ''

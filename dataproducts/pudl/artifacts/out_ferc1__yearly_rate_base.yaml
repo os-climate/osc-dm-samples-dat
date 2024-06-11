@@ -1,0 +1,38 @@
+artifact:
+  description: 'Our business product provides granular accounting data typically included
+    in utility rate bases, derived from seven FERC Form 1 accounting tables with nested
+    calculations. The product reconciles these nested calculations to deliver the
+    most granular data across various tables.
+
+
+    Key data points include:
+
+    - Adjusted columns for utility type, plant function, and plant status to provide
+    more specificity and condense similar categories for easier analysis. For instance,
+    some "total" utility types are converted into "electric," and categories like
+    "hydraulic_production" combine "hydraulic_production_conventional" and "hydraulic_production_pumped_storage."
+
+    - Details about utility assets and expenses that are factored into rate bases,
+    thus allowing for accurate financial analysis and planning.
+
+    - Structured data that makes it easier for businesses and analysts to conduct
+    thorough evaluations and comparisons of utility financial performance.
+
+
+    This comprehensive dataset supports enhanced financial oversight and strategic
+    decision-making for stakeholders in the utility sector.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_rate_base.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_rate_base
+  securitypolicy: public
+  tags:
+  - ''

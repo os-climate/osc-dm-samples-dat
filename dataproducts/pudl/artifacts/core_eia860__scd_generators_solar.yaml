@@ -1,0 +1,27 @@
+artifact:
+  description: This dataset contains annually reported information about solar generators
+    from the EIA-860 Schedule 3.3. It includes unique values specific to solar generators,
+    such as standard testing conditions capacity in megawatts direct current (MWdc)
+    and net metering capacity in MW. The dataset identifies individual facilities
+    using a unique six-digit plant identification number (plant_id_eia) and a generator
+    ID (generator_id), which may include both numeric and alphabetic characters. The
+    data spans several years, with each entry being tagged with a report date. The
+    dataset aims to provide detailed insights into the capacity and characteristics
+    of solar generators across various locations, helping businesses and policymakers
+    analyze trends and plan for energy production and distribution.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia860__scd_generators_solar.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia860__scd_generators_solar
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

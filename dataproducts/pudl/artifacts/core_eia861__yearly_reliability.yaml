@@ -1,0 +1,30 @@
+artifact:
+  description: The core_eia861__yearly_reliability dataset contains essential metrics
+    pertaining to electricity system reliability and the impacts of outages. It includes
+    standardized reliability indices such as the System Average Interruption Duration
+    Index (SAIDI), the System Average Interruption Frequency Index (SAIFI), and the
+    Customer Average Interruption Duration Index (CAIDI). These indices are provided
+    with and without the inclusion of major event days and loss of service incidents.
+    The dataset also includes information on the average number of minutes per interruption,
+    considering both major event days and loss of service events separately. Additionally,
+    it contains data on the number of customers affected and the types of entities
+    involved. This dataset is valuable for understanding the reliability performance
+    of electricity systems and can be used for benchmarking and improving service
+    quality. It is available under the CC-BY-4.0 license, allowing for broad use and
+    distribution with proper attribution.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_reliability.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_reliability
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

@@ -1,0 +1,32 @@
+artifact:
+  description: "Our high-level business product focuses on detailed information about\
+    \ coal mines that report deliveries as documented in the EIA-923 Schedule 2, Part\
+    \ C. This dataset includes attributes from coal mines, streamlined during the\
+    \ transformation of fuel delivery data, to ensure a more normalized database structure.\
+    \ Despite ongoing challenges with unstandardized vocabulary and identification\
+    \ practices, this dataset offers insights into various mine attributes without\
+    \ repetitive entry\u2014making it more efficient.\n\nThe dataset consists of 4,615\
+    \ rows, each representing unique mine-related data points. While the data has\
+    \ not been rigorously cleaned, it offers substantial potential for integration\
+    \ with data from the Mining Safety and Health Administration (MSHA) and the United\
+    \ States Geological Survey (USGS). Such linkages would enhance the dataset, providing\
+    \ greater insight into the origins of coal, as well as contextual employment and\
+    \ geological information relevant to the coal supply chain. This comprehensive\
+    \ data can be invaluable for those looking to understand the broader landscape\
+    \ of coal mining operations in the United States."
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia923__entity_coalmine.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia923__entity_coalmine
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

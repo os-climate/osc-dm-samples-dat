@@ -1,0 +1,28 @@
+artifact:
+  description: The dataset contains detailed information on generator ownership reported
+    in EIA-860 Schedule 4. It includes data for generators that are either jointly
+    owned or owned by third parties. Key data fields include the date the information
+    was reported, the unique six-digit facility identification number assigned by
+    the Energy Information Administration (EIA), and a manually assigned PUDL plant
+    ID which may not be constant over time. The dataset also includes the name of
+    the plant and the EIA utility identification number for the owner company responsible
+    for the day-to-day operations of the generator, as well as a manually assigned
+    PUDL utility ID, which also may not be stable over time. Additionally, the dataset
+    provides the name of the EIA owner utility and the generator ID, which can be
+    numeric or include letters. This dataset is valuable for analyzing and understanding
+    the ownership structures of power generation facilities over time.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_eia860__yearly_ownership.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_eia860__yearly_ownership
+  securitypolicy: public
+  tags:
+  - ''

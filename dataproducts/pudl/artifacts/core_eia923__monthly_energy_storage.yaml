@@ -1,0 +1,39 @@
+artifact:
+  description: "The EIA-923 Monthly Generation and Fuel Consumption Time Series dataset\
+    \ provides detailed monthly data on energy consumption and discharge by energy\
+    \ storage units. This dataset contains 34,427 rows and includes several key attributes:\n\
+    \n1. **plant_id_eia**: A unique six-digit identifier assigned to each facility\
+    \ by the Energy Information Administration (EIA).\n2. **report_date**: The specific\
+    \ date when the data was reported.\n3. **prime_mover_code**: A code representing\
+    \ the type of prime mover used at the facility (e.g., CT for combustion turbine,\
+    \ CG for combined cycle gas turbine).\n4. **energy_source_code**: A 2-3 letter\
+    \ code indicating the type of fuel or energy source utilized (e.g., NG for natural\
+    \ gas, WAT for water).\n5. **data_maturity**: This indicates the maturity level\
+    \ of the data record, acknowledging that some data sources may report preliminary\
+    \ or less-than-final data. \n\nThe dataset captures the total megawatt-hours (MWh)\
+    \ discharged by energy storage units during the reporting period, referred to\
+    \ as gross generation. Additionally, it provides the net generation, calculated\
+    \ as the difference between gross generation and energy consumption. This dataset\
+    \ is instrumental for analyzing energy storage performance, grid stability, and\
+    \ fuel consumption patterns across different energy sources and facilities. The\
+    \ data is licensed under the CC-BY-4.0 license, ensuring it can be freely used\
+    \ with appropriate attribution. This dataset is crucial for stakeholders in the\
+    \ energy sector, including policymakers, energy analysts, and utility companies,\
+    \ enabling them to make informed decisions based on detailed energy storage and\
+    \ consumption information."
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia923__monthly_energy_storage.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia923__monthly_energy_storage
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

@@ -1,0 +1,31 @@
+artifact:
+  description: The dataset "core_eia861__yearly_energy_efficiency" provides detailed
+    annual information on energy efficiency programs as reported to the Energy Information
+    Administration (EIA). It includes data on incremental energy savings, peak demand
+    savings, weighted average life cycle, and the associated costs both for the reporting
+    year and life cycle of the energy efficiency programs. The dataset spans up until
+    2012, after which the reporting structure changed and split the data into separate
+    tables, making post-2012 data not directly comparable. The information captured
+    helps to understand the performance and financial aspects of energy efficiency
+    initiatives across different years and customer categories such as commercial,
+    industrial, and direct connection. Each record is associated with an "EIA short
+    code identifying a balancing authority," which can include codes for Canadian
+    and Mexican balancing authorities as well. This dataset can be used for tracking
+    energy efficiency trends, evaluating the impact of different programs, and supporting
+    energy policy and planning decisions.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_energy_efficiency.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_energy_efficiency
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

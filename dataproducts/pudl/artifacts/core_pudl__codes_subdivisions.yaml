@@ -1,0 +1,29 @@
+artifact:
+  description: This dataset provides various static attributes associated with states,
+    provinces, and other sub-national political subdivisions. It includes the three-letter
+    ISO-3166 country code, full country name, and two-letter ISO-3166 political subdivision
+    codes, like US state or Canadian province abbreviations (e.g., CA or AB). The
+    dataset also lists the full names of these political subdivisions, such as US
+    states or Canadian provinces like California or Alberta, and the subdivision type
+    classified by ISO-3166 (e.g., state, province, outlying area). Additionally, the
+    dataset contains the IANA timezone names which encompass the largest portion of
+    the population in the respective geographic areas, two-digit state FIPS codes,
+    longer human-readable names describing the US Census division, and corresponding
+    division codes for the US Census. This data is valuable for businesses and researchers
+    needing detailed and standardized geographical and administrative information
+    on sub-national divisions.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_pudl__codes_subdivisions.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_pudl__codes_subdivisions
+  securitypolicy: public
+  tags:
+  - ''

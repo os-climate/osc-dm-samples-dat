@@ -1,0 +1,34 @@
+artifact:
+  description: "The dataset \"core_eia861__yearly_utility_data_rto\" contains detailed\
+    \ annual information about the operations of utilities in various regions and\
+    \ their participation in Regional Transmission Organizations (RTOs). Each entry\
+    \ in the dataset includes the following fields:\n\n1. NERC Region: The North American\
+    \ Electric Reliability Corporation (NERC) region where the utility operates.\n\
+    2. Report Date: The date when the data was reported.\n3. RTOs of Operation: The\
+    \ specific Independent System Operators (ISOs) or RTOs where the utility conducts\
+    \ its operations.\n4. State: The two-letter abbreviation of the U.S. state in\
+    \ which the utility is located.\n5. Utility ID EIA: The unique identification\
+    \ number assigned to the utility by the U.S. Energy Information Administration\
+    \ (EIA).\n6. Data Maturity: An indicator of the maturity level of the data record.\
+    \ This field highlights that some data records may be less mature or final and\
+    \ advises on the reliability of such records. \n\nOverall, the dataset contains\
+    \ 20,909 rows, each representing a unique record of a utility's operational data\
+    \ within different RTOs across the United States. This dataset is essential for\
+    \ analyzing the interplay between utilities and RTOs, assessing regional participation,\
+    \ and tracking changes over time in utility operations across various NERC regions."
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_utility_data_rto.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_utility_data_rto
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

@@ -1,0 +1,32 @@
+artifact:
+  description: 'The dataset contains yearly operational data on electric utility revenue,
+    providing insights into the financial performance of utilities by capturing various
+    revenue streams. Each record includes the utility''s identification number, the
+    date of the report, and the state in which the utility operates. Key data elements
+    include the NERC region, which specifies the North American Electric Reliability
+    Corporation region where the utility is located, and the amount of revenue reported.
+
+
+    Revenue is categorized by different types, including retail sales, unbundled delivery
+    customers, sales for resale, transmission, and other electric operating revenues.
+    Additionally, the dataset includes categories for total electric operating revenue
+    and credits or other adjustments. This comprehensive breakdown allows for detailed
+    analysis of revenue sources and trends across different states and regions. The
+    dataset also indicates the level of maturity of the data record, providing context
+    for the reliability and completeness of the information.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_operational_data_revenue.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_operational_data_revenue
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

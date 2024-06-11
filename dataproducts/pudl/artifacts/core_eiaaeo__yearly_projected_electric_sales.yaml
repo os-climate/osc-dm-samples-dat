@@ -1,0 +1,25 @@
+artifact:
+  description: The dataset comprises projected electricity sales in the United States,
+    segmented by region and customer class. Each entry includes the year the data
+    was reported, the specific AEO projection region, the modeled case reflecting
+    various economic and technological scenarios, and the projection year of the sales
+    data. Customer classes are categorized into commercial, industrial, direct connections,
+    other, residential, total, and transportation. This comprehensive data, licensed
+    under CC-BY-4.0, offers insights into future electricity demand across different
+    regions and sectors, helping stakeholders understand and plan for varying energy
+    needs under different conditions.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eiaaeo__yearly_projected_electric_sales.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eiaaeo__yearly_projected_electric_sales
+  securitypolicy: public
+  tags:
+  - ''

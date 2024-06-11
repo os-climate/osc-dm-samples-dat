@@ -1,0 +1,27 @@
+artifact:
+  description: This product contains a coding table from the EIA-860 that describes
+    various boiler statuses. It includes short codes, longer human-readable labels,
+    and detailed descriptions for each status. The table has nine rows, each representing
+    a different boiler status. Key codes include "CN" for cancelled, indicating a
+    previously planned project that has been cancelled, "CO" for under construction,
+    representing a new unit currently being built, "OP" for operating, referring to
+    boilers that are in commercial service or have been out of service for fewer than
+    365 days, "OS" for out of service, denoting boilers that have been out of service
+    for 365 days or longer, and "PL" for planned, which indicates a project expected
+    to go into commercial service. This data is licensed under the CC-BY-4.0 license,
+    providing flexibility for usage and distribution.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_boiler_status.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_boiler_status
+  securitypolicy: public
+  tags:
+  - ''

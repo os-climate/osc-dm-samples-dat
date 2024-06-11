@@ -1,0 +1,27 @@
+artifact:
+  description: This product contains data detailing different types of steam plants
+    as classified in the EIA-860 form. There are four classifications included. The
+    first type, labeled "steam_over_100mw," describes plants with combustible-fueled
+    steam-electric generators that have a combined nameplate capacity of 100 megawatts
+    or more, which includes combined cycle steam-electric generators with duct firing.
+    The second classification, "steam_between_10mw_and_100mw," represents plants with
+    combustible-fueled steam-electric generators having a capacity between 10 and
+    100 megawatts. The dataset gives a thorough insight into the diverse types of
+    steam plants, their capacity, and the nature of their fuel sources. This classification
+    aids in categorizing and understanding the scale and capacity of different steam
+    power generating facilities.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_steam_plant_types.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_steam_plant_types
+  securitypolicy: public
+  tags:
+  - ''

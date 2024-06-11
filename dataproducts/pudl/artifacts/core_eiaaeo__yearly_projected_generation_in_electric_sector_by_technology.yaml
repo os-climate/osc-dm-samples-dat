@@ -1,0 +1,48 @@
+artifact:
+  description: 'The dataset provides projected generation capacity and total generation
+    in the electric sector, categorized by different technologies. It includes data
+    spanning 166,972 rows and offers the following key elements:
+
+
+    1. Report Year: The four-digit year in which the data was reported.
+
+
+    2. Electricity Market Module Region: The AEO projection region, which helps localize
+    the data to specific geographic areas.
+
+
+    3. Model Case: Various model scenarios run by the EIA to illustrate different
+    outcomes based on factors like economic growth, oil prices, domestic energy resources,
+    and technological progress. These scenarios provide a range of possibilities compared
+    to the Reference case.
+
+
+    4. Projection Year: The specific year for which the projected values are calculated.
+
+
+    5. Technology Description: Details on the generation technology being reported,
+    giving insight into the kind of energy production methods anticipated.
+
+
+    6. Summer Capacity (MW): The net summer capacity in megawatts, providing information
+    about the maximum electricity output during peak summer demand.
+
+
+    This dataset is useful for analyzing future trends in electricity generation capacity
+    and output, assessing the impact of different technologies, and understanding
+    regional variations in projections.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eiaaeo__yearly_projected_generation_in_electric_sector_by_technology.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eiaaeo__yearly_projected_generation_in_electric_sector_by_technology
+  securitypolicy: public
+  tags:
+  - ''

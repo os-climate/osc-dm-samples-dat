@@ -1,0 +1,28 @@
+artifact:
+  description: This product encompasses an extensive dataset derived from the FERC
+    Form 714, reporting annual respondents along with the county FIPS IDs corresponding
+    to their service territories. It includes detailed information on both utilities
+    and balancing authorities, identified by unique FERC respondent IDs specific to
+    this form, distinct from other FERC forms. The dataset also integrates the EIA
+    utility or balancing area authority IDs, which may coincide or differ as entities
+    often serve dual roles. Key information contained in the dataset includes the
+    name of the respondent entity, the type of respondent (utility or balancing authority),
+    and the report date. This dataset provides a comprehensive overview of the service
+    territories of various utilities and balancing authorities, facilitating analysis
+    and decision-making for energy market professionals, regulatory agencies, and
+    other stakeholders.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc714__respondents_with_fips.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc714__respondents_with_fips
+  securitypolicy: public
+  tags:
+  - ''

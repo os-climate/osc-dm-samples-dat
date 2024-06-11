@@ -1,0 +1,26 @@
+artifact:
+  description: 'The dataset provides a comprehensive list of manufacturers of boilers
+    and environmental control equipment as recorded in the EIA-860. It includes 146
+    rows, each corresponding to a unique manufacturer. Each entry in the dataset comprises
+    three primary elements: a short code, a longer human-readable code in snake_case,
+    and a detailed description of the manufacturer. The short code is an originally
+    reported identifier, the label is a more descriptive and readable version, and
+    the description offers a full explanation of the manufacturer''s name and potentially
+    their specialization or focus area. This dataset is essential for organizations
+    needing detailed and structured information on equipment manufacturers within
+    the energy sector, particularly for environmental systems and boiler technology.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_environmental_equipment_manufacturers.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_environmental_equipment_manufacturers
+  securitypolicy: public
+  tags:
+  - ''

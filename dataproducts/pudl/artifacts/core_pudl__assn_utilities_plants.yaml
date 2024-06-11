@@ -1,0 +1,29 @@
+artifact:
+  description: 'The data set called "Associations between PUDL utility IDs and PUDL
+    plant IDs" provides a detailed mapping between utility companies and the power
+    plants they operate. Each entry consists of two key fields: "utility_id_pudl"
+    and "plant_id_pudl." The "utility_id_pudl" field is a manually assigned identifier
+    for utility companies, while the "plant_id_pudl" field represents a unique identifier
+    for power plants. This association helps in tracking and managing utility companies
+    and their respective power plants effectively. The data can be used for various
+    analyses, including operational assessments, regulatory compliance, market research,
+    and infrastructure planning. The data caters to needs such as identifying relationships
+    between utilities and their plants, analyzing regional electricity markets, and
+    performing detailed industry research for policy-making and strategic decisions.
+    With a total of 17,624 rows, this comprehensive mapping offers an extensive overview
+    of the relationships within the energy sector.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_pudl__assn_utilities_plants.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_pudl__assn_utilities_plants
+  securitypolicy: public
+  tags:
+  - ''

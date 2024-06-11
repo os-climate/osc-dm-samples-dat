@@ -1,0 +1,26 @@
+artifact:
+  description: The dataset offers comprehensive insights into various business activities
+    of utilities, capturing key aspects of their operations over the years. It includes
+    whether utilities operate or plan to operate alternative-fueled vehicles. It indicates
+    whether utilities provide bundled services, combining electricity with other services
+    like gas or water. Moreover, it details if utilities are involved in buying distribution
+    services or transmission services from other electrical systems. The dataset also
+    covers whether utilities participate in wholesale and/or retail markets. This
+    data provides a detailed understanding of the diverse activities utilities engage
+    in, painting a broad picture of their operational landscape.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_utility_data_misc.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_utility_data_misc
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

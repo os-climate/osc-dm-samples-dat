@@ -1,0 +1,28 @@
+artifact:
+  description: The core_eia861__yearly_dynamic_pricing dataset provides detailed information
+    about customers enrolled in various dynamic pricing programs across different
+    states, sectors, and balancing authorities. This data includes the number of customers
+    participating in time-of-use pricing, real-time pricing, variable peak pricing,
+    critical peak pricing, and critical peak rebates. Each record contains a unique
+    EIA short code identifying the balancing authority, whether customers are participating
+    in critical peak pricing, and whether customers are participating in critical
+    peak rebates. This dataset, with 28,888 rows, serves as a valuable resource for
+    analyzing the adoption and distribution of dynamic pricing programs nationwide,
+    offering insights for energy providers, policy makers, and researchers interested
+    in market trends and consumer behavior.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_dynamic_pricing.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_dynamic_pricing
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

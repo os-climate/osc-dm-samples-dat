@@ -1,0 +1,29 @@
+artifact:
+  description: The dataset contains detailed information from the FERC Form 1 regarding
+    Electric Plant in Service. It includes 335,756 records of data covering various
+    report years for utilities under FERC jurisdiction. Each record includes the four-digit
+    year of the data report, a PUDL-assigned utility ID for tracking, and a manually
+    assigned PUDL utility ID for stability over time. Additionally, the dataset provides
+    the name of the responding utility as reported in FERC Form 1 for readability.
+    The utility types are also listed, such as Electric Utility, Gas Utility, and
+    other types of utilities. The plant status is documented, indicating whether the
+    utility plant is in service, planned for the future, leased, or if it represents
+    the total utility plant. Unique identifiers accompany each record, indicating
+    the original FERC Form 1 source record, aiding in traceability and data validation.
+    This dataset is licensed under CC-BY-4.0, allowing for freedom of use with appropriate
+    credit.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_plant_in_service_sched204.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_plant_in_service_sched204
+  securitypolicy: public
+  tags:
+  - ''

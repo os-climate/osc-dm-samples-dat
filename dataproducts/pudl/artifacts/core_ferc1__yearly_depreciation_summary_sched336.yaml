@@ -1,0 +1,28 @@
+artifact:
+  description: The dataset provides a comprehensive summary of depreciation and amortization
+    changes for electric plant assets, as reported in FERC Form 1, Schedule 336a.
+    It includes over 210,000 rows of data, detailing annual reports from utility companies.
+    Each record is uniquely identified by a combination of table name, report year,
+    reporting period, respondent ID, supplement number, and row number. Key data fields
+    include the report year, a unique utility ID assigned by the Public Utility Data
+    Liberation (PUDL) project, the functional role of the utility plant (such as steam
+    production, nuclear production, distribution, or transmission), and detailed FERC
+    account labels derived from reported values in the XBRL taxonomies. This dataset
+    allows users to analyze changes in depreciation and amortization for different
+    types of utility plant functions, aiding in financial analysis, auditing, and
+    regulatory compliance.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__yearly_depreciation_summary_sched336.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__yearly_depreciation_summary_sched336
+  securitypolicy: public
+  tags:
+  - ''

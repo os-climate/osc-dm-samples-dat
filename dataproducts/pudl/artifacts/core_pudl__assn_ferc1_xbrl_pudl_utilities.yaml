@@ -1,0 +1,25 @@
+artifact:
+  description: The "core_pudl__assn_ferc1_xbrl_pudl_utilities" table serves as a centralized
+    map for aligning utility IDs assigned by the Federal Energy Regulatory Commission
+    (FERC) with those assigned by the Public Utility Data Liberation (PUDL) project.
+    It contains 272 rows, each representing an individual utility. Key columns include
+    the "utility_id_ferc1," which is the PUDL-assigned ID for a FERC1 utility and
+    subject to change annually, and the "utility_id_ferc1_xbrl," which is the stable
+    FERC-assigned entity ID from XBRL reporting years. This table facilitates the
+    connection between diverse datasets by providing consistent and stable identifiers
+    for utilities reported under FERC's XBRL system.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_pudl__assn_ferc1_xbrl_pudl_utilities.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_pudl__assn_ferc1_xbrl_pudl_utilities
+  securitypolicy: public
+  tags:
+  - ''

@@ -1,0 +1,25 @@
+artifact:
+  description: The dataset contains information on different units of measurement
+    for nitrogen oxides as reported in the EIA-860. It includes six rows, each specifying
+    a unique code, a longer human-readable label, and a description explaining the
+    meaning of the code. The data provides measurements such as pounds of nitrogen
+    oxides emitted per hour, parts per million of nitrogen oxides in stack gas, and
+    ambient air quality concentration of nitrogen oxides. It also includes codes for
+    declining levels of annual nitrogen oxides emissions. This dataset can be useful
+    for monitoring and analyzing nitrogen oxides emissions across various parameters
+    and ensuring that reporting aligns with standardized units.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_nox_units.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_nox_units
+  securitypolicy: public
+  tags:
+  - ''

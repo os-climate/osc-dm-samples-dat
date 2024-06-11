@@ -1,0 +1,30 @@
+artifact:
+  description: The EIA-861 Balancing Authority Service Territory dataset provides
+    comprehensive county-level data relating to the service territories managed by
+    various balancing authorities across the United States. Each entry in the dataset
+    includes the Federal Information Processing Standard (FIPS) code for the county,
+    the county's name as specified in Census DP1 data, and the county's population
+    also sourced from Census DP1 data. Additionally, the dataset documents the geographic
+    area of each county in square kilometers, the reported date of the data, and the
+    unique EIA balancing authority ID, which, while often aligning with utility IDs,
+    can differ. The dataset covers all states in the US, using two-letter state abbreviations
+    and includes the county name and the state's two-digit FIPS code. This dataset
+    is vital for understanding the geographical distribution and demographic characteristics
+    of the service territories managed by different balancing authorities, and can
+    support a variety of analyses, including regional planning, resource allocation,
+    and service quality assessment.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_eia861__yearly_balancing_authority_service_territory.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_eia861__yearly_balancing_authority_service_territory
+  securitypolicy: public
+  tags:
+  - ''

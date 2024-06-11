@@ -1,0 +1,31 @@
+artifact:
+  description: "The dataset provides projected generation capacity and total generation\
+    \ in the end-use sector, categorized by fuel type. It includes data on combined-heat-and-power\
+    \ plants and electricity-only plants within the commercial and industrial sectors,\
+    \ as well as small on-site generating systems in the residential, commercial,\
+    \ and industrial sectors. These systems are primarily used for own-use generation\
+    \ but may also contribute power to the grid. Solar photovoltaic capacity is reported\
+    \ in megawatts direct current, while other technologies are presented in megawatts\
+    \ alternating current. The dataset spans over 77,000 rows and includes information\
+    \ such as the four-digit report year, the AEO projection region, and factors affecting\
+    \ the projection like economic growth, future oil prices, the size of domestic\
+    \ energy resources, and technological changes. \n\nThis dataset can be particularly\
+    \ useful for analyzing trends in energy generation, assessing the growth of different\
+    \ energy technologies, and understanding regional differences in energy production.\
+    \ It serves as a valuable resource for stakeholders in the energy industry, policymakers,\
+    \ researchers, and businesses focusing on energy planning and sustainability."
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eiaaeo__yearly_projected_generation_in_end_use_sectors_by_fuel_type.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eiaaeo__yearly_projected_generation_in_end_use_sectors_by_fuel_type
+  securitypolicy: public
+  tags:
+  - ''

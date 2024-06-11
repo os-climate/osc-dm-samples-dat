@@ -1,0 +1,28 @@
+artifact:
+  description: The core_eia861__yearly_distributed_generation_misc dataset contains
+    comprehensive information on the capacity of utility or customer-owned distributed
+    generation. It includes data on the number of generators, indicating whether their
+    capacity is estimated or actual, the amount of backup capacity, and details on
+    how much capacity comes from generators with less than 1 MW of nameplate capacity.
+    This dataset, drawn from the EIA861 surveys, offers insights into distributed
+    generation practices and trends over the years, including details on sector-specific
+    data, fuel cell information, and conversions of reported capacity from DC to AC
+    units. These parameters are crucial for understanding the distributed generation
+    landscape, helping utilities, policymakers, and researchers analyze the growth
+    and impact of distributed energy resources on the energy grid.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_distributed_generation_misc.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_distributed_generation_misc
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

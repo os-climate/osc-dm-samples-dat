@@ -1,0 +1,27 @@
+artifact:
+  description: Our business product provides detailed insights into the EIA consolidated
+    NAICS sector codes, which are essential for understanding various sectors in the
+    energy industry. The data encompasses a concise set of codes, each aimed at a
+    specific category of power producers. The sectors include traditional regulated
+    electric utilities, independent power producers (IPPs) that are not cogenerators,
+    and those IPPs that function as cogenerators but have a primary business purpose
+    other than power generation. Each sector is identified by a specific code and
+    is accompanied by a detailed, human-readable description to facilitate easy comprehension
+    of the roles and functions within the energy sector. This structured data is vital
+    for stakeholders needing precise and categorized information on different types
+    of power producers.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_sector_consolidated.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_sector_consolidated
+  securitypolicy: public
+  tags:
+  - ''

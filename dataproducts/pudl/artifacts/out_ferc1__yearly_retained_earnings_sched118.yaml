@@ -1,0 +1,47 @@
+artifact:
+  description: 'The out_ferc1__yearly_retained_earnings_sched118 dataset provides
+    detailed information on retained earnings from various utilities as reported in
+    FERC Form 1. The data is publicly available under the CC-BY-4.0 license and includes
+    the following key fields:
+
+
+    - PUDL-assigned utility ID (utility_id_ferc1) which uniquely identifies each utility
+    within the dataset.
+
+    - A manually assigned PUDL utility ID (utility_id_pudl) which may not be stable
+    over time.
+
+    - Utility name (utility_name_ferc1) as reported in FERC Form 1 for human readability.
+
+    - The year of the report (report_year) which is a four-digit number indicating
+    when the data was collected.
+
+    - An identifier for the original source record (record_id) which ensures uniqueness
+    within the FERC Form 1 database tables.
+
+    - The type of earnings (earnings_type) which provides a label describing the nature
+    of the earnings.
+
+    - The account balance at the beginning of the year (starting_balance).
+
+    - The account balance at the end of the year (ending_balance).
+
+
+    This dataset allows users to track and analyze the financial performance of utilities
+    over time, identifying trends and making data-driven decisions based on historical
+    retained earnings data.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_retained_earnings_sched118.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_retained_earnings_sched118
+  securitypolicy: public
+  tags:
+  - ''

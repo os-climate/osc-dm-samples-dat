@@ -1,0 +1,26 @@
+artifact:
+  description: This dataset is a denormalized table containing information on electric
+    energy dispositions as reported in FERC Form 1. It includes detailed data on various
+    types of energy dispositions such as sales to customers, energy re-sales, internally
+    used energy, and energy losses. Each row in the dataset corresponds to a specific
+    utility, identified by unique PUDL and FERC-assigned utility IDs, and provides
+    the utility's name, the year of the report, the type of energy disposition, and
+    the energy amount in megawatt-hours (MWh). The table also indicates whether the
+    disposition value was calculated or uniquely reported within the dataset. This
+    data can be utilized for comprehensive analysis of energy distribution patterns
+    across different utilities over multiple years.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_energy_dispositions_sched401.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_energy_dispositions_sched401
+  securitypolicy: public
+  tags:
+  - ''

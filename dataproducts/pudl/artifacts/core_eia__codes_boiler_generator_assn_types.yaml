@@ -1,0 +1,25 @@
+artifact:
+  description: 'The core_eia__codes_boiler_generator_assn_types table provides information
+    about the different types of boiler-generator associations as reported in the
+    EIA-860. It contains two main columns: ''code'' which represents the originally
+    reported short code, and ''label'' which gives a longer, more human-readable code
+    in snake_case format. Additionally, there is a ''description'' column that offers
+    a detailed explanation of what each code and label signifies. The data distinguishes
+    between actual and theoretical boiler-generator associations. This information
+    can be crucial for understanding and analyzing boiler-generator relationships
+    within energy data.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_boiler_generator_assn_types.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_boiler_generator_assn_types
+  securitypolicy: public
+  tags:
+  - ''

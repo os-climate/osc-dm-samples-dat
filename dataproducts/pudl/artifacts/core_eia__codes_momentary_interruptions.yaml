@@ -1,0 +1,29 @@
+artifact:
+  description: "This dataset contains information about utility definitions of momentary\
+    \ service interruptions. Specifically, it includes codes used by respondents to\
+    \ categorize the length or criteria for defining a momentary interruption in electric\
+    \ service. The dataset features three key fields: \n\n1. `code`: A short code\
+    \ originally reported by the respondent, such as \"F,\" \"L,\" or \"O.\"\n2. `label`:\
+    \ A longer, human-readable code using snake_case, such as \"less_than_5_minutes\"\
+    \ or \"less_than_1_minute.\"\n3. `description`: A detailed explanation of each\
+    \ code, describing what the label means. For example, \"Respondent defines a momentary\
+    \ interruption as less than 5 minutes\" or \"Respondent defines a momentary interruption\
+    \ using some other criteria.\"\n\nThis dataset is useful for understanding how\
+    \ different utilities define momentary interruptions in their electric service,\
+    \ which can vary from less than 1 minute to less than 5 minutes, or other criteria\
+    \ specified by the respondent."
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_momentary_interruptions.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_momentary_interruptions
+  securitypolicy: public
+  tags:
+  - ''

@@ -1,0 +1,29 @@
+artifact:
+  description: "This dataset offers a comprehensive linkage between power plant data\
+    \ reported in the FERC Form 1 and associated data from the EIA. It contains 56,409\
+    \ rows, where each entry corresponds to a specific FERC Form 1 record. The data\
+    \ includes information from various tables that describe power plants, such as\
+    \ those for large steam plants, hydro plants, small plants, and more. Each FERC\
+    \ record may represent an entire plant, individual generators within a plant,\
+    \ all generators in a plant with the same type of prime mover, or just the respondent\u2019\
+    s ownership share of any of those categories, among others. The dataset provides\
+    \ granularity as the same utility may report the same plant differently across\
+    \ different years. The EIA data included in each record is derived from the Plant\
+    \ Parts EIA table, representing an aggregation of several related data points.\
+    \ This rich linkage allows for a more detailed and nuanced analysis of power plant\
+    \ operations and ownership as reported by both FERC and EIA."
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_pudl__yearly_assn_eia_ferc1_plant_parts.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_pudl__yearly_assn_eia_ferc1_plant_parts
+  securitypolicy: public
+  tags:
+  - ''

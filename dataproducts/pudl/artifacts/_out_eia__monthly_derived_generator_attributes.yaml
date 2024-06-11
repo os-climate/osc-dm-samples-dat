@@ -1,0 +1,30 @@
+artifact:
+  description: This data product contains detailed monthly attributes of electric
+    generators in the United States. It includes information on generator capacity
+    factor, heat rate, fuel cost per MMBTU, and fuel cost per MWh. These calculations
+    are derived from the net generation data reported at the plant level, which is
+    further broken down by the type of prime mover and energy source used. The heat
+    rates for each generator on a monthly basis are estimated using the allocated
+    net generation and fuel consumption data, in addition to monthly boiler fuel data
+    from EIA-923 reports. Heat rate data is crucial for estimating the fuel consumption
+    of each generation unit, which in turn helps calculate the fuel cost per MWh generated.
+    The dataset also includes plant-specific fuel prices, but it is important to note
+    that the fuel cost estimates cover approximately 70% of the data due to the availability
+    of fuel receipts and costs data. Overall, this dataset provides comprehensive
+    insights into the operational efficiency and cost structure of electricity generators
+    in the US on a monthly basis.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/_out_eia__monthly_derived_generator_attributes.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: _out_eia__monthly_derived_generator_attributes
+  securitypolicy: public
+  tags:
+  - ''

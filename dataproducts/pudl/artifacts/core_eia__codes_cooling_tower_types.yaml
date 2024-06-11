@@ -1,0 +1,48 @@
+artifact:
+  description: 'The dataset comprises a coding table specifically designed for cooling
+    tower types, providing a detailed classification of various cooling tower processes
+    used in energy facilities. It includes six distinct rows, each representing different
+    cooling tower configurations. For each type, the dataset lists three key attributes:
+    a short code, a longer human-readable label in snake_case, and a comprehensive
+    description detailing the specific cooling process.
+
+
+    The short code serves as an identifier, whereas the human-readable label offers
+    a clear and concise representation of the cooling tower type for ease of understanding.
+    The descriptions provide in-depth explanations about each type, ensuring clarity
+    on the functional differences among them.
+
+
+    The dataset specifies the following cooling tower types:
+
+    1. Mechanical draft, dry process (mechanical_dry)
+
+    2. Mechanical draft, wet process (mechanical_wet)
+
+    3. Natural draft, dry process (natural_dry)
+
+    4. Natural draft, wet process (natural_wet)
+
+    5. Combination of wet and dry processes (combo_wet_dry)
+
+    6. Other types that do not fall into the above categories (other)
+
+
+    This dataset is valuable for organizations involved in energy production and management,
+    as it enables a standardized understanding and classification of cooling tower
+    technologies.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_cooling_tower_types.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_cooling_tower_types
+  securitypolicy: public
+  tags:
+  - ''

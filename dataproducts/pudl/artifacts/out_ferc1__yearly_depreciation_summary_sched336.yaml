@@ -1,0 +1,27 @@
+artifact:
+  description: Our product provides a comprehensive database extracted from the Federal
+    Energy Regulatory Commission (FERC) Form 1, specifically focusing on annual depreciation
+    and amortization information reported by utility companies. The dataset includes
+    detailed records spanning multiple years and covers various utility plant functions
+    such as steam production, nuclear production, distribution, and transmission.
+    Each record in the database is uniquely identifiable and includes key attributes
+    such as the year of the report, utility IDs (both FERC-assigned and PUDL-assigned),
+    and the name of the responding utility. This rich dataset enables users to analyze
+    yearly trends in depreciation across different utilities and plant functions,
+    offering valuable insights for financial analysis, regulatory compliance, and
+    strategic planning within the energy sector.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_depreciation_summary_sched336.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_depreciation_summary_sched336
+  securitypolicy: public
+  tags:
+  - ''

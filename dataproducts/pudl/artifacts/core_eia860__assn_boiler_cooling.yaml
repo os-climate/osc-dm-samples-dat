@@ -1,0 +1,27 @@
+artifact:
+  description: The data set "core_eia860_assn_boiler_cooling" contains information
+    about the associations between boilers and cooling systems in energy facilities,
+    as documented by the Energy Information Administration (EIA). It includes a unique
+    six-digit plant identification number assigned by EIA (plant_id_eia), alphanumeric
+    boiler IDs (boiler_id), and EIA identification codes for cooling systems (cooling_id_eia).
+    The data also includes the date the information was reported (report_date) and
+    the maturity level of the data record, indicating whether the data is final or
+    less-than-final (data_maturity). This dataset provides a comprehensive linkage
+    between individual boilers and their corresponding cooling systems across various
+    plants, facilitating detailed analysis of cooling technologies in energy production.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia860__assn_boiler_cooling.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia860__assn_boiler_cooling
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

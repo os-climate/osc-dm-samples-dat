@@ -1,0 +1,30 @@
+artifact:
+  description: This data product is a changelog of the monthly reported EIA-860M data,
+    specifically focusing on generator information. EIA-860M provides an up-to-date
+    catalog of electrical generators in the United States, detailing their operational
+    status and various characteristics. The primary utility of this table is to track
+    changes in generator data over time. For each generator, there is an initial record
+    with an associated report date and a valid until date. Whenever any data related
+    to a generator is updated, a new record is added with the updated information
+    and a new report date. This allows users to see the history of any changes made
+    to generator characteristics on a monthly basis. The dataset includes fields indicating
+    the date the data was reported and the date until which the record is valid, providing
+    a clear timeline of changes. This product is valuable for monitoring trends, ensuring
+    data accuracy, and conducting longitudinal analyses of the US electrical generator
+    landscape.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia860m__changelog_generators.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia860m__changelog_generators
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

@@ -1,0 +1,46 @@
+artifact:
+  description: 'The dataset contains fuel information from FERC Form 1, specifically
+    focusing on yearly steam plants. It comprises 50,039 rows of data and includes
+    the following key fields:
+
+
+    - **report_year**: Indicates the four-digit year in which the data was reported.
+
+    - **utility_id_ferc1**: A PUDL-assigned utility ID that identifies a FERC1 utility.
+    This is an auto-incremented ID and is expected to change from year to year.
+
+    - **utility_id_pudl**: A manually assigned PUDL utility ID which may not remain
+    stable over time.
+
+    - **utility_name_ferc1**: The name of the responding utility as reported in FERC
+    Form 1, primarily for human readability.
+
+    - **plant_id_pudl**: A manually assigned PUDL plant ID, which may not be constant
+    over time.
+
+    - **plant_name_ferc1**: The reported name of the plant, which is a freeform string
+    and may not be consistent across different references.
+
+    - **fuel_consumed_mmbtu**: The total consumption of fuel in physical units, reported
+    year-to-date. Note that this reflects the total quantity consumed for both electricity
+    and other uses within the year.
+
+
+    This dataset is valuable for analyzing fuel consumption patterns and trends at
+    steam plants across various utilities, offering insights into energy use and efficiency
+    in the power generation sector.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_steam_plants_fuel_sched402.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_steam_plants_fuel_sched402
+  securitypolicy: public
+  tags:
+  - ''

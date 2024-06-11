@@ -1,0 +1,30 @@
+artifact:
+  description: This dataset contains detailed yearly income statements from the Federal
+    Energy Regulatory Commission (FERC) Form 1, specifically from Schedule 114. It
+    includes over 330,000 rows of data from various utility companies. Each entry
+    provides a wealth of financial information, including a unique record identifier,
+    utility ID, report year, utility type (such as Electric Utility or Gas Utility),
+    and the type of income reported. The dataset captures the dollar value of reported
+    income, expenses, assets, or liabilities, along with an indication of whether
+    these values are credits or debits. The specific FERC account associated with
+    each entry is also detailed, allowing for granular analysis of financial performance
+    across different utilities and reporting periods. This dataset is especially useful
+    for financial analysts, regulators, researchers, and stakeholders interested in
+    the financial health and operational performance of utility companies in the United
+    States. The data is available under a CC-BY-4.0 license, encouraging wide use
+    and analysis.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__yearly_income_statements_sched114.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__yearly_income_statements_sched114
+  securitypolicy: public
+  tags:
+  - ''

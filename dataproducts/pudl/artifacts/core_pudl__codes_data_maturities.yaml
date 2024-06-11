@@ -1,0 +1,28 @@
+artifact:
+  description: The dataset comprises information about the maturities of data records
+    reported by various sources. It contains codes indicating the status of the data,
+    specifically identifying whether it is a final, validated dataset or if it is
+    data that is interim or iterative in nature. The four main maturity levels detailed
+    in the dataset are "final," which represents data that has been thoroughly reviewed
+    and is deemed complete by the publishing agency, though it can still be subject
+    to future revisions. "Incremental_ytd" refers to sub-annual data releases that
+    are updated periodically and should be used with caution. The remaining two entries
+    would provide further categories and nuances in the data maturation process, aiding
+    users in understanding the reliability and completeness of the data being reported.
+    This structured information is essential for users to assess the appropriateness
+    of the data for their specific analyses and decision-making processes.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_pudl__codes_data_maturities.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_pudl__codes_data_maturities
+  securitypolicy: public
+  tags:
+  - ''

@@ -1,0 +1,29 @@
+artifact:
+  description: The dataset contains comprehensive information on the annual megawatt
+    hours (MWH) related to all sources and dispositions of electricity for various
+    utilities. The sources include net generation, purchases from electricity suppliers,
+    exchanges received, exchanges delivered, exchanges net, wheeled received, wheeled
+    delivered, wheeled net, transmission by others, and losses. Important variables
+    in the dataset detail the amount of electricity consumed by the facility, the
+    amount used by the electric utility in its own departments without charge, and
+    whether the given values are observed or imputed. Additionally, the dataset indicates
+    the entity type of the principal owner and specifics on exchange energy delivered
+    and received, excluding any power delivered as part of a tolling arrangement.
+    This data is essential for businesses seeking detailed insights into electricity
+    sources, usage, and transmission among utilities.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_operational_data_misc.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_operational_data_misc
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

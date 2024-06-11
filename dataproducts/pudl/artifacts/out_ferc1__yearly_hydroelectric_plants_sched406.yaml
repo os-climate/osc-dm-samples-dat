@@ -1,0 +1,27 @@
+artifact:
+  description: The dataset contains detailed information about small hydroelectric
+    plants reported in FERC Form 1. It includes nearly 7,000 rows of data that capture
+    a range of details for each plant on a yearly basis. The data encompasses utility-specific
+    identifiers, such as the PUDL and FERC1 utility IDs, ensuring the unique identification
+    of each utility reporting to FERC. Additional information includes the name of
+    the utility and the plant as reported in the forms, providing clear references
+    for each entry. Each record is uniquely identified through a structured record
+    ID format, ensuring data traceability back to original FERC Form 1 submissions.
+    This dataset supports analysis of small hydroelectric plants' operational and
+    ownership characteristics across different years, helping stakeholders understand
+    patterns, trends, and changes in the industry.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_hydroelectric_plants_sched406.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_hydroelectric_plants_sched406
+  securitypolicy: public
+  tags:
+  - ''

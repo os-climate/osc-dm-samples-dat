@@ -1,0 +1,27 @@
+artifact:
+  description: The core_ferc1__yearly_steam_plants_fuel_sched402 dataset provides
+    detailed annual data on fuel costs and quantities for steam plants with a capacity
+    of 25 megawatts or more, as well as internal combustion and gas-turbine plants
+    of 10 megawatts or more, including all nuclear plants. The data is sourced from
+    page 402 of Form 1, submitted to the Federal Energy Regulatory Commission (FERC),
+    and includes information extracted from the f1_fuel table in FERC's FoxPro Database.
+    Each record in the dataset includes a unique identifier indicating the original
+    FERC Form 1 source record, a PUDL-assigned utility ID for identifying the utility,
+    the year the data was reported, and the name of the plant as reported to FERC.
+    This data can be valuable for analyzing fuel consumption, cost patterns, and operational
+    efficiency for large-scale power plants over time.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__yearly_steam_plants_fuel_sched402.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__yearly_steam_plants_fuel_sched402
+  securitypolicy: public
+  tags:
+  - ''

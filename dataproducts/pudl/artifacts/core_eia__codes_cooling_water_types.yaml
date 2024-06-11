@@ -1,0 +1,24 @@
+artifact:
+  description: The dataset includes a coding table for cooling water types, providing
+    essential information for understanding the different types of water used in various
+    processes, particularly related to energy information. It consists of a short
+    code, a longer human-readable code, and a detailed description for each type.
+    The available water types are reclaimed water, brackish water, fresh water, other,
+    and saline water. This data can aid in the classification and analysis of water
+    usage in different industrial or environmental contexts, facilitating better resource
+    management and operational planning.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_cooling_water_types.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_cooling_water_types
+  securitypolicy: public
+  tags:
+  - ''

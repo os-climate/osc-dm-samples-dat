@@ -1,0 +1,25 @@
+artifact:
+  description: 'This product contains a coding table describing the different units
+    of measurement for sulfur dioxide as reported in the EIA-860 database. It includes
+    nine rows, each representing a unique code associated with sulfur dioxide measurements.
+    The dataset specifies three key attributes for each code: a short code originally
+    reported, a longer human-readable label in snake_case, and a detailed description
+    explaining the meaning of each code. The data encompasses various types of sulfur
+    dioxide measurements such as ambient air quality concentration, emission rates
+    in pounds per hour, and concentrations in stack gas. This allows users to understand
+    and interpret the different metrics used for reporting sulfur dioxide levels.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_so2_units.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_so2_units
+  securitypolicy: public
+  tags:
+  - ''

@@ -1,0 +1,30 @@
+artifact:
+  description: "The dataset contains detailed information about transmission lines\
+    \ as reported in the FERC Form 1, covering a broad range of statistics from 613,641\
+    \ records. For each record, there are unique identifiers to track the original\
+    \ source, including record ID, utility IDs assigned by both FERC and PUDL, and\
+    \ the name of the reporting utility. The data spans multiple years, with each\
+    \ entry specifying the year it was reported.\n\nKey attributes of the dataset\
+    \ include the starting and ending points of each transmission line, and the operating\
+    \ voltage in kilovolts (kV). This information is critical for understanding the\
+    \ infrastructure of electrical transmission systems, including their geographical\
+    \ span and operational characteristics. \n\nOverall, this dataset is valuable\
+    \ for analysis of trends and performance in electrical transmission, helping utilities,\
+    \ regulators, and researchers to better understand and manage the electric grid.\
+    \ The data are licensed under CC-BY-4.0, allowing for broad use with appropriate\
+    \ attribution."
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_transmission_lines_sched422.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_transmission_lines_sched422
+  securitypolicy: public
+  tags:
+  - ''

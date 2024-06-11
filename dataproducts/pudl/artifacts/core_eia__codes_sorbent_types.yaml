@@ -1,0 +1,27 @@
+artifact:
+  description: 'This product contains a detailed coding table that describes various
+    flue gas desulfurization sorbent types used in the EIA-860. It includes 23 distinct
+    rows, each representing a different sorbent type. The table provides three main
+    columns for each entry: a short code (originally reported), a longer human-readable
+    code formatted in snake_case, and a comprehensive description explaining the meaning
+    and context of each code. The sorbent types listed range from common compounds
+    like ammonia and dolomitic limestone to more specific mixtures such as calcium
+    carbide slurry and caustic sodium hydroxide. The data is licensed under CC-BY-4.0,
+    ensuring it is available for public use with appropriate attribution. This dataset
+    is valuable for understanding the specific materials used in flue gas desulfurization
+    processes within energy production facilities.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_sorbent_types.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_sorbent_types
+  securitypolicy: public
+  tags:
+  - ''

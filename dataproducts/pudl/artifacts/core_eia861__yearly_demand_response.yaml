@@ -1,0 +1,30 @@
+artifact:
+  description: The core_eia861__yearly_demand_response dataset provides comprehensive
+    information on energy demand response programs across the United States, categorized
+    by state, sector, and balancing authority. This dataset comprises data collected
+    from 2013 onwards, following a format change that split the previous demand-side
+    management table into separate energy efficiency and demand response tables. The
+    dataset includes details on the number of customers enrolled in demand response
+    programs, total energy savings achieved, potential savings, actual peak savings
+    realized, and the associated costs of these initiatives. The information is highly
+    detailed and specific, offering insights into how different regions and sectors
+    are managing and benefiting from demand response activities, which aim to reduce
+    energy consumption during peak demand periods. This data is crucial for analyzing
+    the effectiveness of demand response initiatives and planning future energy management
+    strategies.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_demand_response.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_demand_response
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

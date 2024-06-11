@@ -1,0 +1,27 @@
+artifact:
+  description: The dataset provides monthly estimates of generator capacity factors
+    across various power plants. Capacity factor is calculated based on the reported
+    generator capacity and the allocated net generation documented in the generation
+    and generation fuel tables. Each record in the dataset contains a unique six-digit
+    facility identification number (plant_id_eia) assigned by the Energy Information
+    Administration, the generator's ID which may be numeric or alphanumeric, the net
+    electricity generation for the specified period measured in megawatt-hours (net_generation_mwh),
+    and the total installed nameplate capacity measured in megawatts (capacity_mw).
+    The data also includes the date on which the information was reported. Note that
+    the dataset contains raw values and may include some data points that are illogical
+    or out of expected bounds, necessitating filtering for accurate analysis.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/_out_eia__monthly_capacity_factor_by_generator.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: _out_eia__monthly_capacity_factor_by_generator
+  securitypolicy: public
+  tags:
+  - ''

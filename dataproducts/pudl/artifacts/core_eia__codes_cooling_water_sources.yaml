@@ -1,0 +1,27 @@
+artifact:
+  description: 'This dataset contains information on different types of cooling water
+    sources reported in the EIA-860 forms. Each record includes a code representing
+    a specific cooling water source, a label providing a human-readable identifier,
+    and a detailed description explaining the meaning of the code. The dataset catalogs
+    four primary types of cooling water sources: ground water, surface water, plant
+    discharge water, and other unspecified sources. Ground water refers to water from
+    aquifers or wells, surface water includes rivers, canals, and bays, plant discharge
+    water consists of water discharged from wastewater treatment plants, and the ''other''
+    category is for sources that must be specified separately. This dataset serves
+    as a reference for understanding the provenance and categorization of cooling
+    water sources in energy infrastructure data.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_cooling_water_sources.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_cooling_water_sources
+  securitypolicy: public
+  tags:
+  - ''

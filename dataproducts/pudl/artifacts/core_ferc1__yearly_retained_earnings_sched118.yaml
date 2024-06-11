@@ -1,0 +1,48 @@
+artifact:
+  description: 'The core_ferc1__yearly_retained_earnings_sched118 dataset contains
+    detailed financial information relating to the retained earnings of various utilities
+    as reported in FERC Form 1 Schedule 118. This dataset comprises over 101,841 rows,
+    each representing a specific data entry for a utility. Key data fields include:
+
+
+    - "utility_id_ferc1": A preliminary identifier assigned by PUDL that identifies
+    each FERC1 utility uniquely.
+
+    - "report_year": The specific year in which the data was reported, represented
+    as a four-digit number.
+
+    - "record_id": A unique identifier for each source record from the FERC Form 1,
+    formatted to include table name, report year, report period, respondent ID, supplement
+    number, and row number.
+
+    - "earnings_type": A descriptive label that indicates the type of earnings being
+    recorded.
+
+    - "starting_balance": The account balance at the beginning of the reported year.
+
+    - "ending_balance": The account balance at the end of the reported year.
+
+    - "balance": An indication of whether the amount is a credit or debit, as reported
+    in the XBRL taxonomy.
+
+    - "ferc_account": The specific FERC Account number associated with the entry.
+
+
+    This data is licensed under CC-BY-4.0 and offers a comprehensive view of the annual
+    changes in retained earnings for utilities, providing valuable insights into their
+    financial status over time.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__yearly_retained_earnings_sched118.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__yearly_retained_earnings_sched118
+  securitypolicy: public
+  tags:
+  - ''

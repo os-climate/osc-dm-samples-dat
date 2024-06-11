@@ -1,0 +1,30 @@
+artifact:
+  description: 'The core_pudl__assn_ferc1_pudl_utilities table is a key resource for
+    linking utility identifiers across different data systems. It maps two manually
+    assigned utility IDs: the PUDL ID, which integrates utility information from both
+    the EIA and FERC1 datasets, and the FERC1 ID, which bridges older DBF respondent
+    IDs with newer XBRL entity IDs. This crosswalk allows for more seamless analyses
+    and reporting across regulatory frameworks. The table includes 422 rows, each
+    representing a unique utility, with columns for PUDL-assigned utility IDs (utility_id_ferc1),
+    utility names as reported in FERC Form 1 (utility_name_ferc1), and manually assigned
+    PUDL utility IDs (utility_id_pudl). This dataset is critical for utilities, analysts,
+    and researchers who need to reconcile and analyze utility data from different
+    federal regulatory forms, ensuring consistency and accuracy in data reporting
+    and analysis. The data is updated regularly to maintain alignment with evolving
+    utility information and is licensed under CC-BY-4.0, allowing for broad usability
+    and application.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_pudl__assn_ferc1_pudl_utilities.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_pudl__assn_ferc1_pudl_utilities
+  securitypolicy: public
+  tags:
+  - ''

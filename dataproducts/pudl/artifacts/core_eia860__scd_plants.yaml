@@ -1,0 +1,28 @@
+artifact:
+  description: The dataset contains annually varying plant attributes compiled from
+    the EIA-860 and EIA-923 data. It includes a unique six-digit facility identification
+    number (also known as ORISPL) assigned by the Energy Information Administration.
+    The dataset records include the report date and details about ash impoundments
+    at the plants, specifying whether they exist, if they are lined, and their status
+    as of December 31 of the reporting year. It also includes the short code and name
+    of the balancing authority overseeing the plant, the geodetic coordinate system
+    identifier (e.g., NAD27, NAD83, WGS84), and an indication of whether the facility
+    has energy storage capabilities. This comprehensive dataset provides a detailed
+    overview of key operational and environmental attributes of energy plants over
+    annual periods.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia860__scd_plants.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia860__scd_plants
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

@@ -1,0 +1,29 @@
+artifact:
+  description: This dataset contains detailed information on the energy sources used
+    for utility or customer-owned distributed generation capacity, as reported in
+    the EIA861 survey. It includes several key data fields such as the percentage
+    of distributed generation system fuel types (e.g., gas, oil, renewable, water,
+    wind, wood), whether the reported fuel data is estimated or actual, and the specific
+    fuel classes utilized. Additionally, it records the date of reporting, US state
+    abbreviations where the generation occurs, and the EIA Utility Identification
+    number. The data spans a large number of records and is available under the CC-BY-4.0
+    license, allowing for widespread use and analysis. This dataset is particularly
+    useful for understanding the distribution of different fuel types in distributed
+    generation systems and can support market analysis, policy-making, and utility
+    planning.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_distributed_generation_fuel.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_distributed_generation_fuel
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

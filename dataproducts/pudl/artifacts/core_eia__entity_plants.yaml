@@ -1,0 +1,27 @@
+artifact:
+  description: The dataset "core_eia__entity_plants" provides a comprehensive compilation
+    of static plant attributes from various sources, including the EIA-860 and EIA-923
+    data. It contains 16,847 rows of detailed information about energy plants across
+    the United States. For each plant, the dataset includes a unique six-digit facility
+    identification number assigned by the Energy Information Administration, also
+    known as ORISPL. Additionally, it provides the plant name, city, county, and state
+    of location. The dataset offers geographical data such as latitude and longitude
+    coordinates, and the physical street address including the zip code. Lastly, it
+    includes the IANA timezone name, which specifies the time zone of the plant's
+    location. This dataset is valuable for understanding the geographical and administrative
+    details of energy plants across the country.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__entity_plants.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__entity_plants
+  securitypolicy: public
+  tags:
+  - ''

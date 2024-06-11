@@ -1,0 +1,27 @@
+artifact:
+  description: The EIA-923 Monthly Generation and Fuel Consumption dataset offers
+    comprehensive information on electricity generation and fuel usage reported by
+    power plants. The dataset includes over 2.9 million records, capturing data from
+    the EIA-923 Schedule 3. Key data points include the report date, unique facility
+    identification numbers (both EIA and PUDL assigned), plant names, utility identification
+    numbers (both EIA and PUDL assigned), and utility names. It combines data from
+    both fossil fuel generation and nuclear generation, ensuring compatibility by
+    aggregating nuclear generation data to the plant prime mover level. This dataset
+    is essential for analyzing trends in electricity generation and fuel consumption
+    across different utilities and facilities. The data is available under the CC-BY-4.0
+    license, allowing for wide usage and distribution.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_eia923__monthly_generation_fuel_combined.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_eia923__monthly_generation_fuel_combined
+  securitypolicy: public
+  tags:
+  - ''

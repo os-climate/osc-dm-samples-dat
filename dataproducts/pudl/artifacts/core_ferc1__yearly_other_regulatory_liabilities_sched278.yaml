@@ -1,0 +1,26 @@
+artifact:
+  description: The dataset contains information on other regulatory liabilities reported
+    by utilities to the Federal Energy Regulatory Commission (FERC) on an annual basis.
+    The data covers several key elements including the utility identifier, the year
+    of the report, and a detailed description of the regulatory liabilities. It also
+    includes financial details such as the starting and ending balances of the liabilities
+    for the year, any increases or decreases in the liabilities during the reporting
+    period, and specific accounts credited for the adjustments made. This dataset
+    provides a comprehensive view of financial changes in regulatory liabilities for
+    utilities over multiple years, which can be useful for regulatory analysis, financial
+    auditing, and industry benchmarking.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__yearly_other_regulatory_liabilities_sched278.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__yearly_other_regulatory_liabilities_sched278
+  securitypolicy: public
+  tags:
+  - ''

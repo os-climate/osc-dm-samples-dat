@@ -1,0 +1,27 @@
+artifact:
+  description: The dataset contains unique utility IDs and utility names related to
+    entities involved in owning or operating power plants. These IDs are manually
+    assigned by PUDL (Public Utility Data Liberation) to ensure consistency across
+    datasets such as those from FERC (Federal Energy Regulatory Commission) and EIA
+    (Energy Information Administration). Each utility ID maps to one power plant operating
+    or owning entity that is reported in at least one of these datasets. The utility
+    names are chosen arbitrarily during the matching process and are provided for
+    human readability. The dataset is updated annually with new utility IDs when new
+    FERC and EIA reports are integrated. The table is sourced from a spreadsheet maintained
+    in the PUDL repository. There are 16,118 rows in this table, which captures a
+    comprehensive list of utility entities over time.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_pudl__entity_utilities_pudl.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_pudl__entity_utilities_pudl
+  securitypolicy: public
+  tags:
+  - ''

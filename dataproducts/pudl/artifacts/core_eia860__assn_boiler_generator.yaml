@@ -1,0 +1,31 @@
+artifact:
+  description: The dataset "core_eia860_assn_boiler_generator" captures detailed associations
+    between boilers and generators at various power plants. It is derived from EIA-860
+    Schedule 6, Part A, and is augmented using heuristics from the Public Utility
+    Data Liberation (PUDL) project. The data provides key attributes such as the unique
+    plant ID (plant_id_eia), report date (report_date), generator ID (generator_id),
+    and boiler ID (boiler_id). Additionally, it includes both EIA and dynamically
+    assigned unit IDs (unit_id_eia and unit_id_pudl), which help in identifying specific
+    units within a plant. Historical details about the nature of boiler-generator
+    associations and steam plant types are also available through the boiler_generator_assn_type_code
+    and steam_plant_type_code, although some of this information, like association
+    type, is only provided for years before 2013. Overall, this dataset offers a comprehensive
+    view of the operational relationships between boilers and generators in power
+    plants, which can be critical for analyzing plant efficiency, maintenance schedules,
+    and overall performance.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia860__assn_boiler_generator.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia860__assn_boiler_generator
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

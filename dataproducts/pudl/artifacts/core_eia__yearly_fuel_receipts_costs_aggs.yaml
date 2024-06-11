@@ -1,0 +1,25 @@
+artifact:
+  description: The core_eia__yearly_fuel_receipts_costs_aggs dataset from the EIA
+    (Energy Information Administration) contains aggregated data on fuel receipts
+    and costs for the bulk electricity sector. It offers valuable insights into the
+    category of fuel received, geographic and sectoral aggregations, and temporal
+    distribution. Key data points include the report date, total fuel received measured
+    in MMBtu (million British thermal units), and the average cost per MMBtu in nominal
+    USD. This dataset is essential for analyzing trends in fuel supply and cost dynamics
+    across different regions, fuel types, and time frames, making it a vital resource
+    for businesses involved in energy production, policy making, and market analysis.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__yearly_fuel_receipts_costs_aggs.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__yearly_fuel_receipts_costs_aggs
+  securitypolicy: public
+  tags:
+  - ''

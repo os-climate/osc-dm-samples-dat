@@ -1,0 +1,25 @@
+artifact:
+  description: The dataset is an association table from the Energy Information Administration
+    (EIA) detailing which states each utility reported data for by year. Each row
+    in the dataset includes a report date, a unique EIA utility identification number,
+    and a two-letter state abbreviation where the utility operates. The information
+    spans over 82,000 rows, capturing the presence of utilities across different states
+    and times, valuable for tracking utility operations, regional energy distribution,
+    and state-level market analysis. This dataset is licensed under CC-BY-4.0, allowing
+    for public use and distribution with appropriate credit.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__assn_utility.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__assn_utility
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

@@ -1,0 +1,49 @@
+artifact:
+  description: 'The core_ferc1__yearly_operating_revenues_sched300 dataset provides
+    detailed information on electric operating revenues reported to the Federal Energy
+    Regulatory Commission (FERC) annually. The dataset includes 75,120 rows, each
+    representing a unique entry of electric operating revenue for a given utility
+    in a specific year. Key data fields include:
+
+
+    1. **utility_id_ferc1**: A PUDL-assigned ID that identifies a specific utility.
+    Note that this ID is auto-incremented and may change from year to year.
+
+    2. **report_year**: The year (in four digits) when the data was reported.
+
+    3. **record_id**: A unique identifier for each record, comprising various attributes
+    such as the table name, report year, reporting period, respondent ID, supplement
+    number, and row number.
+
+    4. **revenue_type**: A label describing different types of electric operating
+    revenues.
+
+    5. **dollar_value**: The dollar amount of the income, expense, asset, or liability
+    reported.
+
+    6. **sales_mwh**: The quantity of electricity sold, measured in megawatt-hours
+    (MWh). This field may be NULL for certain types of revenue that do not have associated
+    sales.
+
+    7. **avg_customers_per_month**: The average number of customers per month. This
+    field may also be NULL for some revenue types.
+
+
+    This dataset is valuable for analyzing annual operating revenues of electric utilities,
+    understanding trends in revenue generation, and exploring specifics related to
+    sales and customer base. Data usage is governed by a CC-BY-4.0 license.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__yearly_operating_revenues_sched300.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__yearly_operating_revenues_sched300
+  securitypolicy: public
+  tags:
+  - ''

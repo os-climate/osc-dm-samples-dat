@@ -1,0 +1,46 @@
+artifact:
+  description: 'The core_eia861__yearly_net_metering_customer_fuel_class dataset provides
+    detailed information on energy sold back to the grid by net metering customers
+    from 2007 to the present. Initially, from 2007 to 2009, the data are reported
+    as a lump sum of total energy dispatched by sector. Post-2009, the dataset includes
+    more granular data broken down by sector and technology type. Key data points
+    include:
+
+
+    - balancing_authority_code_eia: EIA short code identifying a balancing authority,
+    which may include Canadian and Mexican BAs.
+
+    - capacity_mw: Total installed (nameplate) capacity in megawatts.
+
+    - customer_class: High-level categorization of customer types, such as commercial,
+    industrial, direct connection, other, residential, total, transportation, and
+    commercial_other.
+
+    - customers: Number of customers participating in net metering.
+
+    - report_date: The date when the data were reported.
+
+    - short_form: Indicates whether the data come from the short form of the EIA 861
+    form, which is a shorter version used for reporting.
+
+
+    This dataset is valuable for understanding the contributions of different types
+    of customers and technologies to energy generation and grid stability. It is useful
+    for analysts, policymakers, and businesses involved in energy management and planning.
+    The data are licensed under CC-BY-4.0, allowing for broad use and distribution.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_net_metering_customer_fuel_class.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_net_metering_customer_fuel_class
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

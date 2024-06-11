@@ -1,0 +1,26 @@
+artifact:
+  description: 'This product contains detailed information about balancing authority
+    subregions as reported in EIA-930. It comprises 84 rows of data, each representing
+    a different subregion. For each entry, three key attributes are provided: the
+    balancing authority code (a short code identifying the relevant balancing authority,
+    which may include those in Canada and Mexico), the balancing authority subregion
+    code (which specifies the code identifying specific subregions within larger balancing
+    authorities), and the balancing authority subregion name (the descriptive name
+    of the subregion). This data is fundamental for understanding the structure and
+    organization of balancing authorities and their subregions, which is crucial for
+    energy management, distribution planning, and grid reliability analysis.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_balancing_authority_subregions.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_balancing_authority_subregions
+  securitypolicy: public
+  tags:
+  - ''

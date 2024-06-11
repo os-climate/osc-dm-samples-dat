@@ -1,0 +1,35 @@
+artifact:
+  description: 'This product provides a comprehensive dataset of utilities as compiled
+    from all EIA (Energy Information Administration) data sources. It includes static
+    attributes of various utility entities, featuring a total of 15,671 entries. Key
+    data points within this dataset are:
+
+
+    - Utility Identification Number (utility_id_eia): This is a unique identification
+    number assigned to each utility by the EIA.
+
+    - Utility Name (utility_name_eia): This is the name of the utility as recorded
+    in the EIA data.
+
+
+    The dataset captures a wide array of utility entities ranging from small municipal
+    utilities to large energy corporations. This information can be instrumental for
+    energy market analysts, regulatory bodies, and businesses aiming to gain insights
+    into the utility sector, conduct market research, or for compliance and reporting
+    purposes. By utilizing this dataset, users can track and analyze utilities'' presence,
+    identify trends, and make informed decisions based on comprehensive utility data.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__entity_utilities.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__entity_utilities
+  securitypolicy: public
+  tags:
+  - ''

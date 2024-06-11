@@ -1,0 +1,27 @@
+artifact:
+  description: The core EIA codes for contract types dataset provides information
+    about various types of fuel supply contracts reported in the EIA-923 form. It
+    includes a coding table that highlights different contract categories. The key
+    fields present in the data are "code," "label," and "description." Each row in
+    the table represents a unique contract type with a corresponding short code, a
+    longer human-readable code formatted in snake_case, and a comprehensive description
+    explaining the meaning of the code and label. The dataset contains entries for
+    contracts with terms of one year or longer, new contracts with similar duration,
+    and distinctions between contracted and spot purchases. Users can leverage this
+    dataset to understand the classification of fuel supply contracts as reported
+    to the EIA.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_contract_types.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_contract_types
+  securitypolicy: public
+  tags:
+  - ''

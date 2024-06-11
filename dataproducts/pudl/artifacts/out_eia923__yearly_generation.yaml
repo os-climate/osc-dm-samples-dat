@@ -1,0 +1,29 @@
+artifact:
+  description: The dataset known as out_eia923__yearly_generation provides detailed
+    information on net electricity generation by individual reporting generators,
+    compiled on a monthly basis from the EIA-923 Schedule 3. This dataset covers approximately
+    56,879 rows of data. It primarily includes data that details how much electricity
+    different generators are producing monthly, although this represents only about
+    half of the total generation reported due to varying reporting requirements for
+    different generator types and sizes. This generator-level data is crucial for
+    estimating the heat rates of generation units and calculating the marginal cost
+    of electricity on a per-generator basis. However, such calculations also depend
+    on additional data such as plant-level fuel costs and accurate or complete boiler-generator
+    associations. It is also important to note that a minor segment of respondents
+    only provide annual net generation data, which is reported in December, potentially
+    influencing the uniformity and granularity of the dataset.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_eia923__yearly_generation.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_eia923__yearly_generation
+  securitypolicy: public
+  tags:
+  - ''

@@ -1,0 +1,27 @@
+artifact:
+  description: The dataset "core_ferc1__yearly_energy_dispositions_sched401" provides
+    detailed information on electric energy dispositions as reported by electricity
+    utilities. The data includes various types of energy dispositions such as sales
+    to customers, re-sales of energy, energy used internally, and losses. Each data
+    entry consists of records uniquely identified by a PUDL-assigned utility ID and
+    includes the year of the report. Additionally, the dataset specifies whether a
+    row's value is calculated or uniquely reported. Energy dispositions are measured
+    in megawatt-hours (MWh), providing a comprehensive view of the energy flow and
+    distribution within the utility sector for the given report year. Each record
+    is further traceable through a unique record ID from the original FERC Form 1
+    source.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__yearly_energy_dispositions_sched401.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__yearly_energy_dispositions_sched401
+  securitypolicy: public
+  tags:
+  - ''

@@ -1,0 +1,27 @@
+artifact:
+  description: 'The dataset contains yearly projections of costs and performance for
+    various electricity generation technologies, reported annually. It includes information
+    on the financial assumptions used by NREL, covering two main cases: R&D Only Case
+    and Market + Policies Case. The R&D Only Case incorporates only projected research
+    and development improvements, while the Market + Policies Case includes policy
+    and tax incentives. Each entry in the dataset provides the following details:
+    the report year, the projection year for the cost or performance estimate, a high-level
+    description of the technology, the cost recovery period in years, and the scenario
+    under which the technology innovation is considered. This data is useful for understanding
+    potential future costs and performance metrics for different electricity generation
+    technologies under varying R&D and policy conditions.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_nrelatb__yearly_projected_cost_performance.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_nrelatb__yearly_projected_cost_performance
+  securitypolicy: public
+  tags:
+  - ''

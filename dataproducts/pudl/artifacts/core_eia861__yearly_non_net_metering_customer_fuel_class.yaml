@@ -1,0 +1,28 @@
+artifact:
+  description: The product provides a comprehensive dataset related to non-net metered
+    distributed generation by sector and technology type. It includes detailed information
+    on the total installed capacity measured in megawatts for different customer classes,
+    which are categorized as commercial, industrial, direct connection, other, residential,
+    total, transportation, and commercial other. The data tracks these parameters
+    across various balancing authorities, using a specific short code to identify
+    each authority, and includes coverage for Canadian and Mexican authorities. The
+    provided data ensures that there is no double counting of distributed generation
+    capacity, converting values reported in DC units to AC units where applicable.
+    This dataset is crucial for understanding the distribution and capacity of non-net
+    metered generation sources across different sectors and geographical areas.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_non_net_metering_customer_fuel_class.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_non_net_metering_customer_fuel_class
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

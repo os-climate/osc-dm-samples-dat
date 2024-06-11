@@ -1,0 +1,35 @@
+artifact:
+  description: 'The dataset "Annual Electricity Sales to Ultimate Customers" from
+    the core_eia861__yearly_sales collection offers detailed information about electricity
+    sales across the United States, broken down by utility, balancing authority, state,
+    and customer class on an annual basis. It includes 360,660 rows of data, providing
+    insights such as the EIA Utility Identification number, the two-letter state abbreviation,
+    the report date, and the EIA short code identifying a balancing authority, which
+    can include codes from Canada and Mexico as well.
+
+
+    The data includes categorizations of customer types such as commercial, industrial,
+    direct connection, other, residential, total, transportation, and commercial other.
+    Information about the business model of the utility and whether the data is observed
+    or imputed is also included. Additionally, the dataset details the entity type
+    of the principal owner and the type of service the respondent provides to each
+    customer class, distinguishing between services that bundle both energy and delivery,
+    or just energy. This dataset is valuable for analyzing electricity sales trends,
+    performance of different customer classes, and understanding the regional distribution
+    of electricity consumption.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_sales.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_sales
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

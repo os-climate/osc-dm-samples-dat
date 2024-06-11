@@ -1,0 +1,27 @@
+artifact:
+  description: The database contains comprehensive information on the various prime
+    mover codes reported in the EIA-860 and EIA-923 forms, which are used to track
+    and analyze energy sources and generation technologies. It includes 24 rows detailing
+    prime mover types with their short codes, longer human-readable labels, and thorough
+    descriptions explaining their meanings. For example, the code "BA" corresponds
+    to "battery_storage," which is described as energy storage using batteries. Other
+    entries include "BT" for binary_cycle_turbine, describing turbines used in binary
+    cycles, typically for geothermal applications, and "CC" for combined_cycle_total,
+    representing the combined-cycle total unit. This dataset is valuable for understanding
+    the different types of energy generation technology and their classifications
+    in the energy industry.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_prime_movers.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_prime_movers
+  securitypolicy: public
+  tags:
+  - ''

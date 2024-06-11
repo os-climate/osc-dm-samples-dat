@@ -1,0 +1,33 @@
+artifact:
+  description: "The dataset \"out_ferc1__yearly_depreciation_by_function_sched219\"\
+    \ contains detailed records of the accumulated provision for depreciation of electric\
+    \ utility plant, as reported in FERC Form 1, Schedule 219 Section B. It includes\
+    \ 143,312 rows of data and is licensed under CC-BY-4.0. \n\nEach record in the\
+    \ dataset provides the following information:\n- A PUDL-assigned utility ID (utility_id_ferc1),\
+    \ which is an auto-incremented identifier unique to each FERC1 utility and may\
+    \ change from year to year.\n- A manually assigned PUDL utility ID (utility_id_pudl)\
+    \ that may not be stable over time.\n- The name of the utility (utility_name_ferc1)\
+    \ as reported in FERC Form 1, intended for human readability.\n- The year (report_year)\
+    \ in which the data was reported, formatted as a four-digit year.\n- The type\
+    \ of depreciation provision (depreciation_type) within FERC Account 108, which\
+    \ encompasses various categories such as cost of removal, depreciation expenses,\
+    \ salvage, and cost of retired plant.\n- The functional role (plant_function)\
+    \ of the utility plant, for example, steam production, nuclear production, or\
+    \ distribution.\n\nThis dataset is useful for analyzing the financial depreciation\
+    \ and functional classification of electric utility plants, providing a comprehensive\
+    \ view of depreciation provisions over various years and across different utilities."
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_depreciation_by_function_sched219.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_depreciation_by_function_sched219
+  securitypolicy: public
+  tags:
+  - ''

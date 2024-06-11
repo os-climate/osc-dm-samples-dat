@@ -1,0 +1,37 @@
+artifact:
+  description: 'The dataset contains codes relating to the measurement units for particulate
+    matter as reported in the EIA-860 form. It provides a coded system translating
+    complex particulate matter data into understandable, human-readable formats. Specifically,
+    it includes the following fields:
+
+
+    1. Code: Originally reported short codes used for data representation.
+
+    2. Label: Longer descriptions using snake_case format, offering clear and concise
+    attribute names.
+
+    3. Description: Detailed explanations of what each code and label represent.
+
+
+    The dataset covers a range of particulate matter measurement units, such as percentage
+    of opacity, pounds of particulate matter per million Btu in fuel, grains of particulate
+    matter per standard cubic foot of stack gas, and pounds per thousand pounds of
+    stack gas. Additionally, it includes a category for other types of measurements
+    that are specified in a specific schedule. This coding table is useful for translating
+    technical particulate matter data into more accessible terminology for analysis
+    and reporting.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia__codes_particulate_units.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia__codes_particulate_units
+  securitypolicy: public
+  tags:
+  - ''

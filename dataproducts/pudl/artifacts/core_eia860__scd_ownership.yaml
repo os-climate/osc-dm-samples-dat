@@ -1,0 +1,38 @@
+artifact:
+  description: 'The dataset contains detailed information on generator ownership as
+    reported in the EIA-860 Schedule 4, specifically focusing on jointly or third-party
+    owned generators. Key data points include the report date, allowing for historical
+    tracking of ownership changes. Each entry provides the unique EIA utility identification
+    number for the company responsible for day-to-day operations and the six-digit
+    plant identification number assigned by the Energy Information Administration.
+    The generator ID, which can be numeric or alphanumeric, is also included to uniquely
+    identify each generator.
+
+
+    The dataset encompasses comprehensive details about the owner utility such as
+    the name, state code, city, country code, street address, and zip code, which
+    allow for precise localization and identification of the owning entity. Additionally,
+    it specifies the fraction of the generator owned by each entity, facilitating
+    an understanding of shared ownership structures.
+
+
+    This detailed ownership information is crucial for stakeholders who need to analyze
+    and understand the landscape of generator ownership, track changes over time,
+    and assess the responsibilities and geographic distribution of various utility
+    companies involved in power generation.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia860__scd_ownership.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia860__scd_ownership
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

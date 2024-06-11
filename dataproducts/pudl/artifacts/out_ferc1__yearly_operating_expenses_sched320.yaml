@@ -1,0 +1,49 @@
+artifact:
+  description: 'The dataset "out_ferc1__yearly_operating_expenses_sched320" provides
+    detailed information on electric operating expenses as reported in FERC Form 1.
+    It includes 581,740 rows of data capturing various financial aspects of utility
+    operations. Key data fields encompass:
+
+
+    - **utility_id_ferc1**: A PUDL-assigned ID uniquely identifying each utility,
+    which may vary over time.
+
+    - **utility_id_pudl**: A manually assigned ID by PUDL, which also may not remain
+    stable.
+
+    - **utility_name_ferc1**: The name of the utility as reported in FERC Form 1 for
+    ease of identification.
+
+    - **report_year**: The specific year in which the data was reported, using a four-digit
+    format.
+
+    - **dollar_value**: The monetary amounts related to income, expense, assets, or
+    liabilities as reported in dollars.
+
+    - **expense_type**: Categories of expenses, detailing the different kinds of costs
+    utilities report.
+
+    - **utility_type**: The types of utility plants, such as Electric Utility, Gas
+    Utility, or Other Utility types.
+
+    - **record_id**: This identifier points to the original source record in FERC
+    Form 1, formatted as {table_name}_{report_year}_{report_prd}_{respondent_id}.
+
+
+    This dataset is licensed under CC-BY-4.0, ensuring that the data can be shared
+    and adapted, provided proper attribution is given.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_operating_expenses_sched320.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_operating_expenses_sched320
+  securitypolicy: public
+  tags:
+  - ''

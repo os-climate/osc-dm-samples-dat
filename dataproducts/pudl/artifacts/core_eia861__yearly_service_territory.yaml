@@ -1,0 +1,52 @@
+artifact:
+  description: 'The dataset "core_eia861__yearly_service_territory" contains detailed
+    information about the service territories of utilities in the United States as
+    reported to the Energy Information Administration (EIA). The dataset includes
+    259,031 rows of data and covers several key attributes:
+
+
+    1. **County**: The name of the county where the utility provides its services.
+
+    2. **Short Form**: Indicator of whether the reported information comes from the
+    shorter EIA 861 form, which was introduced in 2012 to reduce the administrative
+    burden on smaller utilities.
+
+    3. **State**: The two-letter abbreviation representing the state.
+
+    4. **Utility ID EIA**: The unique identification number assigned to each utility
+    by the EIA.
+
+    5. **Utility Name EIA**: The name of the utility as recognized by the EIA.
+
+    6. **Report Date**: The date the information was reported.
+
+    7. **State ID FIPS**: The two-digit Federal Information Processing Standard (FIPS)
+    code representing the state.
+
+    8. **County ID FIPS**: The FIPS code representing the county.
+
+    9. **Data Maturity**: The maturity level of the data, indicating whether the data
+    is final or still in a preliminary state.
+
+
+    This dataset is primarily used to understand the geographic distribution of utility
+    service areas across the United States. It helps in analyzing the coverage of
+    utilities at the county level, providing insights into the areas served by specific
+    utilities and allowing for a closer examination of utility operations and reach
+    within given states and counties.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_eia861__yearly_service_territory.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_eia861__yearly_service_territory
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

@@ -1,0 +1,27 @@
+artifact:
+  description: 'The dataset contains records of operating and maintenance costs associated
+    with producing electricity, as reported in Schedule 320 of FERC Form 1. Each record
+    includes several key data points: a PUDL-assigned utility ID that uniquely identifies
+    each utility within the dataset; the year the data was reported; the dollar value
+    of the reported income, expense, asset, or liability; the type of expense recorded;
+    and an identifier indicating the original source record from FERC Form 1, which
+    ensures the traceability of each entry. The data also specifies the type of utility
+    plant, such as Electric Utility, Gas Utility, and Other Utility, as well as the
+    actual FERC Account number related to each record. This comprehensive dataset
+    can be used for financial analysis, cost assessment, and performance evaluation
+    of utility companies.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/core_ferc1__yearly_operating_expenses_sched320.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: core_ferc1__yearly_operating_expenses_sched320
+  securitypolicy: public
+  tags:
+  - ''

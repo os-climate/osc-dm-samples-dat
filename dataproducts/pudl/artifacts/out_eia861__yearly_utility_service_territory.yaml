@@ -1,0 +1,28 @@
+artifact:
+  description: The dataset "out_eia861__yearly_utility_service_territory" provides
+    county-level information about utility service territories based on the EIA-861
+    annual report. It includes 248,987 rows of data with details such as the Federal
+    Information Processing Standard (FIPS) codes for counties and states, county names
+    as specified in Census DP1 data, population figures sourced from Census DP1 data,
+    and county areas in square kilometers. Each entry also includes the report date
+    and the EIA Utility Identification number for the utility serving the corresponding
+    county. The dataset covers utilities operating across different states in the
+    US, allowing for comprehensive analysis of utility service territories, population
+    demographics within those territories, and geographical data. This information
+    can be used for various business applications, including market analysis, regional
+    planning, and service coverage optimization for utility companies.
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_eia861__yearly_utility_service_territory.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_eia861__yearly_utility_service_territory
+  securitypolicy: public
+  tags:
+  - ''

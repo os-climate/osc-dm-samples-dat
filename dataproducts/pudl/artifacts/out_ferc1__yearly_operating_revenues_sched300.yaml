@@ -1,0 +1,35 @@
+artifact:
+  description: "The dataset \"out_ferc1__yearly_operating_revenues_sched300\" provides\
+    \ detailed financial information about electric operating revenues as reported\
+    \ by utility companies in the FERC Form 1 filings. It includes a total of 75,120\
+    \ records. Key pieces of data include:\n\n- Utility IDs: There are two types of\
+    \ utility IDs provided, utility_id_ferc1, which is auto-incremented for each utility\
+    \ and may vary yearly, and utility_id_pudl, a manually assigned ID specific to\
+    \ PUDL\u2019s utility identification system.\n- Utility Names: The names of the\
+    \ responding utility companies as reported in FERC Form 1, offering a human-readable\
+    \ identifier.\n- Report Year: The four-digit year when the data was reported,\
+    \ making it possible to track financial performance over time.\n- Record ID: A\
+    \ unique identifier for each record, providing a reference to the original FERC\
+    \ Form 1 source data, structured in a format indicating table name, report year,\
+    \ period, respondent ID, supplement number, and row number.\n- Revenue Type: Descriptions\
+    \ of the types of revenues reported, giving insight into various categories and\
+    \ sources of income for utilities.\n- Dollar Value: The monetary value for each\
+    \ reported type of revenue, expense, asset, or liability, denominated in dollars.\n\
+    \nThis dataset is fundamental for analyzing financial trends, revenue streams,\
+    \ and economic health of utility companies over different years, providing a comprehensive\
+    \ view of the electric utility sector\u2019s economic activities."
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_operating_revenues_sched300.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_operating_revenues_sched300
+  securitypolicy: public
+  tags:
+  - ''

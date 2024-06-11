@@ -1,0 +1,50 @@
+artifact:
+  description: 'The denormalized table titled "out_ferc1__yearly_depreciation_changes_sched219"
+    contains detailed information about annual changes in electric plant depreciation
+    as reported to the Federal Energy Regulatory Commission (FERC) in Form 1. This
+    dataset is comprehensive, consisting of 254,331 rows of data.
+
+
+    Key elements of the dataset include:
+
+    - "utility_id_ferc1": A PUDL-assigned identifier for each utility, which is auto-incremented
+    and may vary from year to year.
+
+    - "utility_id_pudl": A manually assigned, potentially unstable over time, PUDL
+    utility ID.
+
+    - "utility_name_ferc1": The name of the responding utility as reported in FERC
+    Form 1, primarily for human readability.
+
+    - "report_year": The year in which the data was reported, formatted as a four-digit
+    number.
+
+    - "depreciation_type": The specific type of depreciation provision, which can
+    include cost of removal, depreciation expenses, salvage, cost of retired plant,
+    among others.
+
+    - "plant_status": Financial status of the utility plant, which includes categories
+    like in-service, future, leased, and total.
+
+    - "utility_type": The classification of the utility plant types, examples being
+    Electric Utility, Gas Utility, etc.
+
+
+    This dataset is licensed under a Creative Commons Attribution 4.0 International
+    (CC-BY-4.0) license, allowing for wide usage and distribution with appropriate
+    credit to the source.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_depreciation_changes_sched219.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_depreciation_changes_sched219
+  securitypolicy: public
+  tags:
+  - ''

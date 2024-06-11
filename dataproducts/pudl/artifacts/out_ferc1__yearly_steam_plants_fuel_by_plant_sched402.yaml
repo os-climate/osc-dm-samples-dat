@@ -1,0 +1,32 @@
+artifact:
+  description: 'This dataset provides a comprehensive summary of fuel data for steam
+    plants as reported through FERC Form 1. It contains 26,188 rows of data, detailing
+    yearly information for various plants. Each entry includes the report year, utility
+    ID both from FERC and PUDL, and the utility name as reported to FERC. It also
+    specifies the PUDL-assigned plant ID and the plant name as reported to FERC.
+
+
+    The dataset focuses on the cost and heat content of coal as a fuel source. Specifically,
+    it includes the cost of coal as a percentage of overall fuel costs and the coal
+    heat content as a fraction of the total heat content, measured in MMBtu (million
+    British thermal units). This dataset is valuable for analyzing the financial and
+    operational aspects of steam plants, particularly in relation to their fuel consumption
+    and costs. It can be used to track trends over time, compare different utilities
+    and plants, and assess the impact of fuel costs on overall plant operations. The
+    data is licensed under CC-BY-4.0, allowing for wide use and dissemination with
+    appropriate attribution.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.catalyst.coop/pudl/out_ferc1__yearly_steam_plants_fuel_by_plant_sched402.csv?_size=max
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: out_ferc1__yearly_steam_plants_fuel_by_plant_sched402
+  securitypolicy: public
+  tags:
+  - ''
