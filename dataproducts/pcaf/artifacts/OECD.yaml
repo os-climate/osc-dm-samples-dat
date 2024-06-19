@@ -1,0 +1,67 @@
+artifact:
+  description: 'The emissions figures are based on summing for every country exports
+    to all other countries.
+
+
+    # Indicator: IMGR_FCO2: Foreign CO2 emissions embodied in gross imports
+
+    OECD Indicators on Carbon dioxide (CO2) emissions embodied in international trade
+    (TeCO2) are derived by combining the 2021 editions of OECD Inter-Country Input-Output
+    (ICIO) Database and of International Energy Agency (IEA) statistics on CO2 emissions
+    from fuel combustion. In this release of TeCO2, emissions from fuels used for
+    international aviation and maritime transport (i.e. aviation and marine bunkers)
+    are also considered.
+
+
+    ## Industry D35: Electricity, gas, steam and air conditioning supply
+
+    Foreign CO2 emissions embodied in gross imports captures the foreign CO2 emissions
+    embodied in gross imports of country/region c with origin in exporting industry
+    i in exporting country/region partner p. Note: Regions are treated as a unit,
+    i.e. IMGR_FCO2 excludes intra-regional trade, as so, intra-region flows are considered
+    as domestic.
+
+
+    ## Industry: DTOTAL: TOTAL
+
+    Foreign CO2 emissions embodied in gross imports captures the foreign CO2 emissions
+    embodied in gross imports of country/region c with origin in exporting industry
+    i in exporting country/region partner p. Note: Regions are treated as a unit,
+    i.e. IMGR_FCO2 excludes intra-regional trade, as so, intra-region flows are considered
+    as domestic.
+
+
+    # Indicator: EXGR_DCO2: Foreign CO2 emissions embodied in gross imports
+
+    OECD Indicators on Carbon dioxide (CO2) emissions embodied in international trade
+    (TeCO2) are derived by combining the 2021 editions of OECD Inter-Country Input-Output
+    (ICIO) Database and of International Energy Agency (IEA) statistics on CO2 emissions
+    from fuel combustion. In this release of TeCO2, emissions from fuels used for
+    international aviation and maritime transport (i.e. aviation and marine bunkers)
+    are also considered.
+
+
+    ## Industry: DTOTAL:TOTAL
+
+    EXGR_DCO2c,p,i, Domestic CO2 emissions embodied in gross exports, by industry
+    i in country / region c to partner country/region p, represents the embodied CO2
+    emissions in exports that has been generated anywhere in the domestic economy
+    (i.e. not just by the exporting industry). Note: Regions are treated as a unit,
+    i.e., EXGR_DCO2 excludes intra-regional trade, as so, intra-region flows are considered
+    as domestic.'
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://stats.oecd.org/sdmx-json/data/IO_GHG_2021/IMGR_FCO2+EXGR_DCO2...DTOTAL+D35/all?contentType=csv
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: OECD
+  securitypolicy: public
+  tags:
+  - utilities
+  - emissions

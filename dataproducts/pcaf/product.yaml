@@ -1,0 +1,31 @@
+product:
+  description: 'The Partnership for Carbon Accounting Financials (PCAF) is an organization
+    that aims to enable financial institutions to measure and disclose their greenhouse
+    gas (GHG) emissions. It has over 480 signatories and more than 160 disclosures.
+    The mission of PCAF involves promoting transparency and accountability in GHG
+    emissions accounting, with a strategy built on collaborative efforts among financial
+    institutions. Key governance is supported by strategic partners and accredited
+    partners, ensuring credibility and alignment with global standards.
+
+    PCAF offers a standardized approach for GHG accounting and reporting through its
+    Global GHG Accounting and Reporting Standard, which includes region-specific implementations
+    in North America, Europe, Latin America, Asia-Pacific, and Africa. This standard
+    aims to guide financial institutions in calculating and reporting the emissions
+    associated with their lending and investment portfolios. PCAF also showcases best
+    practices and testimonials from participating institutions to inspire and guide
+    others.
+
+    Furthermore, PCAF is involved in various projects, including initiatives focused
+    on financing net-zero buildings. The organization engages with its community through
+    news updates and events, and it conducts public consultations on various methodologies,
+    such as Capital Markets Facilitated Emissions and Insurance-Associated Emissions.'
+  endpoints:
+    administration: http://localhost:9999/administration
+    discovery: http://localhost:9999/discovery
+    observability: http://localhost:9999/observability
+  name: pcaf.dataproduct
+  namespace: pcaf
+  publisher: publisher.user@brodagroupsoftware.com
+  tags:
+  - utilities
+  - emissions
