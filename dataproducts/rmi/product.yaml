@@ -1,7 +1,7 @@
 product:
     namespace: brodagroupsoftware.com
     name: rmi.dataproduct
-    description: US Utility data provided by RMI
+    description: RMI’s Utility Transition HubTM helps key stakeholders—regulators, investors, policymakers, advocates, and utilities—chart a path to an equitable and affordable energy transition
     tags: ["utilities", "emissions"]
     publisher: publisher.user@brodagroupsoftware.com
     endpoints:
