@@ -1,0 +1,15 @@
+product:
+  description: 'GIS-compatible files containing data related to the probablity of river floods occurring in Europe under present 
+  and future climate. Includes gridded (GeoTIFF) datasets of river flood extents (in two variants, with or without 
+  flood protection) and water depths. Additionally includes extreme river discharge estimates in ESRI Shapefile format. 
+  Based upon CLMcom-CCLM4-8-17-EC-EARTH regional climate simulation (EURO-CORDEX)'
+  endpoints:
+    administration: http://localhost:9999/administration
+    discovery: http://localhost:9999/discovery
+    observability: http://localhost:9999/observability
+  name: tudelft.dataproduct
+  namespace: tudelft
+  publisher: publisher.user@brodagroupsoftware.com
+  tags:
+  - utilities
+  - emissions

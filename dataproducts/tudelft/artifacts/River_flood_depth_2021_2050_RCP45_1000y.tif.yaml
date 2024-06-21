@@ -1,0 +1,30 @@
+artifact:
+  description: '
+
+    River flood depth
+
+    Start year: 2021
+
+    End year: 2050
+
+    Scenario: RCP45
+
+    Resolution: 1000y
+
+    '
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.4tu.nl/articles/dataset/Pan-European_data_sets_of_river_flood_probability_of_occurrence_under_present_and_future_climate/12708122
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: River_flood_depth_2021_2050_RCP45_1000y.tif
+  securitypolicy: public
+  tags:
+  - flood
+  - rain

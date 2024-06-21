@@ -1,0 +1,28 @@
+artifact:
+  description: '
+
+    River return periods
+
+    start year: 2021
+
+    end year: 2050
+
+    scenario: RCP85
+
+    '
+  license: CDLA 2.0, Permissive, Version 2.0
+  links:
+  - mimetype: text/csv
+    relationship: artifact
+    url: https://data.4tu.nl/articles/dataset/Pan-European_data_sets_of_river_flood_probability_of_occurrence_under_present_and_future_climate/12708122
+  - mimetype: text/csv
+    relationship: sample
+    url: placeholder-sample.csv
+  - mimetype: application/json
+    relationship: metadata
+    url: placeholder-metadata.json
+  name: River_return_periods_2021_2050_RCP85.sbx
+  securitypolicy: public
+  tags:
+  - flood
+  - rain
